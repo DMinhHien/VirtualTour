@@ -10,11 +10,11 @@ using VirtualTour.Model;
 
 namespace VirtualTour.BL.Repositories
 {
-    interface IFloorRepository
+    public interface IFloorRepository
     {
         Task<List<FloorModel>> GetAllFloorsAsync();
         Task<FloorModel> GetFloorByIdAsync(int id);
-        Task<int> CreateFloorAsync(FloorModel floor);
+        Task CreateFloorAsync(FloorModel floor);
         Task UpdateFloorAsync(FloorModel floor);
         Task DeleteFloorAsync(int id);
     }
@@ -46,15 +46,15 @@ namespace VirtualTour.BL.Repositories
                 return floor;
             }
         }
-        public async Task<int> CreateFloorAsync(FloorModel floor)
+        public async Task CreateFloorAsync(FloorModel floor)
         {
             var storedProcedure = "sp_Floors_Create";
             var parameters = new DynamicParameters();
             parameters.Add("@FloorName", floor.FloorName);
             using (var connection = _dbContext.CreateConnection())
             {
-                var newId = await connection.ExecuteScalarAsync<int>(storedProcedure, parameters, commandType: CommandType.StoredProcedure);
-                return newId;
+               await connection.ExecuteAsync(storedProcedure, parameters, commandType: CommandType.StoredProcedure);
+ 
             }
         }
         public async Task UpdateFloorAsync(FloorModel floor)

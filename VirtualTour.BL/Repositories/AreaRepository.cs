@@ -10,11 +10,11 @@ using VirtualTour.Model;
 
 namespace VirtualTour.BL.Repositories
 {
-    interface IAreaRepository
+    public interface IAreaRepository
     {
         Task<List<AreaModel>> GetAllAreasAsync();
         Task<AreaModel> GetAreaByIdAsync(int id);
-        Task<int> CreateAreaAsync(AreaModel area);
+        Task CreateAreaAsync(AreaModel area);
         Task UpdateAreaAsync(AreaModel area);
         Task DeleteAreaAsync(int id);
 
@@ -46,15 +46,14 @@ namespace VirtualTour.BL.Repositories
                 return area;
             }
         }
-        public async Task<int> CreateAreaAsync(AreaModel area)
+        public async Task CreateAreaAsync(AreaModel area)
         {
             var storedProcedure = "sp_Areas_Create";
             var parameters = new DynamicParameters();
             parameters.Add("@AreaName", area.AreaName);
             using (var connection = _dbContext.CreateConnection())
             {
-                var newId = await connection.ExecuteScalarAsync<int>(storedProcedure, parameters, commandType: CommandType.StoredProcedure);
-                return newId;
+                await connection.ExecuteAsync(storedProcedure, parameters, commandType: CommandType.StoredProcedure);
             }
         }
         public async Task UpdateAreaAsync(AreaModel area)

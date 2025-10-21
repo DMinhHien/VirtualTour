@@ -10,11 +10,11 @@ using VirtualTour.Model;
 
 namespace VirtualTour.BL.Repositories
 {
-    interface ISectionRepository
+    public interface ISectionRepository
     {
         Task<List<SectionModel>> GetAllSectionsAsync();
         Task<SectionModel> GetSectionByIdAsync(int id);
-        Task<int> CreateSectionAsync(SectionModel section);
+        Task CreateSectionAsync(SectionModel section);
         Task UpdateSectionAsync(SectionModel section);
         Task DeleteSectionAsync(int id);
     }
@@ -45,15 +45,15 @@ namespace VirtualTour.BL.Repositories
                 return section;
             }
         }
-        public async Task<int> CreateSectionAsync(SectionModel section)
+        public async Task CreateSectionAsync(SectionModel section)
         {
             var storedProcedure = "sp_Sections_Create";
             var parameters = new DynamicParameters();
             parameters.Add("@SectName", section.SectName);
             using (var connection = _dbContext.CreateConnection())
             {
-                var newId = await connection.ExecuteScalarAsync<int>(storedProcedure, parameters, commandType: CommandType.StoredProcedure);
-                return newId;
+              await connection.ExecuteAsync(storedProcedure, parameters, commandType: CommandType.StoredProcedure);
+
             }
         }
         public async Task UpdateSectionAsync(SectionModel section)

@@ -9,11 +9,11 @@ using VirtualTour.Model;
 
 namespace VirtualTour.BL.Repositories
 {
-    interface IDeptRepository
+    public interface IDeptRepository
     {
         Task<List<DeptModel>> GetAllDeptsAsync();
         Task<DeptModel> GetDeptByIdAsync(int id);
-        Task<int> CreateDeptAsync(DeptModel dept);
+        Task CreateDeptAsync(DeptModel dept);
         Task UpdateDeptAsync(DeptModel dept);
         Task DeleteDeptAsync(int id);
 
@@ -45,15 +45,14 @@ namespace VirtualTour.BL.Repositories
                 return dept;
             }
         }
-        public async Task<int> CreateDeptAsync(DeptModel dept)
+        public async Task CreateDeptAsync(DeptModel dept)
         {
             var storedProcedure = "sp_Depts_Create";
             var parameters = new Dapper.DynamicParameters();
             parameters.Add("@DeptName", dept.DeptName);
             using (var connection = _dbContext.CreateConnection())
             {
-                var newId = await connection.ExecuteScalarAsync<int>(storedProcedure, parameters, commandType: System.Data.CommandType.StoredProcedure);
-                return newId;
+               await connection.ExecuteAsync(storedProcedure, parameters, commandType: System.Data.CommandType.StoredProcedure);
             }
         }
         public async Task UpdateDeptAsync(DeptModel dept)
