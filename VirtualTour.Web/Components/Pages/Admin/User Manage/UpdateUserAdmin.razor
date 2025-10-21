@@ -1,0 +1,83 @@
+﻿@page "/admin/user/update/{Id:int}"
+@layout AdminLayout
+<h3>Update User: <strong>@User.UserName</strong></h3>
+@rendermode InteractiveServer
+@using BlazorBootstrap
+@using MudBlazor
+@using VirtualTour.Web.Components.Layout
+<EditForm OnValidSubmit="HandleValidSubmit" FormName="EditProduct" Model="User">
+    <DataAnnotationsValidator />
+    <div class="container">
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <MudTextField Style="background-color: white;" Adornment="Adornment.End"
+                              AdornmentIcon="@Icons.Material.Filled.PermContactCalendar"
+                              Required="true" Label="Full Name"
+                              @bind-Value="User.FullName" Variant="Variant.Outlined" />
+                <ValidationMessage For="() => User.FullName" />
+            </div>
+            <div class="col-md-6">
+                <MudTextField Style="background-color: white;" Adornment="Adornment.End"
+                              AdornmentIcon="@Icons.Material.Filled.Email"
+                              Required="true" Label="Email"
+                              @bind-Value="User.Email" Variant="Variant.Outlined" />
+                <ValidationMessage For="() => User.Email" />
+            </div>
+
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <MudTextField Style="background-color: white;"
+                              Label="Phone Number" Adornment="Adornment.End"
+                              AdornmentIcon="@Icons.Material.Filled.LocalPhone"
+                              @bind-Value="User.PhoneNumber" Variant="Variant.Outlined" />
+                <ValidationMessage For="() => User.PhoneNumber" />
+            </div>
+            <div class="col-md-6">
+                <label> Gender</label>
+                <MudRadioGroup @bind-value="User.Gender">
+                    <MudRadio Value="@("Male")">Male</MudRadio>
+                    <MudRadio Value="@("Female")">Female</MudRadio>
+                </MudRadioGroup>
+                <ValidationMessage For="() => User.Gender" />
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label>Role</label>
+                <InputSelect style="height:55px" class="form-control" @bind-Value="User.RoleId">
+                    @if (Roles != null)
+                    {
+                        foreach (var role in Roles.Where(r => r.IsActive))
+                        {
+                            <option value="@role.Id">@role.RoleName</option>
+                        }
+                    }
+                </InputSelect>
+                <ValidationMessage For="() => User.RoleId" />
+            </div>
+        </div>
+        <MudButton Variant="Variant.Filled" Onclick="OnShowModalClick" class="me-3" Color="Color.Error">Reset Password</MudButton>
+        <button class="btn btn-secondary" type="submit">Save</button>
+    </div>
+</EditForm>
+<Modal @ref="Modal" title="Notification">
+    <BodyTemplate>
+        Are you sure you want to reset the password of this user?
+    </BodyTemplate>
+    <FooterTemplate>
+        <Button Color="ButtonColor.Primary" style="width:80px" @onclick="HandleResetPassword">Yes</Button>
+        <Button Color="ButtonColor.Secondary" @onclick="OnHideModalClick">Cancel</Button>
+    </FooterTemplate>
+</Modal>
+<Modal @ref="ConfirmModal" title="Notification">
+    <BodyTemplate>
+        Password reset successfully. New Password is: 123456.
+    </BodyTemplate>
+    <FooterTemplate>
+        <Button Color="ButtonColor.Primary" style="width:80px" @onclick="OnHideConfirmModalClick">Close</Button>
+    </FooterTemplate>
+</Modal>
+
+

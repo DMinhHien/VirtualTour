@@ -1,0 +1,59 @@
+﻿@using MudBlazor
+@using VirtualTour.Web.Components.BaseComponents
+@inject IApiClient ApiClient
+
+<MudDialog Style="width:600px; min-height:400px;">
+  <TitleContent>Edit Profile</TitleContent>
+    <DialogContent>
+        <div class="d-flex flex-column py-1" style="min-height:300px;">
+      <MudTextField @bind-Value="editModel.FullName" Label="Full Name" Required="true" />
+      <MudTextField @bind-Value="editModel.Gender" Label="Gender" Required="true" />
+      <MudTextField @bind-Value="editModel.Email" Label="Email" Required="true" />
+      <MudTextField @bind-Value="editModel.PhoneNumber" Label="Phone" Required="true" />
+        </div>
+    </DialogContent>
+    <DialogActions>
+      <MudButton OnClick="Cancel" Color="Color.Secondary" Variant="Variant.Text">Cancel</MudButton>
+      <MudButton ButtonType="ButtonType.Submit" Color="Color.Info" Variant="Variant.Text" OnClick="@HandleValidSubmit">Save</MudButton>
+    </DialogActions>
+</MudDialog>
+
+@code {
+    [CascadingParameter]
+    private IMudDialogInstance MudDialog { get; set; }
+
+    [Parameter]
+    public UpdateUserDTO EditModel { get; set; } = new UpdateUserDTO();
+
+    private UpdateUserDTO editModel;
+
+    protected override void OnInitialized()
+    {
+        editModel = new UpdateUserDTO
+        {
+            Id = EditModel.Id,
+            UserName = EditModel.UserName,
+            FullName = EditModel.FullName,
+            Gender = EditModel.Gender,
+            Email = EditModel.Email,
+            PhoneNumber = EditModel.PhoneNumber,
+            RoleId = EditModel.RoleId,
+            RoleName = EditModel.RoleName
+        };
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        var response = await ApiClient.PutAsync<BaseResponseModel, UpdateUserDTO>("api/user/update", editModel);
+        if (response.Success)
+        {
+            MudDialog.Close(DialogResult.Ok(editModel));
+        }
+        else
+        {
+           
+        }
+    }
+
+    private void Cancel() => MudDialog.Cancel();
+}

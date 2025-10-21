@@ -1,0 +1,87 @@
+﻿@page "/"
+@using Microsoft.AspNetCore.Components.Authorization
+@using MudBlazor
+@using VirtualTour.Web.Components.Layout
+@layout ClientLayout
+@inject NavigationManager Navigation
+@inject ApiAuthenticationStateProvider AuthStateProvider
+
+@if (isLoading)
+{
+    <div style="text-align:center; padding-top:100px;">
+        <MudProgressCircular Indeterminate="true" Color="Color.Primary" Size="Size.Large" />
+    </div>
+}
+else
+{
+
+    <div style="position: relative; height: 700px;padding-top: 1px;">
+        <!-- Blurred Background -->
+        <div style="position: absolute; inset: 0; background: url('https://www.vr360vn.com/upload/news/677365.jpg');
+                background-size: cover; background-position: center; filter: blur(8px); z-index: 0;">
+        </div>
+
+        <!-- MudPaper with content positioned above the blurred background -->
+        <MudPaper Class="pa-6 mx-auto" MaxWidth="600px" Elevation="4" Style="position: relative; z-index: 1; border-radius: 16px; overflow: hidden;margin-top:150px">
+            <!-- Cover Image -->
+            <div style="width: 650px;height:200px;margin-left:-30px;margin-top:-30px; background: url('https://www.vr360vn.com/upload/news/677365.jpg');
+                    background-size: cover; background-position: center;">
+            </div>
+
+            <!-- Title Section -->
+            <MudPaper Class="pa-4" Style="background-color:black; color: white; border-radius: 0;margin-left:-30px;width: 650px;">
+                <MudText Typo="Typo.h5" Class="mb-2">Connect with us!</MudText>
+                <MudText Typo="Typo.subtitle2">Welcome to our Virtual Tour</MudText>
+            </MudPaper>
+
+            <!-- Social List -->
+            <MudList T="SocialChannel" Dense="true" Class="mt-4">
+                @foreach (var channel in Channels)
+                {
+                    <MudListItem T="SocialChannel" Value="@channel" Href="@channel.Link" Target="_blank">
+                       <MudStack Row="true">
+                        <MudAvatar Size="Size.Medium" Style="margin-top:5px" Color="@channel.Color">
+                            @channel.IconSvg
+                        </MudAvatar>
+                    <MudStack Spacing="0">
+                                <MudText Style="font-weight: bold">@channel.Name</MudText>
+                        <MudText Typo="Typo.caption" >@channel.Label</MudText>
+                            </MudStack>
+                        </MudStack>
+                    </MudListItem>
+                }
+            </MudList>
+        </MudPaper>
+    </div>
+}
+
+@code {
+    private bool isLoading = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await Task.Delay(500); // giả lập load
+        isLoading = false;
+    }
+
+    public class SocialChannel
+    {
+        public string Name { get; set; } = "";
+        public string Label { get; set; } = "";
+        public string Link { get; set; } = "";
+        public Color Color { get; set; }
+        public RenderFragment IconSvg { get; set; }
+    }
+
+    List<SocialChannel> Channels = new()
+    {
+           new SocialChannel {
+            Name = "360 Tour",
+            Label = "/virtual_tour",
+            Link = "/virtual_tour",
+            Color = Color.Success,
+            IconSvg = @<MudIconButton Icon="@Icons.Material.Filled.PanoramaPhotosphere" style="color: white"></MudIconButton>
+        }
+    };
+}
+

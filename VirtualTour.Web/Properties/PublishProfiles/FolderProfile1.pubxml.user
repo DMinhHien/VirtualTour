@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- https://go.microsoft.com/fwlink/?LinkID=208121. -->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>\\192.168.190.1\d$\00_FKV_APPS\WEB_fKV_Portal_8810</_PublishTargetUrl>
+    <History>True|2025-08-09T02:03:37.4134431Z||;False|2025-08-09T09:02:39.7467728+07:00||;True|2025-08-06T14:46:43.5981974+07:00||;True|2025-08-06T14:05:20.1026505+07:00||;True|2025-08-05T10:46:21.2394743+07:00||;False|2025-08-05T10:46:11.2344364+07:00||;False|2025-08-05T10:44:34.4726620+07:00||;True|2025-08-04T16:19:02.3959259+07:00||;False|2025-08-04T16:18:23.2945376+07:00||;True|2025-08-04T12:01:04.6905442+07:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

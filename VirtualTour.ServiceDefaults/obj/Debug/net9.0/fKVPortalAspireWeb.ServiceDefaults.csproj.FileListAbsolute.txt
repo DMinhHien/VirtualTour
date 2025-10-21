@@ -1,0 +1,39 @@
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.ServiceDefaults\bin\Debug\net9.0\fKVPortalAspireWeb.ServiceDefaults.deps.json
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.ServiceDefaults\bin\Debug\net9.0\fKVPortalAspireWeb.ServiceDefaults.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.ServiceDefaults\bin\Debug\net9.0\fKVPortalAspireWeb.ServiceDefaults.pdb
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.ServiceDefaults\obj\Debug\net9.0\fKVPortalAspireWeb.ServiceDefaults.csproj.AssemblyReference.cache
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.ServiceDefaults\obj\Debug\net9.0\fKVPortalAspireWeb.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.ServiceDefaults\obj\Debug\net9.0\fKVPortalAspireWeb.ServiceDefaults.AssemblyInfoInputs.cache
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.ServiceDefaults\obj\Debug\net9.0\fKVPortalAspireWeb.ServiceDefaults.AssemblyInfo.cs
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.ServiceDefaults\obj\Debug\net9.0\fKVPortalAspireWeb.ServiceDefaults.csproj.CoreCompileInputs.cache
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.ServiceDefaults\obj\Debug\net9.0\fKVPortalAspireWeb.ServiceDefaults.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.ServiceDefaults\obj\Debug\net9.0\refint\fKVPortalAspireWeb.ServiceDefaults.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.ServiceDefaults\obj\Debug\net9.0\fKVPortalAspireWeb.ServiceDefaults.pdb
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.ServiceDefaults\obj\Debug\net9.0\ref\fKVPortalAspireWeb.ServiceDefaults.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.ServiceDefaults\obj\Debug\net9.0\fKVPortalAspireWeb.ServiceDefaults.csproj.AssemblyReference.cache
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.ServiceDefaults\obj\Debug\net9.0\fKVPortalAspireWeb.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.ServiceDefaults\obj\Debug\net9.0\fKVPortalAspireWeb.ServiceDefaults.AssemblyInfoInputs.cache
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.ServiceDefaults\obj\Debug\net9.0\fKVPortalAspireWeb.ServiceDefaults.AssemblyInfo.cs
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.ServiceDefaults\obj\Debug\net9.0\fKVPortalAspireWeb.ServiceDefaults.csproj.CoreCompileInputs.cache
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.ServiceDefaults\obj\Debug\net9.0\fKVPortalAspireWeb.ServiceDefaults.sourcelink.json
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.ServiceDefaults\obj\Debug\net9.0\fKVPortalAspireWeb.ServiceDefaults.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.ServiceDefaults\obj\Debug\net9.0\refint\fKVPortalAspireWeb.ServiceDefaults.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.ServiceDefaults\obj\Debug\net9.0\fKVPortalAspireWeb.ServiceDefaults.pdb
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.ServiceDefaults\bin\Debug\net9.0\fKVPortalAspireWeb.ServiceDefaults.deps.json
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.ServiceDefaults\bin\Debug\net9.0\fKVPortalAspireWeb.ServiceDefaults.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.ServiceDefaults\bin\Debug\net9.0\fKVPortalAspireWeb.ServiceDefaults.pdb
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.ServiceDefaults\obj\Debug\net9.0\ref\fKVPortalAspireWeb.ServiceDefaults.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.ServiceDefaults\obj\Debug\net9.0\fKVPortalAspireWeb.ServiceDefaults.sourcelink.json
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.ServiceDefaults\bin\Debug\net9.0\fKVPortalAspireWeb.ServiceDefaults.deps.json
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.ServiceDefaults\bin\Debug\net9.0\fKVPortalAspireWeb.ServiceDefaults.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.ServiceDefaults\bin\Debug\net9.0\fKVPortalAspireWeb.ServiceDefaults.pdb
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.ServiceDefaults\obj\Debug\net9.0\fKVPortalAspireWeb.ServiceDefaults.csproj.AssemblyReference.cache
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.ServiceDefaults\obj\Debug\net9.0\fKVPortalAspireWeb.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.ServiceDefaults\obj\Debug\net9.0\fKVPortalAspireWeb.ServiceDefaults.AssemblyInfoInputs.cache
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.ServiceDefaults\obj\Debug\net9.0\fKVPortalAspireWeb.ServiceDefaults.AssemblyInfo.cs
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.ServiceDefaults\obj\Debug\net9.0\fKVPortalAspireWeb.ServiceDefaults.csproj.CoreCompileInputs.cache
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.ServiceDefaults\obj\Debug\net9.0\fKVPortalAspireWeb.ServiceDefaults.sourcelink.json
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.ServiceDefaults\obj\Debug\net9.0\fKVPortalAspireWeb.ServiceDefaults.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.ServiceDefaults\obj\Debug\net9.0\refint\fKVPortalAspireWeb.ServiceDefaults.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.ServiceDefaults\obj\Debug\net9.0\fKVPortalAspireWeb.ServiceDefaults.pdb
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.ServiceDefaults\obj\Debug\net9.0\ref\fKVPortalAspireWeb.ServiceDefaults.dll

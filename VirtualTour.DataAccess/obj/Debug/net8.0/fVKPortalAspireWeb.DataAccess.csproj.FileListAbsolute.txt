@@ -1,0 +1,13 @@
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fVKPortalAspireWeb.DataAccess\bin\Debug\net8.0\fVKPortalAspireWeb.DataAccess.deps.json
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fVKPortalAspireWeb.DataAccess\bin\Debug\net8.0\fVKPortalAspireWeb.DataAccess.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fVKPortalAspireWeb.DataAccess\bin\Debug\net8.0\fVKPortalAspireWeb.DataAccess.pdb
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fVKPortalAspireWeb.DataAccess\obj\Debug\net8.0\fVKPortalAspireWeb.DataAccess.csproj.AssemblyReference.cache
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fVKPortalAspireWeb.DataAccess\obj\Debug\net8.0\fVKPortalAspireWeb.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fVKPortalAspireWeb.DataAccess\obj\Debug\net8.0\fVKPortalAspireWeb.DataAccess.AssemblyInfoInputs.cache
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fVKPortalAspireWeb.DataAccess\obj\Debug\net8.0\fVKPortalAspireWeb.DataAccess.AssemblyInfo.cs
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fVKPortalAspireWeb.DataAccess\obj\Debug\net8.0\fVKPortalAspireWeb.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fVKPortalAspireWeb.DataAccess\obj\Debug\net8.0\fVKPortalAspireWeb.DataAccess.sourcelink.json
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fVKPortalAspireWeb.DataAccess\obj\Debug\net8.0\fVKPortalAspireWeb.DataAccess.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fVKPortalAspireWeb.DataAccess\obj\Debug\net8.0\refint\fVKPortalAspireWeb.DataAccess.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fVKPortalAspireWeb.DataAccess\obj\Debug\net8.0\fVKPortalAspireWeb.DataAccess.pdb
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fVKPortalAspireWeb.DataAccess\obj\Debug\net8.0\ref\fVKPortalAspireWeb.DataAccess.dll

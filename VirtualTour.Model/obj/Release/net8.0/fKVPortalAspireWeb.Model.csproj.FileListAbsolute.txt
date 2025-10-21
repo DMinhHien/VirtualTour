@@ -1,0 +1,12 @@
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Model\bin\Release\net8.0\fKVPortalAspireWeb.Model.deps.json
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Model\bin\Release\net8.0\fKVPortalAspireWeb.Model.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Model\bin\Release\net8.0\fKVPortalAspireWeb.Model.pdb
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Model\obj\Release\net8.0\fKVPortalAspireWeb.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Model\obj\Release\net8.0\fKVPortalAspireWeb.Model.AssemblyInfoInputs.cache
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Model\obj\Release\net8.0\fKVPortalAspireWeb.Model.AssemblyInfo.cs
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Model\obj\Release\net8.0\fKVPortalAspireWeb.Model.csproj.CoreCompileInputs.cache
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Model\obj\Release\net8.0\fKVPortalAspireWeb.Model.sourcelink.json
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Model\obj\Release\net8.0\fKVPortalAspireWeb.Model.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Model\obj\Release\net8.0\refint\fKVPortalAspireWeb.Model.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Model\obj\Release\net8.0\fKVPortalAspireWeb.Model.pdb
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Model\obj\Release\net8.0\ref\fKVPortalAspireWeb.Model.dll

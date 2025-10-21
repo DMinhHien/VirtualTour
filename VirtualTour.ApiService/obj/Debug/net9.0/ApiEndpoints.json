@@ -1,0 +1,675 @@
+[
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.AuthController",
+    "Method": "CheckToken",
+    "RelativePath": "api/auth/check-token",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginRequest",
+        "Type": "VirtualTour.Model.ReqLoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.AuthController",
+    "Method": "LoginWithUserName",
+    "RelativePath": "api/auth/login_username",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginRequest",
+        "Type": "VirtualTour.Model.ReqLoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.AuthController",
+    "Method": "Logout",
+    "RelativePath": "api/auth/logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.AuthController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/auth/reset-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.NodeController",
+    "Method": "CreateNodeAsync",
+    "RelativePath": "api/Node/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nodeModel",
+        "Type": "VirtualTour.Model.NodeModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.NodeController",
+    "Method": "CreateNodeLinkAsync",
+    "RelativePath": "api/Node/createLink/{startNodeId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "linkedNode",
+        "Type": "VirtualTour.Model.LinkedNodes",
+        "IsRequired": true
+      },
+      {
+        "Name": "startNodeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.NodeController",
+    "Method": "DeleteNodeAsync",
+    "RelativePath": "api/Node/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.NodeController",
+    "Method": "GetAllAreaAsync",
+    "RelativePath": "api/Node/getAllArea",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.NodeController",
+    "Method": "GetAllDeptAsync",
+    "RelativePath": "api/Node/getAllDept",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.NodeController",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/Node/getElementById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.NodeController",
+    "Method": "GetAllLinksAsync",
+    "RelativePath": "api/Node/getLinks/{nodeId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nodeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.NodeController",
+    "Method": "GetAllNodesAsync",
+    "RelativePath": "api/Node/getListUse",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.NodeController",
+    "Method": "GetMaxIdAsync",
+    "RelativePath": "api/Node/getMaxId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.NodeController",
+    "Method": "GetStartIdAsync",
+    "RelativePath": "api/Node/getStartId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.NodeController",
+    "Method": "SetStartNode",
+    "RelativePath": "api/Node/setStartNode/{currentNodeId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "currentNodeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "previousNodeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.NodeController",
+    "Method": "UpdateNodeAsync",
+    "RelativePath": "api/Node/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nodeModel",
+        "Type": "VirtualTour.Model.NodeModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "fKVPortalAspireWeb.ApiService.Controllers.PermissionController",
+    "Method": "Create",
+    "RelativePath": "api/permission/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "permission",
+        "Type": "VirtualTour.Model.PermissionModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "fKVPortalAspireWeb.ApiService.Controllers.PermissionController",
+    "Method": "Delete",
+    "RelativePath": "api/permission/delete/{permissionId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "permissionId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "fKVPortalAspireWeb.ApiService.Controllers.PermissionController",
+    "Method": "GetByRoleId",
+    "RelativePath": "api/permission/getListByRoleId/{roleId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roleId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "fKVPortalAspireWeb.ApiService.Controllers.PermissionController",
+    "Method": "GetAll",
+    "RelativePath": "api/permission/getListUse",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "fKVPortalAspireWeb.ApiService.Controllers.PermissionController",
+    "Method": "Update",
+    "RelativePath": "api/permission/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "permission",
+        "Type": "VirtualTour.Model.PermissionModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "fKVPortalAspireWeb.ApiService.Controllers.PermissionController",
+    "Method": "UpdateActiveStatus",
+    "RelativePath": "api/permission/updateActiveStatus/{roleId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roleId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "isActive",
+        "Type": "System.Boolean",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.QRCodesController",
+    "Method": "GetAll",
+    "RelativePath": "api/QRCodes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.QRCodesController",
+    "Method": "Create",
+    "RelativePath": "api/QRCodes/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "wifiNetwork",
+        "Type": "VirtualTour.Model.QRCodeCreateRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.QRCodesController",
+    "Method": "Delete",
+    "RelativePath": "api/QRCodes/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.QRCodesController",
+    "Method": "GetById",
+    "RelativePath": "api/QRCodes/GetById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.QRCodesController",
+    "Method": "GetWifiNetworkBySsid",
+    "RelativePath": "api/QRCodes/getBySsid/{ssid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ssid",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.QRCodesController",
+    "Method": "Update",
+    "RelativePath": "api/QRCodes/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "wifiNetwork",
+        "Type": "VirtualTour.Model.QRCodeUpdateRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.RoleController",
+    "Method": "AssignPermission",
+    "RelativePath": "api/role/assignPermission/{roleId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roleId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "permissionIds",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.RoleController",
+    "Method": "Create",
+    "RelativePath": "api/role/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "role",
+        "Type": "VirtualTour.Model.RoleModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.RoleController",
+    "Method": "DeleteRole",
+    "RelativePath": "api/role/delete/{roleId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roleId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.RoleController",
+    "Method": "DeletePermission",
+    "RelativePath": "api/role/deletePermission/{roleId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roleId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "permissionIds",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.RoleController",
+    "Method": "GetById",
+    "RelativePath": "api/role/getElementById/{roleId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roleId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.RoleController",
+    "Method": "GetAll",
+    "RelativePath": "api/role/getListUse",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.RoleController",
+    "Method": "Update",
+    "RelativePath": "api/role/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "role",
+        "Type": "VirtualTour.Model.RoleModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.UserController",
+    "Method": "AddRole",
+    "RelativePath": "api/User/addRole/{userId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "roleId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.UserController",
+    "Method": "Create",
+    "RelativePath": "api/User/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "VirtualTour.Model.ReqUserCreate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.UserController",
+    "Method": "Delete",
+    "RelativePath": "api/User/delete/{userId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.UserController",
+    "Method": "GetElementById",
+    "RelativePath": "api/User/getElementById/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.UserController",
+    "Method": "GetAll",
+    "RelativePath": "api/User/getListUse",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.UserController",
+    "Method": "RefreshApiKey",
+    "RelativePath": "api/User/refreshApiKey/{userId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.UserController",
+    "Method": "Update",
+    "RelativePath": "api/User/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "VirtualTour.Model.UpdateUserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.UserController",
+    "Method": "UpdateAvatar",
+    "RelativePath": "api/User/updateAvatar/{userId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "avatarUrl",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

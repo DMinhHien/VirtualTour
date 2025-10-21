@@ -1,0 +1,15 @@
+﻿@page "/admin/logout"
+@inject IApiClient userApiClient;
+@using Microsoft.AspNetCore.Components.Authorization
+@using VirtualTour.Web.Components.BaseComponents
+@inject ApiAuthenticationStateProvider AuthStateProvider
+@inject NavigationManager Navigation
+
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        var result = await userApiClient.PostAsync<object,object>("/api/auth/logout", null);
+        AuthStateProvider.MarkUserAsLoggedOut();
+        Navigation.NavigateTo("/admin/login");
+    }
+}

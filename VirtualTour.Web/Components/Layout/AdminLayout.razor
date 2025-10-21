@@ -1,0 +1,206 @@
+﻿@using Microsoft.AspNetCore.Components.Authorization
+@using MudBlazor
+@using System.Security.Claims
+@using Newtonsoft.Json
+@using VirtualTour.BL.Services
+@using VirtualTour.Web.Components.BaseComponents
+@using VirtualTour.Web.Authentication
+@using VirtualTour.Web.Authorization
+@inject ApiAuthenticationStateProvider AuthStateProvider
+@inject IApiClient ApiClient
+@inject NavigationManager Navigation
+@inject IPermissionChecker PermChecker
+@inject UserProfileStateService ProfileState
+@inherits LayoutComponentBase
+@using Blazored.Toast
+@using Blazored.Toast.Configuration;
+<style>
+    .login {
+        cursor: pointer;
+        color: inherit;
+    }
+    .login:hover {
+        color: #ED6C02; /* MudBlazor default warning color */
+    }
+</style>
+<MudThemeProvider Theme="MyCustomTheme"/>
+<MudPopoverProvider />
+<MudDialogProvider/>
+<BlazoredToasts Position="ToastPosition.BottomRight" Timeout="5"  />
+@if (IsShowContent)
+{
+    <AuthStateChecker/>
+        <MudDrawerContainer Class="mud-height-full">
+            <PermissionView Permission="Admin.View">
+        <MudDrawer @bind-Open="@_open" Elevation="0" Variant="@DrawerVariant.Persistent" >
+            <NavMenu />
+         </MudDrawer>
+        </PermissionView>
+        <MudMainContent Style="display: flex; flex-direction: column; height: 100vh;">
+            <MudAppBar Elevation="4"
+                       Color="Color.Transparent"
+                       Style="z-index: 1000;"
+                       Position="Position.Fixed"
+                       Clipped="true">
+                <div style="display: flex; width: 100%; align-items: center;">
+                    <div style="flex: 1; display: flex; align-items: center;">
+                        <PermissionView Permission="Admin.View">
+                        <MudIconButton Icon="@Icons.Material.Filled.Menu" OnClick="@ToggleDrawer" Style="color:black" Edge="Edge.Start" />
+                        </PermissionView>
+                    </div>
+                   @*  <div style="flex: 1; display: flex; justify-content: center; align-items: center;">
+                        <MudImage Src="/framas Korea Vina Logo V2.png" Width="120" Height="50" />
+                    </div> *@
+                    <div style="flex: 1; display: flex; justify-content: flex-end; align-items: center;">
+                        <CascadingAuthenticationState>
+                            <AuthorizeView>
+                                <Authorized>
+                                    <MudIcon Class="ml-2 me-3" Icon="@Icons.Material.Filled.Notifications" />
+                                    <MudIcon Class="ml-2 me-3" Icon="@Icons.Material.Filled.Chat" />
+                                    <MudAvatar @onclick="NavigateToProfile" Color="Color.Tertiary" Class="ml-2" Style="cursor:pointer;">
+                                        @if (string.IsNullOrWhiteSpace(AvatarUrl))
+                                        {
+                                            @GetUserInitial(context.User)
+                                        }
+                                        else
+                                        {
+                                            <MudImage ObjectFit="ObjectFit.Cover" Src="@AvatarUrl"></MudImage>
+                                        }
+                                    </MudAvatar>
+                                </Authorized>
+                                <NotAuthorized>
+                                    <MudText Typo="Typo.h6" Style="font-size:18px; color:black;">
+                                        You're not authorized.
+                                    </MudText>
+                                    <MudText Class="login" @onclick="NavigateToLogin" Style="margin-left:20px">Log in</MudText>
+                                </NotAuthorized>
+                            </AuthorizeView>
+                        </CascadingAuthenticationState>
+                    </div>
+                </div>
+            </MudAppBar>
+
+            <article class="content px-4" style="flex: 1; overflow-y: auto; background-color:#f4f6f9;">
+                @Body
+            </article>
+            <footer style="margin-top: auto; background-color:#f4f6f9; text-align: center; padding: 10px 0;">
+                <MudContainer>
+                    <MudText Typo="Typo.caption" Style="color:#6c757d;">
+                        Copyright ©2025. All rights reserved.
+                    </MudText>
+                </MudContainer>
+            </footer>
+          </MudMainContent>
+        </MudDrawerContainer>
+
+
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+}
+
+@code{
+    private bool _open = true;
+    public bool IsShowContent { get; set; }
+    private string AvatarUrl { get; set; } = string.Empty;
+    protected override async Task OnInitializedAsync()
+    {
+        ProfileState.OnChange += OnAvatarChanged;
+        try
+        {
+            var authState = await AuthStateProvider.GetAuthenticationStateAsync();
+            var user = authState.User;
+            if (!user.Identity.IsAuthenticated)
+            {
+                Navigation.NavigateTo("/admin/login");
+            }
+            else
+            {
+                PermChecker.Reset();
+                await PermChecker.InitializeAsync();
+                var userId = user.FindFirst(c => c.Type == System.IdentityModel.Tokens.Jwt.JwtRegisteredClaimNames.Sub)?.Value;
+                var res = await ApiClient.GetFromJsonAsync<BaseResponseModel>($"api/user/getElementById/{userId}");
+                if (res != null && res.Success)
+                {
+                    var repUser = JsonConvert.DeserializeObject<RepUserFetch>(res.Data.ToString());
+                    if (repUser != null)
+                    {
+                        AvatarUrl = repUser.AvatarUrl;
+                        ProfileState.SetAvatarUrl(AvatarUrl);
+                    }
+                }
+               
+            }
+            IsShowContent = true;
+        }
+        catch(Exception ex){
+           @inject NavigationManager Navigation
+        }
+      
+    }
+    private string GetUserInitial(ClaimsPrincipal user)
+    {
+        if (user?.Identity is not null && !string.IsNullOrWhiteSpace(user.Identity.Name))
+        {
+            return user.Identity.Name.Substring(0, 1).ToUpperInvariant();
+        }
+        return string.Empty;
+    }
+    private void NavigateToProfile()
+    {
+        Navigation.NavigateTo("/admin/profile");
+    }
+    private void NavigateToLogin()
+    {
+        Navigation.NavigateTo("/admin/login");
+    }
+    private void ToggleDrawer()
+    {
+        _open = !_open;
+    }
+    MudTheme MyCustomTheme = new MudTheme()
+    {
+        PaletteLight = new PaletteLight()
+        {
+            Primary = Colors.Blue.Default,
+            Secondary = Colors.Red.Accent1,
+            AppbarBackground = Colors.Red.Default,
+
+            TextPrimary = "#212529",
+        },
+        PaletteDark = new PaletteDark()
+        {
+            Primary = Colors.Blue.Lighten1
+        },
+        Typography = new Typography()
+        {
+            Default = new DefaultTypography { FontSize = "1rem" },
+            H1 = new H1Typography { FontSize = "2rem" },
+            H2 = new H2Typography { FontSize = "1.75rem" },
+            H3 = new H3Typography { FontSize = "1.5rem" },
+            H4 = new H4Typography { FontSize = "1.25rem" },
+            H5 = new H5Typography { FontSize = "1.125rem" },
+            H6 = new H6Typography { FontSize = "1rem" },
+            Button = new ButtonTypography { FontSize = "0.875rem" },
+            Body1 = new Body1Typography { FontSize = "1rem" },  // default paragraph text
+            Body2 = new Body2Typography { FontSize = "1rem" },
+            Caption = new CaptionTypography { FontSize = "1rem" },
+            Subtitle1 = new Subtitle1Typography { FontSize = "1rem" },
+            Subtitle2 = new Subtitle2Typography { FontSize = "1rem" },
+        }
+
+       
+    };
+    private void OnAvatarChanged()
+    {
+        AvatarUrl = ProfileState.AvatarUrl;
+        InvokeAsync(StateHasChanged);
+    }
+
+    public void Dispose()
+    {
+        ProfileState.OnChange -= OnAvatarChanged;
+    }
+}

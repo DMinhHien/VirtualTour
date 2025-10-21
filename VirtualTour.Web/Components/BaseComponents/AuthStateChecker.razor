@@ -1,0 +1,38 @@
+﻿@using Microsoft.AspNetCore.Components.Authorization
+@using VirtualTour.Web.Authentication
+@inject ApiAuthenticationStateProvider AuthStateProvider
+@inject NavigationManager NavigationManager
+@implements IDisposable
+@code {
+    private System.Timers.Timer _timer;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var authState = await AuthStateProvider.GetAuthenticationStateAsync();
+        var user = authState.User;
+        if (user.Identity.IsAuthenticated)
+        {
+            _timer = new System.Timers.Timer(300000); // 300,000 ms = 5 minutes
+            _timer.Elapsed += async (sender, args) =>
+            {
+                await InvokeAsync(async () =>
+                {
+                    var state = await AuthStateProvider.GetAuthenticationStateAsync();
+                    var currentUser = state.User;
+                    if (!currentUser.Identity.IsAuthenticated)
+                    {
+                        NavigationManager.NavigateTo("/admin/login?sessionExpired=true");
+                    }
+                });
+            };
+            _timer.AutoReset = true;
+            _timer.Start();
+        }
+    }
+
+    public void Dispose()
+    {
+        _timer?.Stop();
+        _timer?.Dispose();
+    }
+}

@@ -1,0 +1,109 @@
+﻿@page "/admin/user/create"
+@layout AdminLayout
+@using MudBlazor
+@using VirtualTour.Web.Components.Layout
+<h3>Create User</h3>
+@rendermode InteractiveServer
+
+<EditForm OnValidSubmit="HandleValidSubmit" FormName="CreateUser" Model="NewUser">
+    <DataAnnotationsValidator />
+    <div class="container">
+        <div class="row mb-3">
+
+            <div class="col-md-6">
+                <MudTextField Style="background-color: white;"
+                              Required="true" Label="Full Name" Adornment="Adornment.End"
+                              AdornmentIcon="@Icons.Material.Filled.PermContactCalendar"
+                              @bind-Value="NewUser.FullName" Variant="Variant.Outlined" />
+                <ValidationMessage For="() => NewUser.FullName" />
+            </div>
+            <div class="col-md-6">
+                <MudTextField Style="background-color: white;"
+                              Required="true" Label="Email" Adornment="Adornment.End"
+                              AdornmentIcon="@Icons.Material.Filled.Email"
+                              @bind-Value="NewUser.Email" Variant="Variant.Outlined" />
+                <ValidationMessage For="() => NewUser.Email" />
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <MudTextField Style="background-color: white;"
+                              Required="true" Label="UserName" Adornment="Adornment.End"
+                              AdornmentIcon="@Icons.Material.Filled.Person"
+                              @bind-Value="NewUser.UserName" Variant="Variant.Outlined" />
+                <ValidationMessage For="() => NewUser.UserName" />
+            </div>
+            <div class="col-md-6">
+                <MudTextField Style="background-color: white;"
+                              Label="Phone Number" Adornment="Adornment.End"
+                              AdornmentIcon="@Icons.Material.Filled.LocalPhone"
+                              @bind-Value="NewUser.PhoneNumber" Variant="Variant.Outlined" />
+         
+            </div>
+
+
+        </div>
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <MudTextField Style="background-color: white;"
+                              Label="Password"
+                              Required="true" InputType="@PasswordInput"
+                              Adornment="Adornment.End" AdornmentIcon="@PasswordInputIcon" OnAdornmentClick="ButtonTestclick" AdornmentAriaLabel="Show Password"
+                              @bind-Value="NewUser.PasswordHash" Variant="Variant.Outlined" />
+                <ValidationMessage For="() => NewUser.PasswordHash" />
+            </div>
+            <div class="col-md-6">
+                <label> Gender</label>
+                <MudRadioGroup  @bind-value="NewUser.Gender">
+                    <MudRadio Value="@("Male")">Male</MudRadio>
+                    <MudRadio Value="@("Female")">Female</MudRadio>
+                </MudRadioGroup>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <MudTextField Style="background-color: white;"
+                              Label="Confirm Password"
+                              Required="true" InputType="InputType.Password"
+                              @bind-Value="ConfirmPassword" Variant="Variant.Outlined" />
+                <ValidationMessage For="() => ConfirmPassword" />
+            </div>
+            <div class="col-md-6" style=" margin-top:-16px">
+                <label>Role*</label>
+                <InputSelect class="form-control" style="height:55px" @bind-Value="NewUser.RoleId">
+                    <option value="">Select a role</option>
+                    @if (Roles != null)
+                    {
+                        foreach (var role in Roles.Where(r => r.IsActive))
+                        {
+                            <option value="@role.Id">@role.RoleName</option>
+                        }
+                    }
+                </InputSelect>
+                <ValidationMessage For="() => NewUser.RoleId" />
+            </div>
+        </div>
+        <MudButton Disabled="isSubmitting" ButtonType="ButtonType.Submit" Color="Color.Success" Variant="Variant.Filled" type="submit">Create Account</MudButton>
+    </div>
+</EditForm>
+@code {
+    bool isShow;
+    string PasswordInputIcon = Icons.Material.Filled.VisibilityOff;
+    InputType PasswordInput = InputType.Password;
+    void ButtonTestclick()
+    {
+        @if (isShow)
+        {
+            isShow = false;
+            PasswordInputIcon = Icons.Material.Filled.VisibilityOff;
+            PasswordInput = InputType.Password;
+        }
+        else
+        {
+            isShow = true;
+            PasswordInputIcon = Icons.Material.Filled.Visibility;
+            PasswordInput = InputType.Text;
+        }
+    }
+}

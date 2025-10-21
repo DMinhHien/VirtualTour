@@ -1,0 +1,57 @@
+﻿@page "/admin/permissions"
+@layout AdminLayout
+@using System.Globalization
+@using BlazorBootstrap
+@using VirtualTour.Model
+@using VirtualTour.Web.Components.BaseComponents
+@using MudBlazor
+@using VirtualTour.Web.Components.Layout
+ <PermissionView Permission="Admin.View">
+<h3>Manage Permissions</h3>
+
+@if (permissions == null)
+{
+    <p>Loading permissions...</p>
+}
+else
+{
+       <MudContainer Class="mt-4 w-75" Style="width: 100%; max-width: none;">
+         <MudDataGrid T="PermissionModel"
+                     Items="@permissions"
+                     Filterable="true"
+                     Sortable="true"   
+                     PageSize="5"
+                     Dense="true"
+                     FilterMode="@DataGridFilterMode.ColumnFilterRow">
+            <Columns>
+                    <PropertyColumn Filterable="false" Property="x => x.Id" Title="ID" />
+                <PropertyColumn Property="x => x.PermissionName" Title="Permission Name" />
+                    <PropertyColumn Filterable="false" Property="x => x.CreatedAt" Title="Created Date">
+                   <CellTemplate>
+                            @context.Item.CreatedAt.ToString("dd/MM/yyyy", CultureInfo.InvariantCulture)
+                   </CellTemplate>
+                </PropertyColumn>
+                    <PropertyColumn Property="x => x.IsActive" Title="Active" Sortable="false">
+                    <CellTemplate>
+                          <div style="display: flex; justify-content: center;">
+                        <MudSwitch Class="mt-1 "
+                                   Value="@context.Item.IsActive"
+                                   ValueChanged="@(async (bool newValue) => await ToggleActive(context.Item, newValue))"
+                                   Color="Color.Info" />
+                            </div>
+                    </CellTemplate>
+                 </PropertyColumn>
+            </Columns>
+            <PagerContent>
+                <MudDataGridPager T="PermissionModel" />
+            </PagerContent>
+        </MudDataGrid>
+        </MudContainer>
+}
+</PermissionView>
+@code{
+    private async Task<GridDataProviderResult<PermissionModel>> PermissionsDataProvider(GridDataProviderRequest<PermissionModel> request)
+    {
+        return await Task.FromResult(request.ApplyTo(permissions));
+    }
+}

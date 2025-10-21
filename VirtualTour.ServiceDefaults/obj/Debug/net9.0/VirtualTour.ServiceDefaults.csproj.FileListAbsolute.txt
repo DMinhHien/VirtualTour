@@ -1,0 +1,13 @@
+D:\UDC\VirtualTour\VirtualTour.ServiceDefaults\bin\Debug\net9.0\VirtualTour.ServiceDefaults.deps.json
+D:\UDC\VirtualTour\VirtualTour.ServiceDefaults\bin\Debug\net9.0\VirtualTour.ServiceDefaults.dll
+D:\UDC\VirtualTour\VirtualTour.ServiceDefaults\bin\Debug\net9.0\VirtualTour.ServiceDefaults.pdb
+D:\UDC\VirtualTour\VirtualTour.ServiceDefaults\obj\Debug\net9.0\VirtualTour.ServiceDefaults.csproj.AssemblyReference.cache
+D:\UDC\VirtualTour\VirtualTour.ServiceDefaults\obj\Debug\net9.0\VirtualTour.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+D:\UDC\VirtualTour\VirtualTour.ServiceDefaults\obj\Debug\net9.0\VirtualTour.ServiceDefaults.AssemblyInfoInputs.cache
+D:\UDC\VirtualTour\VirtualTour.ServiceDefaults\obj\Debug\net9.0\VirtualTour.ServiceDefaults.AssemblyInfo.cs
+D:\UDC\VirtualTour\VirtualTour.ServiceDefaults\obj\Debug\net9.0\VirtualTour.ServiceDefaults.csproj.CoreCompileInputs.cache
+D:\UDC\VirtualTour\VirtualTour.ServiceDefaults\obj\Debug\net9.0\VirtualTour.ServiceDefaults.sourcelink.json
+D:\UDC\VirtualTour\VirtualTour.ServiceDefaults\obj\Debug\net9.0\VirtualTour.ServiceDefaults.dll
+D:\UDC\VirtualTour\VirtualTour.ServiceDefaults\obj\Debug\net9.0\refint\VirtualTour.ServiceDefaults.dll
+D:\UDC\VirtualTour\VirtualTour.ServiceDefaults\obj\Debug\net9.0\VirtualTour.ServiceDefaults.pdb
+D:\UDC\VirtualTour\VirtualTour.ServiceDefaults\obj\Debug\net9.0\ref\VirtualTour.ServiceDefaults.dll

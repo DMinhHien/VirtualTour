@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="/" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="@Assets["app.css"]" />
+    <link rel="stylesheet" href="@Assets["fKVPortalAspireWeb.Web.styles.css"]" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <link href="@Assets["_content/MudBlazor/MudBlazor.min.css"]" rel="stylesheet" />
+    <link rel="stylesheet" href="@("https://cdn.jsdelivr.net/npm/@photo-sphere-viewer/core@5.13.4/index.css")" />
+    <link rel="stylesheet" href="@("https://cdn.jsdelivr.net/npm/@photo-sphere-viewer/virtual-tour-plugin@5.13.4/index.css")" />
+    <link rel="stylesheet" href="@("https://cdn.jsdelivr.net/npm/@photo-sphere-viewer/gallery-plugin@5.13.4/index.css")" />
+    <link rel="stylesheet" href="@("https://cdn.jsdelivr.net/npm/@photo-sphere-viewer/markers-plugin@5.13.4/index.css")" />
+    <link href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" rel="stylesheet">
+    <link href="_content/Blazored.Toast/blazored-toast.min.css" rel="stylesheet" />
+    <script type="importmap">
+        {
+            "imports": {
+                  "three": "https://cdn.jsdelivr.net/npm/three/build/three.module.js",
+                  "@("@photo-sphere-viewer/core")":  "@("https://cdn.jsdelivr.net/npm/@photo-sphere-viewer/core@5.13.4/index.module.js")",
+                  "@("@photo-sphere-viewer/virtual-tour-plugin")":"@("https://cdn.jsdelivr.net/npm/@photo-sphere-viewer/virtual-tour-plugin@5.13.4/index.module.js")",
+                  "@("@photo-sphere-viewer/gallery-plugin")": "@("https://cdn.jsdelivr.net/npm/@photo-sphere-viewer/gallery-plugin@5.13.4/index.module.js")",
+                  "@("@photo-sphere-viewer/markers-plugin")": "@("https://cdn.jsdelivr.net/npm/@photo-sphere-viewer/markers-plugin@5.13.4/index.module.js")"
+            }
+        }
+    </script>
+    <link href="https://cdn.jsdelivr.net/npm/visjs-network@4.24.11/dist/vis.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <HeadOutlet />
+</head>
+
+<body>
+    <Routes @rendermode="InteractiveServer" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/qr-code-styling@1.9.2/lib/qr-code-styling.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/qr-code-styling@latest/qr-code-styling.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/visjs-network@4.24.11/dist/vis.min.js"></script>
+    <script src="@Assets["_content/MudBlazor/MudBlazor.min.js"]"></script>
+    <script src="_content/Blazor.Bootstrap/blazor.bootstrap.js"></script>
+    <script src="_framework/blazor.web.js"></script>
+    <script src="js/qrCode.js"></script>
+    <script src="js/qrcode-helper.js"></script>
+    <script type="module" src="/js/photoSphereViewer.js"></script>
+    <script type="module" src="/js/hotspot.js"></script>
+</body>
+
+</html>

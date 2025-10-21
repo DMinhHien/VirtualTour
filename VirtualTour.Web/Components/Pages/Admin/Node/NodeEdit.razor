@@ -1,0 +1,111 @@
+﻿@page "/admin/node/edit/{Id:int}"
+@using MudBlazor
+@using VirtualTour.Web.Components.Layout
+@layout AdminLayout
+<h3>Edit Node</h3>
+<div style="display:flex; gap:20px;">
+    <div style="flex:1; max-width:400px;">
+        <div class="form-group" style="margin-bottom:20px">
+            <MudFileUpload T="IBrowserFile" FilesChanged="UploadThumbnailFiles">
+                <ActivatorContent>
+                    <MudButton StartIcon="@Icons.Material.Filled.AttachFile">Choose thumbnail</MudButton>
+                </ActivatorContent>
+                <SelectedTemplate>
+                    @if (context != null)
+                    {
+                        <MudText>@context.Name</MudText>
+                    }
+                    else
+                    {
+                        <MudText>@node.Thumbnail</MudText>
+                    }
+                </SelectedTemplate>
+            </MudFileUpload>
+        </div>
+        <div class="form-group" style="margin-bottom:20px">
+            <MudTextField @bind-Value="node.Name" Label="Name" Variant="Variant.Outlined"></MudTextField>
+            <MudTextField @bind-Value="node.Caption" Label="Caption" Variant="Variant.Outlined"></MudTextField>
+        </div>
+        <div>
+            <label>Workshop:</label>
+            <InputSelect style="height:35px;width:220px;margin-top:5px" @bind-Value="node.WorkShop">
+                <option value="WS1">WS1</option>
+                <option value="WS2">WS2</option>
+                <option value="WS3">WS3</option>
+                <option value="WS3A">WS3A</option>
+                <option value="WS4">WS4</option>
+            </InputSelect>
+        </div>
+        <div>
+            <label>Floor:</label>
+            <InputSelect style="height:35px;width:220px;margin-top:5px" @bind-Value="node.Floor">
+                <option value="F1">F1</option>
+                <option value="F2">F2</option>
+            </InputSelect>
+        </div>
+        <div>
+            <label>Area:</label>
+            <InputSelect style="height:35px;width:220px;margin-top:5px" @bind-Value="node.AreaName">
+                @if (Areas != null)
+                {
+                    foreach (var area in Areas)
+                    {
+                        <option Value="@area">@area</option>
+                    }
+                }
+            </InputSelect>
+        </div>
+        <div>
+            <label>Department:</label>
+            <InputSelect style="height:35px;width:220px;margin-top:5px" @bind-Value="node.DeptName">
+                @if (Depts != null)
+                {
+                    foreach (var dept in Depts)
+                    {
+                        <option Value="@dept">@dept</option>
+                    }
+                }
+            </InputSelect>
+        </div>
+
+    </div>
+    <div style="flex:2;">
+        <div id="viewer" style="width:60vw; height:50vh; margin-top: 10px;; margin-bottom:20px"></div>
+    </div>
+</div>
+<MudButton Color="Color.Primary"
+           Variant="Variant.Filled" @onclick="SaveNode">Save node</MudButton>
+<MudButton Color="Color.Warning"
+           Variant="Variant.Filled" @onclick="AddHotSpot">Create hotspot</MudButton>
+<MudButton Color="Color.Tertiary"
+           Variant="Variant.Filled" @onclick="SetInitialView">Set initial view</MudButton>
+@if (selectedHotSpot != null)
+{
+    <div style="width:600px;margin-left:600px;">
+        <MudStack>
+            <MudTextField @bind-Value="selectedHotSpot.MarkerId" Label="Selected Hot Spot" ReadOnly="true" Variant="Variant.Text" />
+            <MudStack Row="true">
+                <MudText Style="margin-top:15px">Links to:</MudText>
+                <InputSelect class="form-control" style="height:55px;width:200px" @bind-Value="selectedHotSpot.TargetNode">
+                    @if (nodes != null)
+                    {
+                        foreach (var node in nodes.Where(x => (x.WorkShop == node.WorkShop
+                        && x.AreaName == node.AreaName && x.Floor == node.Floor) || (selectedHotSpot.TargetNode != 0 && x.Id == selectedHotSpot.TargetNode)))
+                        {
+                            <option value="@node.Id">@node.Name</option>
+                        }
+                    }
+                </InputSelect>
+                <MudButton @onclick="RotateHotSpot" Color="Color.Info" Variant="Variant.Filled">
+                    <MudIcon Icon="@Icons.Material.Filled.RotateRight" />
+                </MudButton>
+                <MudButton @onclick="DeleteHotSpot" Color="Color.Error" Variant="Variant.Filled">
+                    <MudIcon Icon="@Icons.Material.Filled.Delete" />
+                </MudButton>
+                <MudButton @onclick="SaveHotSpot" Color="Color.Success" Variant="Variant.Filled">
+                    <MudIcon Icon="@Icons.Material.Filled.Check" />
+                </MudButton>
+            </MudStack>
+        </MudStack>
+    </div>
+}

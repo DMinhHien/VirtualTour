@@ -1,0 +1,66 @@
+﻿@using Blazored.Toast
+@using Blazored.Toast.Configuration
+@using MudBlazor
+@inherits LayoutComponentBase
+<style>
+    .login {
+        cursor: pointer;
+        color: inherit;
+    }
+
+        .login:hover {
+            color: #ED6C02; /* MudBlazor default warning color */
+        }
+</style>
+<MudThemeProvider Theme="MyCustomTheme" />
+<MudPopoverProvider />
+<MudDialogProvider />
+<BlazoredToasts Position="ToastPosition.BottomRight" Timeout="5" />
+@if (IsShowContent)
+{
+    <div style="height: 100vh; width: 100vw; overflow: auto; background-color: #f4f6f9;">
+        @Body
+    </div>
+}
+
+@code {
+    public bool IsShowContent { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        IsShowContent = true;
+    }
+
+    MudTheme MyCustomTheme = new MudTheme()
+    {
+        PaletteLight = new PaletteLight()
+        {
+            Primary = Colors.Blue.Default,
+            Secondary = Colors.Red.Accent1,
+            AppbarBackground = Colors.Red.Default,
+            TextPrimary = "#212529",
+        },
+        PaletteDark = new PaletteDark()
+        {
+            Primary = Colors.Blue.Lighten1
+        },
+        Typography = new Typography()
+        {
+            Default = new DefaultTypography { FontSize = "1rem" },
+            H1 = new H1Typography { FontSize = "2rem" },
+            H2 = new H2Typography { FontSize = "1.75rem" },
+            H3 = new H3Typography { FontSize = "1.5rem" },
+            H4 = new H4Typography { FontSize = "1.25rem" },
+            H5 = new H5Typography { FontSize = "1.125rem" },
+            H6 = new H6Typography { FontSize = "1rem" },
+            Button = new ButtonTypography { FontSize = "0.875rem" },
+            Body1 = new Body1Typography { FontSize = "1rem" },
+            Body2 = new Body2Typography { FontSize = "1rem" },
+            Caption = new CaptionTypography { FontSize = "1rem" },
+            Subtitle1 = new Subtitle1Typography { FontSize = "1rem" },
+            Subtitle2 = new Subtitle2Typography { FontSize = "1rem" },
+        }
+    };
+}
+
+

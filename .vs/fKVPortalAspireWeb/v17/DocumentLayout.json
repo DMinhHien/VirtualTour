@@ -1,0 +1,893 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\UDC\\VirtualTour\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CA2C4E69-AD16-BC2D-DD79-FFB612A16C0B}|fKVPortalAspireWeb.BL\\VirtualTour.BL.csproj|d:\\udc\\virtualtour\\fkvportalaspireweb.bl\\repositories\\apikeyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA2C4E69-AD16-BC2D-DD79-FFB612A16C0B}|fKVPortalAspireWeb.BL\\VirtualTour.BL.csproj|solutionrelative:fkvportalaspireweb.bl\\repositories\\apikeyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\VirtualTour.ApiService.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Model\\QRCodeModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\fKVPortalAspireWeb.BL.csproj.Backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\VirtualTour.BL.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Model\\PermissionModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Model\\NodeModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Model\\BaseResponseModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Model\\ApiKeyModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\ApiKeyService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Model\\UserModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Model\\RoleModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.DataAccess\\SqlDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\UserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\UserProfileStateService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\TokenService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\RoleService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\QRCodeService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\PermissionService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\PasswordService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\NodeService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\AuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Repositories\\UserRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Repositories\\RoleRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Repositories\\QRCodeRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Repositories\\PermissionRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Repositories\\NodeRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Repositories\\ApiKeyRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Middleware\\ApiKeyAuthenticationMiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Data\\SeedData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Controllers\\UserController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Controllers\\RoleController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Controllers\\QRCodesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Controllers\\PermissionController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Controllers\\NodeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Controllers\\AuthController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Authorization\\PermissionRequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Authorization\\PermissionPolicyProvider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Authorization\\PermissionHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Authorization\\PermissionChecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\wwwroot\\js\\qrCode.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\Components\\Pages\\Admin\\Node\\NodeEdit.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\wwwroot\\js\\graph.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\wwwroot\\js\\hotspot.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\wwwroot\\js\\photoSphereViewer.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\Components\\Pages\\Admin\\Node\\NodeEdit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\Components\\App.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\Components\\Pages\\Admin\\Node\\NodeManage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\Components\\Pages\\Admin\\Node\\NodeCreate.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\Components\\Pages\\Admin\\Node\\Map.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DF8411F-68F7-0D24-EABC-9C67C1A34F84}|fKVPortalAspireWeb.ApiService\\VirtualTour.ApiService.csproj|d:\\udc\\virtualtour\\fkvportalaspireweb.apiservice\\authorization\\permissionchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DF8411F-68F7-0D24-EABC-9C67C1A34F84}|fKVPortalAspireWeb.ApiService\\VirtualTour.ApiService.csproj|solutionrelative:fkvportalaspireweb.apiservice\\authorization\\permissionchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 286,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApiKeyRepository.cs",
+              "DocumentMoniker": "D:\\UDC\\VirtualTour\\fKVPortalAspireWeb.BL\\Repositories\\ApiKeyRepository.cs",
+              "RelativeDocumentMoniker": "fKVPortalAspireWeb.BL\\Repositories\\ApiKeyRepository.cs",
+              "ToolTip": "D:\\UDC\\VirtualTour\\fKVPortalAspireWeb.BL\\Repositories\\ApiKeyRepository.cs",
+              "RelativeToolTip": "fKVPortalAspireWeb.BL\\Repositories\\ApiKeyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T14:00:43.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "PermissionChecker.cs",
+              "DocumentMoniker": "D:\\UDC\\VirtualTour\\fKVPortalAspireWeb.ApiService\\Authorization\\PermissionChecker.cs",
+              "RelativeDocumentMoniker": "fKVPortalAspireWeb.ApiService\\Authorization\\PermissionChecker.cs",
+              "ToolTip": "D:\\UDC\\VirtualTour\\fKVPortalAspireWeb.ApiService\\Authorization\\PermissionChecker.cs",
+              "RelativeToolTip": "fKVPortalAspireWeb.ApiService\\Authorization\\PermissionChecker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T14:00:34.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VirtualTour.ApiService.csproj",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\VirtualTour.ApiService.csproj",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\VirtualTour.ApiService.csproj",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\VirtualTour.ApiService.csproj",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\VirtualTour.ApiService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-08T13:43:16.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QRCodeModel.cs",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Model\\QRCodeModel.cs",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Model\\QRCodeModel.cs",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Model\\QRCodeModel.cs",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Model\\QRCodeModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T13:38:12.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "fKVPortalAspireWeb.BL.csproj.Backup.tmp",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\fKVPortalAspireWeb.BL.csproj.Backup.tmp",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\fKVPortalAspireWeb.BL.csproj.Backup.tmp",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\fKVPortalAspireWeb.BL.csproj.Backup.tmp",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\fKVPortalAspireWeb.BL.csproj.Backup.tmp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-08T13:37:03.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Program.cs",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Program.cs",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Program.cs",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Program.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T13:34:29.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VirtualTour.BL.csproj",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\VirtualTour.BL.csproj",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\VirtualTour.BL.csproj",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\VirtualTour.BL.csproj",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\VirtualTour.BL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-23T02:29:40.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PermissionModel.cs",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Model\\PermissionModel.cs",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Model\\PermissionModel.cs",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Model\\PermissionModel.cs",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Model\\PermissionModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T13:38:05.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NodeModel.cs",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Model\\NodeModel.cs",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Model\\NodeModel.cs",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Model\\NodeModel.cs",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Model\\NodeModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T13:37:57.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BaseResponseModel.cs",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Model\\BaseResponseModel.cs",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Model\\BaseResponseModel.cs",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Model\\BaseResponseModel.cs",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Model\\BaseResponseModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T13:37:50.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApiKeyModel.cs",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Model\\ApiKeyModel.cs",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Model\\ApiKeyModel.cs",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Model\\ApiKeyModel.cs",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Model\\ApiKeyModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T13:37:42.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApiKeyService.cs",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\ApiKeyService.cs",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\ApiKeyService.cs",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\ApiKeyService.cs",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\ApiKeyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T13:35:42.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Model\\UserModel.cs",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Model\\UserModel.cs",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Model\\UserModel.cs",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Model\\UserModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T13:38:22.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RoleModel.cs",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Model\\RoleModel.cs",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Model\\RoleModel.cs",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Model\\RoleModel.cs",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Model\\RoleModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T13:38:18.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SqlDbContext.cs",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.DataAccess\\SqlDbContext.cs",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.DataAccess\\SqlDbContext.cs",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.DataAccess\\SqlDbContext.cs",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.DataAccess\\SqlDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T13:37:30.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\UserService.cs",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\UserService.cs",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T13:37:03.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserProfileStateService.cs",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\UserProfileStateService.cs",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\UserProfileStateService.cs",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\UserProfileStateService.cs",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\UserProfileStateService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T13:36:56.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\TokenService.cs",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\TokenService.cs",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\TokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T13:36:44.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RoleService.cs",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\RoleService.cs",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\RoleService.cs",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\RoleService.cs",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\RoleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T13:36:38.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "QRCodeService.cs",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\QRCodeService.cs",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\QRCodeService.cs",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\QRCodeService.cs",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\QRCodeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T13:36:28.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PermissionService.cs",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\PermissionService.cs",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\PermissionService.cs",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\PermissionService.cs",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\PermissionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T13:36:21.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PasswordService.cs",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\PasswordService.cs",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\PasswordService.cs",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\PasswordService.cs",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\PasswordService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T13:36:08.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "NodeService.cs",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\NodeService.cs",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\NodeService.cs",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\NodeService.cs",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\NodeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T13:36:00.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\AuthService.cs",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\AuthService.cs",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T13:35:53.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T13:35:32.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RoleRepository.cs",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Repositories\\RoleRepository.cs",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Repositories\\RoleRepository.cs",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Repositories\\RoleRepository.cs",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Repositories\\RoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T13:35:25.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "QRCodeRepository.cs",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Repositories\\QRCodeRepository.cs",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Repositories\\QRCodeRepository.cs",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Repositories\\QRCodeRepository.cs",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Repositories\\QRCodeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T13:35:18.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "PermissionRepository.cs",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Repositories\\PermissionRepository.cs",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Repositories\\PermissionRepository.cs",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Repositories\\PermissionRepository.cs",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Repositories\\PermissionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T13:35:11.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "NodeRepository.cs",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Repositories\\NodeRepository.cs",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Repositories\\NodeRepository.cs",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Repositories\\NodeRepository.cs",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Repositories\\NodeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T13:35:03.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ApiKeyRepository.cs",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Repositories\\ApiKeyRepository.cs",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Repositories\\ApiKeyRepository.cs",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Repositories\\ApiKeyRepository.cs",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.BL\\Repositories\\ApiKeyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T13:34:54.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ApiKeyAuthenticationMiddleware.cs",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Middleware\\ApiKeyAuthenticationMiddleware.cs",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Middleware\\ApiKeyAuthenticationMiddleware.cs",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Middleware\\ApiKeyAuthenticationMiddleware.cs",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Middleware\\ApiKeyAuthenticationMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T13:34:22.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Data\\SeedData.cs",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Data\\SeedData.cs",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Data\\SeedData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T13:34:14.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\appsettings.json",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\appsettings.json",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-16T02:42:48.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Controllers\\UserController.cs",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T13:34:03.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Controllers\\RoleController.cs",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Controllers\\RoleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T13:33:56.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "QRCodesController.cs",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Controllers\\QRCodesController.cs",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Controllers\\QRCodesController.cs",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Controllers\\QRCodesController.cs",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Controllers\\QRCodesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T13:33:49.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "PermissionController.cs",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Controllers\\PermissionController.cs",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Controllers\\PermissionController.cs",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Controllers\\PermissionController.cs",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Controllers\\PermissionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T13:33:41.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "NodeController.cs",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Controllers\\NodeController.cs",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Controllers\\NodeController.cs",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Controllers\\NodeController.cs",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Controllers\\NodeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T13:33:32.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T13:33:23.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "PermissionRequirement.cs",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Authorization\\PermissionRequirement.cs",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Authorization\\PermissionRequirement.cs",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Authorization\\PermissionRequirement.cs",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Authorization\\PermissionRequirement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T13:33:15.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "PermissionPolicyProvider.cs",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Authorization\\PermissionPolicyProvider.cs",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Authorization\\PermissionPolicyProvider.cs",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Authorization\\PermissionPolicyProvider.cs",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Authorization\\PermissionPolicyProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T13:33:06.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "PermissionHandler.cs",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Authorization\\PermissionHandler.cs",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Authorization\\PermissionHandler.cs",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Authorization\\PermissionHandler.cs",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Authorization\\PermissionHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T13:32:52.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "PermissionChecker.cs",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Authorization\\PermissionChecker.cs",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Authorization\\PermissionChecker.cs",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Authorization\\PermissionChecker.cs",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.ApiService\\Authorization\\PermissionChecker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T13:32:36.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\appsettings.json",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\appsettings.json",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-23T08:17:28.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "qrCode.js",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\wwwroot\\js\\qrCode.js",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\wwwroot\\js\\qrCode.js",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\wwwroot\\js\\qrCode.js",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\wwwroot\\js\\qrCode.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-19T13:27:37.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "NodeEdit.razor.cs",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\Components\\Pages\\Admin\\Node\\NodeEdit.razor.cs",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\Components\\Pages\\Admin\\Node\\NodeEdit.razor.cs",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\Components\\Pages\\Admin\\Node\\NodeEdit.razor.cs",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\Components\\Pages\\Admin\\Node\\NodeEdit.razor.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T13:28:12.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "graph.js",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\wwwroot\\js\\graph.js",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\wwwroot\\js\\graph.js",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\wwwroot\\js\\graph.js",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\wwwroot\\js\\graph.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-19T13:27:49.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "hotspot.js",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\wwwroot\\js\\hotspot.js",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\wwwroot\\js\\hotspot.js",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\wwwroot\\js\\hotspot.js",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\wwwroot\\js\\hotspot.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-19T13:27:30.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "photoSphereViewer.js",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\wwwroot\\js\\photoSphereViewer.js",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\wwwroot\\js\\photoSphereViewer.js",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\wwwroot\\js\\photoSphereViewer.js",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\wwwroot\\js\\photoSphereViewer.js",
+              "ViewState": "AgIAAC0AAAAAAAAAAIBZwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-19T13:27:26.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "NodeEdit.razor",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\Components\\Pages\\Admin\\Node\\NodeEdit.razor",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\Components\\Pages\\Admin\\Node\\NodeEdit.razor",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\Components\\Pages\\Admin\\Node\\NodeEdit.razor",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\Components\\Pages\\Admin\\Node\\NodeEdit.razor",
+              "ViewState": "AgIAAEUAAAAAAAAAAIBZwBQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-09T09:15:35.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "App.razor",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\Components\\App.razor",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\Components\\App.razor",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\Components\\App.razor",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\Components\\App.razor",
+              "ViewState": "AgIAAA8AAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-22T03:33:44.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "NodeManage.razor",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\Components\\Pages\\Admin\\Node\\NodeManage.razor",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\Components\\Pages\\Admin\\Node\\NodeManage.razor",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\Components\\Pages\\Admin\\Node\\NodeManage.razor",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\Components\\Pages\\Admin\\Node\\NodeManage.razor",
+              "ViewState": "AgIAACoAAAAAAAAAAIBZwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-09T09:15:36.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "NodeCreate.razor",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\Components\\Pages\\Admin\\Node\\NodeCreate.razor",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\Components\\Pages\\Admin\\Node\\NodeCreate.razor",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\Components\\Pages\\Admin\\Node\\NodeCreate.razor",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\Components\\Pages\\Admin\\Node\\NodeCreate.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-09T09:15:34.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Map.razor",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\Components\\Pages\\Admin\\Node\\Map.razor",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\Components\\Pages\\Admin\\Node\\Map.razor",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\Components\\Pages\\Admin\\Node\\Map.razor",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\Components\\Pages\\Admin\\Node\\Map.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-09T09:15:30.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "web.config",
+              "DocumentMoniker": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\web.config",
+              "RelativeDocumentMoniker": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\web.config",
+              "ToolTip": "D:\\UDC\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\web.config",
+              "RelativeToolTip": "..\\fKVPortalAspireWeb\\fKVPortalAspireWeb.Web\\web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-08-09T02:05:11.628Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 114,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

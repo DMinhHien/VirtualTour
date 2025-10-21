@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "VirtualTour.ApiService\\VirtualTour.ApiService.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "VirtualTour.Web\\VirtualTour.Web.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

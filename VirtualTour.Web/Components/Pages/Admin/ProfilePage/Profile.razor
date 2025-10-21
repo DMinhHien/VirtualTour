@@ -1,0 +1,199 @@
+﻿@page "/admin/profile"
+@using System.Net.Http.Headers
+@using System.Security.Claims
+@using Blazored.Toast.Services
+@using Microsoft.AspNetCore.Components.Authorization
+@using MudBlazor
+@using Newtonsoft.Json
+@using VirtualTour.BL.Services
+@using VirtualTour.Web.Components.BaseComponents
+@inject ApiAuthenticationStateProvider AuthStateProvider
+@inject NavigationManager Navigation
+@inject IWebHostEnvironment Env
+@inject IDialogService DialogService
+@inject UserProfileStateService ProfileState
+@inject IApiClient ApiClient
+@inject IToastService ToastService
+@layout AdminLayout
+@using SixLabors.ImageSharp
+@using SixLabors.ImageSharp.Processing
+@using SixLabors.ImageSharp.Formats.Jpeg
+@using VirtualTour.Web.Components.Layout
+<CascadingAuthenticationState>
+    <MudPaper Class="pa-4 mx-auto mt-2" Style="max-width: 500px;background-color:#d5d5d5">
+            <MudCardHeader Class="d-flex flex-column align-center">
+            <MudAvatar Style="height:140px; width:140px; font-size:2rem;" Color="MudBlazor.Color.Tertiary" Class="mb-3">
+                @if (string.IsNullOrWhiteSpace(AvatarUrl) )
+                {
+                    <span style="font-size:3rem;">@GetUserInitial()</span>
+                }
+                else
+                {
+                    <MudImage ObjectFit="ObjectFit.Cover" Src="@AvatarUrl"></MudImage>
+                }
+            </MudAvatar>
+                <MudFileUpload T="IBrowserFile" FilesChanged="UploadFiles">
+                      <ActivatorContent>
+                    <MudButton Variant="Variant.Filled"
+                               Color="MudBlazor.Color.Primary">
+                        Change avatar
+                    </MudButton>
+                </ActivatorContent>
+            </MudFileUpload>
+            </MudCardHeader>
+        <MudCardContent Style="margin-top: -10px;">
+                <MudGrid>
+                    <MudItem xs="12">
+                        <MudPaper Class="pa-2 d-flex align-center">
+                            <MudIcon Icon="@Icons.Material.Filled.Person" />
+                            <MudText Inline Typo="Typo.subtitle1" Class="ml-2">Username: @Username</MudText>
+                        </MudPaper>
+                    </MudItem>
+                    <MudItem xs="12">
+                     
+                    </MudItem>
+                    <MudItem xs="12">
+                        <MudPaper Class="pa-2 d-flex align-center">
+                            <MudIcon Icon="@Icons.Material.Filled.AccountCircle" />
+                            <MudText Inline Typo="Typo.subtitle1" Class="ml-2">Full Name: @FullName</MudText>
+                        </MudPaper>
+                    </MudItem>
+                    <MudItem xs="12">
+                      
+                    </MudItem>
+                    <MudItem xs="12">
+                        <MudPaper Class="pa-2 d-flex align-center">
+                            <MudIcon Icon="@Icons.Material.Filled.AccountCircle" />
+                            <MudText Inline Typo="Typo.subtitle1" Class="ml-2">Gender: @Gender</MudText>
+                        </MudPaper>
+                    </MudItem>
+                    <MudItem xs="12">
+                     
+                    </MudItem>
+                    <MudItem xs="12">
+                        <MudPaper Class="pa-2 d-flex align-center">
+                            <MudIcon Icon="@Icons.Material.Filled.Phone" />
+                            <MudText Inline Typo="Typo.subtitle1" Class="ml-2">Phone: @PhoneNumber</MudText>
+                        </MudPaper>
+                    </MudItem>
+                    <MudItem xs="12">
+                      
+                    </MudItem>
+                    <MudItem xs="12">
+                        <MudPaper Class="pa-2 d-flex align-center">
+                            <MudIcon Icon="@Icons.Material.Filled.Email" />
+                            <MudText Inline Typo="Typo.subtitle1" Class="ml-2">Email: @Email</MudText>
+                        </MudPaper>
+                    </MudItem>
+                </MudGrid>
+            </MudCardContent>
+        <MudCardActions Class="d-flex justify-center mb-4">
+            <MudButton Style="min-width:150px; margin-right:10px;" Color="MudBlazor.Color.Info" Variant="Variant.Filled" OnClick="OpenEditDialog">Edit Profile</MudButton>
+            <MudButton Style="min-width:150px;" Color="MudBlazor.Color.Error" Variant="Variant.Filled" OnClick="Logout">Logout</MudButton>
+        </MudCardActions>
+    </MudPaper>
+</CascadingAuthenticationState>
+
+@code {
+    private string Username { get; set; } = string.Empty;
+    private string FullName { get; set; } = string.Empty;
+    private string Gender { get; set; } = string.Empty;
+    private string PhoneNumber { get; set; } = string.Empty;
+    private string Email { get; set; } = string.Empty;
+    private string Id { get; set; } = string.Empty;
+    private string RoleId { get; set; } = string.Empty;
+    private string RoleName { get; set; } = string.Empty;
+    private string AvatarUrl { get; set; } = string.Empty;
+    private async Task UploadFiles(IBrowserFile file)
+    {
+        var avatars = Path.Combine(Env.WebRootPath, "images", "avatars");
+        if (!Directory.Exists(avatars))
+            Directory.CreateDirectory(avatars);
+        var ext = Path.GetExtension(file.Name);
+        var fileName = $"{Id}_{Guid.NewGuid()}{ext}";
+        var fullPath = Path.Combine(avatars, fileName);
+        using var image = await Image.LoadAsync(file.OpenReadStream(15_000_000));
+        image.Mutate(x => x.Resize(new ResizeOptions { Mode = SixLabors.ImageSharp.Processing.ResizeMode.Max, Size = new SixLabors.ImageSharp.Size(300, 0) }));
+        var encoder = new JpegEncoder { Quality = 50 };
+        await using var fs = File.Create(fullPath);
+        await image.SaveAsJpegAsync(fs, encoder);
+        AvatarUrl = $"/images/avatars/{fileName}";
+        var response = await ApiClient.PutAsync<BaseResponseModel, string>($"api/user/updateAvatar/{Id}", AvatarUrl);
+        if (response != null && response.Success)
+        {
+            ToastService.ShowSuccess("Avatar updated successfully.");       
+        }
+        else
+        {
+            ToastService.ShowError("Failed to update avatar.");
+        }
+        ProfileState.SetAvatarUrl(AvatarUrl);
+    }
+    protected override async Task OnInitializedAsync()
+    {
+        var authState = await AuthStateProvider.GetAuthenticationStateAsync();
+        var user = authState.User;
+
+        Id = user.FindFirst(c => c.Type == System.IdentityModel.Tokens.Jwt.JwtRegisteredClaimNames.Sub)?.Value ?? string.Empty;
+        Username = user.Identity?.Name ?? string.Empty;
+
+        var response = await ApiClient.GetFromJsonAsync<BaseResponseModel>($"api/user/getElementById/{Id}");
+        if (response != null && response.Success)
+        {
+            var repUser = JsonConvert.DeserializeObject<RepUserFetch>(response.Data.ToString());
+            if (repUser != null)
+            {
+                Username = repUser.UserName;
+                FullName = repUser.FullName;
+                Gender = repUser.Gender;
+                Email = repUser.Email;
+                PhoneNumber = repUser.PhoneNumber;
+                RoleId = repUser.RoleId;
+                RoleName = repUser.RoleName;
+                AvatarUrl = repUser.AvatarUrl;
+            }
+        }
+    }
+
+    private string GetUserInitial()
+    {
+        if (!string.IsNullOrWhiteSpace(Username))
+        {
+            return Username.Substring(0, 1).ToUpperInvariant();
+        }
+        return string.Empty;
+    }
+
+    private void Logout()
+    {
+        Navigation.NavigateTo("/admin/logout");
+    }
+    private async Task OpenEditDialog()
+    {
+        var updateDto = new UpdateUserDTO
+        {
+            Id = Int32.Parse(Id),
+            UserName = Username,
+            FullName = FullName,
+            Gender = Gender,
+            Email = Email,
+            PhoneNumber = PhoneNumber,
+            RoleId = RoleId,
+            RoleName = RoleName
+        };
+
+        var parameters = new DialogParameters { { "EditModel", updateDto } };
+        var options = new DialogOptions() { CloseButton = true, MaxWidth = MaxWidth.Small };
+        var dialog = await DialogService.ShowAsync<EditProfileDialog>("Edit Profile", parameters, options);
+        var result = await dialog.Result;
+        if (!result.Canceled)
+        {
+            var updated = (UpdateUserDTO)result.Data;
+            FullName = updated.FullName;
+            Gender = updated.Gender;
+            Email = updated.Email;
+            PhoneNumber = updated.PhoneNumber;
+            // Navigation.NavigateTo(Navigation.Uri, forceLoad: true);
+        }
+    }
+}

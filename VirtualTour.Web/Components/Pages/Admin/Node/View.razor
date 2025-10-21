@@ -1,0 +1,178 @@
+﻿@page "/admin/view"
+@layout AdminLayout
+@using MudBlazor
+@using Newtonsoft.Json
+@using VirtualTour.Web.Components.BaseComponents
+@using VirtualTour.Web.Components.Layout
+@inject IJSRuntime JS
+@inject NavigationManager Navigation
+@inject IApiClient ApiClient
+<style>
+
+    #viewer-container {
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    #sidebar-overlay {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100px;
+        height: 300px;
+        z-index: 10;
+    }
+</style>
+ <div id="viewer-container">
+<div id="viewer" style="width:80vw; height:70vh;"></div>
+    <div id="sidebar-overlay" style=" align-items: center; width: 250px;">
+
+        @if (Nodes != null)
+        {
+            <MudDrawer @bind-Open="@_open" style="width:200px;height:fit-content" Elevation="0" Variant="@DrawerVariant.Persistent">
+                <MudPaper Width="200px" Class=" sidebar-full-height" Elevation="0"
+                          Style="background-color: #0b0b0b;border-radius: 0;">
+                    <MudIconButton Icon="@Icons.Material.Filled.ArrowBackIos"
+                                   Variant="Variant.Filled"
+                                   Style="background-color:white;border-radius:unset;margin-left:170px "
+                                   Size="Size.Small"
+                                   OnClick="@ToggleDrawer" />
+                    <MudNavMenu>
+                        <MudNavGroup HideExpandIcon="true" Expanded="false">
+                            <TitleContent>
+                                <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+                                    WS1
+                                    <MudIcon Icon="@Icons.Material.Filled.ArrowDropDown" Class="mb-2"></MudIcon>
+                                </div>
+                            </TitleContent>
+                            <ChildContent>
+                                @foreach (var node in Nodes.Where(n => n.WorkShop == "WS1" &&
+                                                            n.DeptName != "Link" &&
+                                                            n.DeptName != "Corner" &&
+                                                            n.DeptName != "Floor"))
+                                {
+                                    <MudNavLink OnClick="@(() => GetElement(node.Id))" ActiveClass="custom-active">
+                                        <span style="font-size:14px;">@GetDisplayNameWS1(node.Name)</span>
+                                    </MudNavLink>
+                                }
+                            </ChildContent>
+                        </MudNavGroup>
+                        <MudNavGroup Title="WS2" HideExpandIcon="true" Expanded="false">
+                            <TitleContent>
+                                <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+                                    WS2
+                                    <MudIcon Icon="@Icons.Material.Filled.ArrowDropDown" Class="mb-2"></MudIcon>
+                                </div>
+                            </TitleContent>
+                            <ChildContent>
+                                @foreach (var node in Nodes.Where(n => n.WorkShop == "WS2" &&
+                                                            n.DeptName != "Link" &&
+                                                            n.DeptName != "Corner" &&
+                                                            n.DeptName != "Floor"))
+                                {
+                                    <MudNavLink OnClick="@(() => GetElement(node.Id))" ActiveClass="custom-active">
+                                        <span style="font-size:14px;">@GetDisplayNameWS2(node.Name)</span>
+                                    </MudNavLink>
+                                }
+                            </ChildContent>
+                        </MudNavGroup>
+                    </MudNavMenu>
+                </MudPaper>
+            </MudDrawer>
+        }
+
+            <MudIconButton Icon="@Icons.Material.Filled.ArrowForwardIos"
+                       Variant="Variant.Filled"
+                       Style="background-color:white;border-radius:unset"
+                       Size="Size.Small"
+                       OnClick="@ToggleDrawer" />
+       
+    </div>
+
+</div>
+@code {
+    int startId = 0;
+    private bool _open = true;
+    public List<NodeModel> Nodes;
+    NodeModel _nodeModel = new NodeModel();
+    protected override async Task OnInitializedAsync()
+    {
+        await base.OnInitializedAsync();
+        await LoadNodes();
+        _nodeModel = Nodes.FirstOrDefault(x => x.IsStartNode);
+        var dotNetRef = DotNetObjectReference.Create(this);
+        await JS.InvokeVoidAsync("initVirtualTourApi", "viewer", _nodeModel, dotNetRef);
+    }
+    protected async Task LoadNodes()
+    {
+        var res = await ApiClient.GetFromJsonAsync<BaseResponseModel>("/api/node/getListUse");
+        if (res.Success)
+        {
+            Nodes = JsonConvert.DeserializeObject<List<NodeModel>>(res.Data.ToString());
+        }
+    }
+    private string GetDisplayNameWS1(string name)
+    {
+        if (!string.IsNullOrEmpty(name) && name.StartsWith("WS1"))
+        {
+            // Remove the prefix "WS1" and all underscores
+            return name.Substring(3).Replace("_", " ");
+        }
+        return name;
+    }
+    private string GetDisplayNameWS2(string name)
+    {
+        if (!string.IsNullOrEmpty(name) && name.StartsWith("WS2"))
+        {
+            // Remove the prefix "WS1" and all underscores
+            return name.Substring(3).Replace("_", " ");
+        }
+        return name;
+    }
+    [JSInvokable]
+    public async Task GetNextNode(int nextId)
+    {
+        var response = await ApiClient.GetFromJsonAsync<BaseResponseModel>($"api/node/getElementById/{nextId}");
+        if (response.Success && response.Data != null)
+        {
+            _nodeModel = JsonConvert.DeserializeObject<NodeModel>(response.Data.ToString());
+            var dotNetRef = DotNetObjectReference.Create(this);
+            await JS.InvokeVoidAsync("initVirtualTourApi", "viewer", _nodeModel, dotNetRef);
+        }
+        else
+        {
+            // Handle error case, e.g., show a message to the user
+            Console.WriteLine("Error fetching next node data.");
+        }
+    }
+    private void ToggleDrawer()
+    {
+        _open = !_open;
+    }
+    private async Task OpenWS2()
+    {
+        var response = await ApiClient.GetFromJsonAsync<BaseResponseModel>($"api/node/getElementById/{27}");
+        if (response.Success && response.Data != null)
+        {
+            _nodeModel = JsonConvert.DeserializeObject<NodeModel>(response.Data.ToString());
+        }
+        var dotNetRef = DotNetObjectReference.Create(this);
+        await JS.InvokeVoidAsync("initVirtualTourApi", "viewer", _nodeModel, dotNetRef);
+
+    }
+    private async Task GetElement(int id)
+    {
+        var response = await ApiClient.GetFromJsonAsync<BaseResponseModel>($"api/node/getElementById/{id}");
+        if (response.Success && response.Data != null)
+        {
+            _nodeModel = JsonConvert.DeserializeObject<NodeModel>(response.Data.ToString());
+            var dotNetRef = DotNetObjectReference.Create(this);
+            await JS.InvokeVoidAsync("initVirtualTourApi", "viewer", _nodeModel, dotNetRef);
+        }
+        else
+        {
+            Console.WriteLine("Error fetching node data.");
+        }
+    }
+}

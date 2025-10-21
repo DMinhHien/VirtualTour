@@ -1,0 +1,622 @@
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\appsettings.json
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fKVPortalAspireWeb.Web.staticwebassets.runtime.json
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fKVPortalAspireWeb.Web.staticwebassets.endpoints.json
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fKVPortalAspireWeb.Web.exe
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fKVPortalAspireWeb.Web.deps.json
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fKVPortalAspireWeb.Web.runtimeconfig.json
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fKVPortalAspireWeb.Web.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fKVPortalAspireWeb.Web.pdb
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Azure.Core.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Azure.Identity.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\BCrypt.Net-Next.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\BlazorBootstrap.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Blazored.LocalStorage.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Blazored.Toast.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\BouncyCastle.Cryptography.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Dapper.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\itextsharp.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.AspNetCore.Components.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Bcl.Cryptography.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.AmbientMetadata.Application.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Compliance.Abstractions.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Configuration.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.AutoActivation.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Diagnostics.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Diagnostics.ExceptionSummarization.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Http.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Http.Diagnostics.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Http.Resilience.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Localization.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Resilience.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.ServiceDiscovery.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.ServiceDiscovery.Abstractions.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Telemetry.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Telemetry.Abstractions.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.JSInterop.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\MudBlazor.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\OpenTelemetry.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\OpenTelemetry.Api.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\OpenTelemetry.Api.ProviderBuilderExtensions.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\OpenTelemetry.Exporter.OpenTelemetryProtocol.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\OpenTelemetry.Extensions.Hosting.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\OpenTelemetry.Instrumentation.AspNetCore.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\OpenTelemetry.Instrumentation.Http.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\OpenTelemetry.Instrumentation.Runtime.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Polly.Core.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Polly.Extensions.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Polly.RateLimiting.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\QRCoder.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\SixLabors.ImageSharp.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\System.ClientModel.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\System.Diagnostics.EventLog.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\System.IO.Pipelines.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\System.Memory.Data.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\cs\Microsoft.Data.SqlClient.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\pl\Microsoft.Data.SqlClient.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\tr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Diagnostics.EventLog.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fKVPortalAspireWeb.BL.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fKVPortalAspireWeb.DataAccess.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fKVPortalAspireWeb.Model.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fKVPortalAspireWeb.ServiceDefaults.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fKVPortalAspireWeb.BL.pdb
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fKVPortalAspireWeb.Model.pdb
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fKVPortalAspireWeb.ServiceDefaults.pdb
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fKVPortalAspireWeb.DataAccess.pdb
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\fKVPortalAspireWeb.Web.csproj.AssemblyReference.cache
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\fKVPortalAspireWeb.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\fKVPortalAspireWeb.Web.AssemblyInfoInputs.cache
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\fKVPortalAspireWeb.Web.AssemblyInfo.cs
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\fKVPortalAspireWeb.Web.csproj.CoreCompileInputs.cache
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\fKVPortalAspireWeb.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\fKVPortalAspireWeb.Web.sourcelink.json
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\scopedcss\Components\Layout\AdminLayout.razor.rz.scp.css
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\scopedcss\bundle\fKVPortalAspireWeb.Web.styles.css
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\scopedcss\projectbundle\fKVPortalAspireWeb.Web.bundle.scp.css
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\tzxjg6is5z-vu9q1asft2.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\0wz98yz2xy-i93b8idyg2.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\yxfdm33bor-63oqyoiiv4.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\refgsao5tb-5vmds449nb.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\d5o4a4wkq9-ct0ej5e0q0.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\sismm8xg1l-ezlxc6gzv3.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\q8v6i1uv3e-pisakkcwob.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\36w3eu0hkb-j8zp7bt7w3.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\mfzx4sb2rv-79hai7knhw.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\um1tengd53-oybu958ua8.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\xbdi9jyksd-t1cqhe9u97.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\aj5rutz8mm-c2jlpeoesf.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\ogcaqbs7nm-sejl45xvog.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\xzssh8ykpx-aexeepp0ev.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\docfpjmshq-xvp3kq03qx.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\jy9zlote2k-ausgxo2sd3.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\jo0q4z3o4z-22vffe00uq.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\gp19uzxhn2-cosvhxvwiu.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\quh8oow235-qesaa3a1fm.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\ilh4mjx4pa-fvhpjtyr6v.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\7it4ehhunz-tmc1g35s3z.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\6da4n6uhpk-fsbi9cje9m.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\04ln8ibg92-rxsg74s51o.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\qtcpx858r2-ee0r1s7dh0.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\ehjqa2fsay-q9ht133ko3.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\3vtjjwx14l-jd9uben2k1.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\9wc8bvmfxa-gye83jo8yx.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\20ssi2r3ny-r4e9w2rdcm.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\dw2g618r7d-wl58j5mj3v.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\tekstnjrrx-c2oey78nd0.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\4mu58iib2f-d4r6k3f320.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\ijbtz2f5tx-j5mq2jizvt.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\rd886hqfgj-keugtjm085.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\qk8bu3elma-nvvlpmu67g.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\8t8frkkf44-zub09dkrxp.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\1qfe5237d7-pj5nd1wqec.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\5beuaaj9bn-43atpzeawx.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\qq9z7x9ymj-v0zj4ognzu.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\5d8cyfco29-ynyaa8k90p.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\dy6ghsr36i-hrwsygsryq.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\tp0x7f4jsp-c63t5i9ira.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\2osj3m6nmo-ft3s53vfgj.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\r3ht4b1o8s-wycuhlyoda.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\cvs9dv6d5u-ti4rm4jxno.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\ivpfofd2x9-sebe1i1n8x.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\miun7555s1-gohkmj42iq.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\z9fnj81789-4ys8m4e558.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\6eerb6pra8-n0cvxkgl7c.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\sj7n5db9d4-l53j0jwsua.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\qa6rf2puzz-jtdizdhtp0.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\dvo74pei6t-c0xlv7vgs3.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\flon31nwuc-17gd4bzdp3.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\0aykxxnxkn-iug4zs40ca.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\9q9aixyb38-0p3qeehy6k.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\5pb5ikadpp-2eijknf10w.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\eojifsclv0-7t9tbfaemk.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\fKVPorta.8DF28801.Up2Date
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\fKVPortalAspireWeb.Web.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\refint\fKVPortalAspireWeb.Web.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\fKVPortalAspireWeb.Web.pdb
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\fKVPortalAspireWeb.Web.genruntimeconfig.cache
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\ref\fKVPortalAspireWeb.Web.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\44afhf9n9q-hb7m82kqrl.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\250y6xderc-1eknwuxfal.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\fKVPortalAspireWeb.Web.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\refint\fKVPortalAspireWeb.Web.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\fKVPortalAspireWeb.Web.pdb
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\fKVPortalAspireWeb.Web.csproj.AssemblyReference.cache
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\rpswa.dswa.cache.json
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\fKVPortalAspireWeb.Web.GeneratedMSBuildEditorConfig.editorconfig
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\fKVPortalAspireWeb.Web.AssemblyInfoInputs.cache
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\fKVPortalAspireWeb.Web.AssemblyInfo.cs
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\fKVPortalAspireWeb.Web.csproj.CoreCompileInputs.cache
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\fKVPortalAspireWeb.Web.MvcApplicationPartsAssemblyInfo.cache
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\fKVPortalAspireWeb.Web.sourcelink.json
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\appsettings.Development.json
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\appsettings.json
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\web.config
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fKVPortalAspireWeb.Web.staticwebassets.runtime.json
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fKVPortalAspireWeb.Web.staticwebassets.endpoints.json
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fKVPortalAspireWeb.Web.exe
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fKVPortalAspireWeb.Web.deps.json
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fKVPortalAspireWeb.Web.runtimeconfig.json
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fKVPortalAspireWeb.Web.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fKVPortalAspireWeb.Web.pdb
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Azure.Core.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Azure.Identity.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\BCrypt.Net-Next.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\BlazorBootstrap.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Blazored.LocalStorage.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Blazored.Toast.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\BouncyCastle.Cryptography.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Dapper.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\itextsharp.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.AspNetCore.Authorization.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.AspNetCore.Components.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.AspNetCore.Components.Forms.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.AspNetCore.Components.Web.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.AspNetCore.Metadata.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Bcl.Cryptography.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.AmbientMetadata.Application.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Compliance.Abstractions.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Configuration.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.AutoActivation.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Diagnostics.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Diagnostics.ExceptionSummarization.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Http.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Http.Diagnostics.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Http.Resilience.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Localization.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Localization.Abstractions.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Logging.Configuration.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.ObjectPool.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Resilience.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.ServiceDiscovery.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.ServiceDiscovery.Abstractions.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Telemetry.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Telemetry.Abstractions.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.JSInterop.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\MudBlazor.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Newtonsoft.Json.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\OpenTelemetry.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\OpenTelemetry.Api.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\OpenTelemetry.Api.ProviderBuilderExtensions.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\OpenTelemetry.Exporter.OpenTelemetryProtocol.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\OpenTelemetry.Extensions.Hosting.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\OpenTelemetry.Instrumentation.AspNetCore.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\OpenTelemetry.Instrumentation.Http.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\OpenTelemetry.Instrumentation.Runtime.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Polly.Core.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Polly.Extensions.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Polly.RateLimiting.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\QRCoder.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\SixLabors.ImageSharp.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\System.ClientModel.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\System.Diagnostics.EventLog.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\System.Memory.Data.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\System.Security.Cryptography.Pkcs.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\cs\Microsoft.Data.SqlClient.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\de\Microsoft.Data.SqlClient.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\es\Microsoft.Data.SqlClient.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fr\Microsoft.Data.SqlClient.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\it\Microsoft.Data.SqlClient.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\ja\Microsoft.Data.SqlClient.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\ko\Microsoft.Data.SqlClient.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\pl\Microsoft.Data.SqlClient.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\ru\Microsoft.Data.SqlClient.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\tr\Microsoft.Data.SqlClient.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Diagnostics.EventLog.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Security.Cryptography.Pkcs.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fKVPortalAspireWeb.BL.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fKVPortalAspireWeb.DataAccess.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fKVPortalAspireWeb.Model.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fKVPortalAspireWeb.ServiceDefaults.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fKVPortalAspireWeb.BL.pdb
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fKVPortalAspireWeb.Model.pdb
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fKVPortalAspireWeb.ServiceDefaults.pdb
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fKVPortalAspireWeb.DataAccess.pdb
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\rjimswa.dswa.cache.json
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\scopedcss\Components\Layout\AdminLayout.razor.rz.scp.css
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\scopedcss\bundle\fKVPortalAspireWeb.Web.styles.css
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\scopedcss\projectbundle\fKVPortalAspireWeb.Web.bundle.scp.css
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\tzxjg6is5z-vu9q1asft2.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\0wz98yz2xy-i93b8idyg2.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\yxfdm33bor-63oqyoiiv4.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\refgsao5tb-5vmds449nb.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\d5o4a4wkq9-ct0ej5e0q0.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\sismm8xg1l-ezlxc6gzv3.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\q8v6i1uv3e-pisakkcwob.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\36w3eu0hkb-j8zp7bt7w3.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\mfzx4sb2rv-79hai7knhw.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\jwgvi5nixh-e9sz3gfrxa.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\250y6xderc-1eknwuxfal.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\dq70iefu8b-nt5t2jn2ug.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\44afhf9n9q-hb7m82kqrl.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\um1tengd53-oybu958ua8.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\xbdi9jyksd-t1cqhe9u97.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\aj5rutz8mm-c2jlpeoesf.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\ogcaqbs7nm-sejl45xvog.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\xzssh8ykpx-aexeepp0ev.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\docfpjmshq-xvp3kq03qx.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\jy9zlote2k-ausgxo2sd3.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\jo0q4z3o4z-22vffe00uq.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\gp19uzxhn2-cosvhxvwiu.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\quh8oow235-qesaa3a1fm.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\ilh4mjx4pa-fvhpjtyr6v.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\7it4ehhunz-tmc1g35s3z.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\6da4n6uhpk-fsbi9cje9m.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\04ln8ibg92-rxsg74s51o.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\qtcpx858r2-ee0r1s7dh0.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\ehjqa2fsay-q9ht133ko3.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\3vtjjwx14l-jd9uben2k1.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\9wc8bvmfxa-gye83jo8yx.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\20ssi2r3ny-r4e9w2rdcm.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\dw2g618r7d-wl58j5mj3v.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\tekstnjrrx-c2oey78nd0.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\4mu58iib2f-d4r6k3f320.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\ijbtz2f5tx-j5mq2jizvt.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\rd886hqfgj-keugtjm085.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\qk8bu3elma-nvvlpmu67g.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\8t8frkkf44-zub09dkrxp.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\1qfe5237d7-pj5nd1wqec.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\5beuaaj9bn-43atpzeawx.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\qq9z7x9ymj-v0zj4ognzu.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\5d8cyfco29-ynyaa8k90p.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\dy6ghsr36i-hrwsygsryq.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\tp0x7f4jsp-c63t5i9ira.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\2osj3m6nmo-ft3s53vfgj.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\r3ht4b1o8s-wycuhlyoda.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\cvs9dv6d5u-ti4rm4jxno.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\ivpfofd2x9-sebe1i1n8x.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\miun7555s1-gohkmj42iq.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\z9fnj81789-4ys8m4e558.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\6eerb6pra8-n0cvxkgl7c.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\sj7n5db9d4-l53j0jwsua.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\qa6rf2puzz-jtdizdhtp0.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\dvo74pei6t-c0xlv7vgs3.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\flon31nwuc-17gd4bzdp3.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\0aykxxnxkn-iug4zs40ca.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\9q9aixyb38-0p3qeehy6k.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\5pb5ikadpp-2eijknf10w.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\eojifsclv0-7t9tbfaemk.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\495d4n6e86-7oo26i3tt0.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\dy09gbvyl6-lgc2lvwy8i.gz
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\staticwebassets.build.json
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\staticwebassets.build.json.cache
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\staticwebassets.development.json
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\fKVPorta.8DF28801.Up2Date
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\fKVPortalAspireWeb.Web.genruntimeconfig.cache
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\ref\fKVPortalAspireWeb.Web.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\web.config
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\jrownh64uk-3r8b2a0bt1.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\dq70iefu8b-pumiop8o01.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\scopedcss\Components\Layout\ClientLayout.razor.rz.scp.css
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\495d4n6e86-l397hjyt47.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\dy09gbvyl6-cd3r9ei6it.gz
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\jwgvi5nixh-fdby86u0ux.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\appsettings.Development.json
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\appsettings.json
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\web.config
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fKVPortalAspireWeb.Web.staticwebassets.runtime.json
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fKVPortalAspireWeb.Web.staticwebassets.endpoints.json
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fKVPortalAspireWeb.Web.exe
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fKVPortalAspireWeb.Web.deps.json
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fKVPortalAspireWeb.Web.runtimeconfig.json
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fKVPortalAspireWeb.Web.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fKVPortalAspireWeb.Web.pdb
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Azure.Core.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Azure.Identity.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\BCrypt.Net-Next.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\BlazorBootstrap.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Blazored.LocalStorage.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Blazored.Toast.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\BouncyCastle.Cryptography.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Dapper.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\itextsharp.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.AspNetCore.Authorization.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.AspNetCore.Components.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.AspNetCore.Components.Forms.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.AspNetCore.Components.Web.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.AspNetCore.Metadata.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Bcl.Cryptography.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.AmbientMetadata.Application.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Compliance.Abstractions.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Configuration.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.AutoActivation.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Diagnostics.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Diagnostics.ExceptionSummarization.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Http.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Http.Diagnostics.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Http.Resilience.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Localization.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Localization.Abstractions.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Logging.Configuration.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.ObjectPool.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Resilience.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.ServiceDiscovery.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.ServiceDiscovery.Abstractions.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Telemetry.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Extensions.Telemetry.Abstractions.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.JSInterop.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\MudBlazor.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Newtonsoft.Json.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\OpenTelemetry.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\OpenTelemetry.Api.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\OpenTelemetry.Api.ProviderBuilderExtensions.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\OpenTelemetry.Exporter.OpenTelemetryProtocol.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\OpenTelemetry.Extensions.Hosting.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\OpenTelemetry.Instrumentation.AspNetCore.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\OpenTelemetry.Instrumentation.Http.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\OpenTelemetry.Instrumentation.Runtime.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Polly.Core.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Polly.Extensions.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\Polly.RateLimiting.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\QRCoder.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\SixLabors.ImageSharp.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\System.ClientModel.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\System.Diagnostics.EventLog.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\System.Memory.Data.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\System.Security.Cryptography.Pkcs.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\cs\Microsoft.Data.SqlClient.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\de\Microsoft.Data.SqlClient.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\es\Microsoft.Data.SqlClient.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fr\Microsoft.Data.SqlClient.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\it\Microsoft.Data.SqlClient.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\ja\Microsoft.Data.SqlClient.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\ko\Microsoft.Data.SqlClient.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\pl\Microsoft.Data.SqlClient.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\ru\Microsoft.Data.SqlClient.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\tr\Microsoft.Data.SqlClient.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Diagnostics.EventLog.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Security.Cryptography.Pkcs.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fKVPortalAspireWeb.BL.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fKVPortalAspireWeb.DataAccess.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fKVPortalAspireWeb.Model.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fKVPortalAspireWeb.ServiceDefaults.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fKVPortalAspireWeb.BL.pdb
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fKVPortalAspireWeb.Model.pdb
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fKVPortalAspireWeb.ServiceDefaults.pdb
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\bin\Debug\net9.0\fKVPortalAspireWeb.DataAccess.pdb
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\fKVPortalAspireWeb.Web.csproj.AssemblyReference.cache
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\rpswa.dswa.cache.json
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\fKVPortalAspireWeb.Web.GeneratedMSBuildEditorConfig.editorconfig
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\fKVPortalAspireWeb.Web.AssemblyInfoInputs.cache
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\fKVPortalAspireWeb.Web.AssemblyInfo.cs
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\fKVPortalAspireWeb.Web.csproj.CoreCompileInputs.cache
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\fKVPortalAspireWeb.Web.MvcApplicationPartsAssemblyInfo.cache
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\fKVPortalAspireWeb.Web.sourcelink.json
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\rjimswa.dswa.cache.json
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\scopedcss\Components\Layout\AdminLayout.razor.rz.scp.css
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\scopedcss\Components\Layout\ClientLayout.razor.rz.scp.css
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\scopedcss\bundle\fKVPortalAspireWeb.Web.styles.css
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\scopedcss\projectbundle\fKVPortalAspireWeb.Web.bundle.scp.css
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\tzxjg6is5z-vu9q1asft2.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\0wz98yz2xy-i93b8idyg2.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\yxfdm33bor-63oqyoiiv4.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\refgsao5tb-5vmds449nb.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\d5o4a4wkq9-ct0ej5e0q0.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\sismm8xg1l-ezlxc6gzv3.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\q8v6i1uv3e-pisakkcwob.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\36w3eu0hkb-j8zp7bt7w3.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\mfzx4sb2rv-79hai7knhw.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\jwgvi5nixh-fdby86u0ux.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\jrownh64uk-3r8b2a0bt1.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\250y6xderc-1eknwuxfal.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\dq70iefu8b-pumiop8o01.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\44afhf9n9q-hb7m82kqrl.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\um1tengd53-oybu958ua8.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\xbdi9jyksd-t1cqhe9u97.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\aj5rutz8mm-c2jlpeoesf.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\ogcaqbs7nm-sejl45xvog.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\xzssh8ykpx-aexeepp0ev.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\docfpjmshq-xvp3kq03qx.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\jy9zlote2k-ausgxo2sd3.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\jo0q4z3o4z-22vffe00uq.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\gp19uzxhn2-cosvhxvwiu.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\quh8oow235-qesaa3a1fm.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\ilh4mjx4pa-fvhpjtyr6v.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\7it4ehhunz-tmc1g35s3z.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\6da4n6uhpk-fsbi9cje9m.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\04ln8ibg92-rxsg74s51o.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\qtcpx858r2-ee0r1s7dh0.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\ehjqa2fsay-q9ht133ko3.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\3vtjjwx14l-jd9uben2k1.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\9wc8bvmfxa-gye83jo8yx.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\20ssi2r3ny-r4e9w2rdcm.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\dw2g618r7d-wl58j5mj3v.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\tekstnjrrx-c2oey78nd0.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\4mu58iib2f-d4r6k3f320.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\ijbtz2f5tx-j5mq2jizvt.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\rd886hqfgj-keugtjm085.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\qk8bu3elma-nvvlpmu67g.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\8t8frkkf44-zub09dkrxp.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\1qfe5237d7-pj5nd1wqec.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\5beuaaj9bn-43atpzeawx.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\qq9z7x9ymj-v0zj4ognzu.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\5d8cyfco29-ynyaa8k90p.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\dy6ghsr36i-hrwsygsryq.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\tp0x7f4jsp-c63t5i9ira.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\2osj3m6nmo-ft3s53vfgj.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\r3ht4b1o8s-wycuhlyoda.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\cvs9dv6d5u-ti4rm4jxno.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\ivpfofd2x9-sebe1i1n8x.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\miun7555s1-gohkmj42iq.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\z9fnj81789-4ys8m4e558.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\6eerb6pra8-n0cvxkgl7c.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\sj7n5db9d4-l53j0jwsua.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\qa6rf2puzz-jtdizdhtp0.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\dvo74pei6t-c0xlv7vgs3.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\flon31nwuc-17gd4bzdp3.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\0aykxxnxkn-iug4zs40ca.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\9q9aixyb38-0p3qeehy6k.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\5pb5ikadpp-2eijknf10w.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\eojifsclv0-7t9tbfaemk.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\495d4n6e86-l397hjyt47.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\compressed\dy09gbvyl6-cd3r9ei6it.gz
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\staticwebassets.build.json
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\staticwebassets.build.json.cache
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\staticwebassets.development.json
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\fKVPorta.8DF28801.Up2Date
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\fKVPortalAspireWeb.Web.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\refint\fKVPortalAspireWeb.Web.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\fKVPortalAspireWeb.Web.pdb
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\fKVPortalAspireWeb.Web.genruntimeconfig.cache
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.Web\obj\Debug\net9.0\ref\fKVPortalAspireWeb.Web.dll

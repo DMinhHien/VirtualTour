@@ -1,0 +1,396 @@
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\fKVPortalAspireWeb.AppHost.exe
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\fKVPortalAspireWeb.AppHost.deps.json
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\fKVPortalAspireWeb.AppHost.runtimeconfig.json
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\fKVPortalAspireWeb.AppHost.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\fKVPortalAspireWeb.AppHost.pdb
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Aspire.Hosting.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Aspire.Hosting.AppHost.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\HealthChecks.Uris.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Fractions.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Google.Protobuf.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Grpc.AspNetCore.Server.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Grpc.AspNetCore.Server.ClientFactory.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Grpc.Core.Api.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Grpc.Net.Client.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Grpc.Net.ClientFactory.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Grpc.Net.Common.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Humanizer.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Json.More.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\JsonPatch.Net.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\JsonPointer.Net.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\KubernetesClient.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Polly.Core.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\YamlDotNet.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\cs\Aspire.Hosting.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\de\Aspire.Hosting.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\es\Aspire.Hosting.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\fr\Aspire.Hosting.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\it\Aspire.Hosting.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\ja\Aspire.Hosting.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\ko\Aspire.Hosting.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\pl\Aspire.Hosting.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\pt-BR\Aspire.Hosting.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\ru\Aspire.Hosting.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\tr\Aspire.Hosting.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\zh-Hans\Aspire.Hosting.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\zh-Hant\Aspire.Hosting.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\obj\Debug\net9.0\fKVPortalAspireWeb.AppHost.csproj.AssemblyReference.cache
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\obj\Debug\net9.0\fKVPortalAspireWeb.AppHost.GeneratedMSBuildEditorConfig.editorconfig
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\obj\Debug\net9.0\fKVPortalAspireWeb.AppHost.AssemblyInfoInputs.cache
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\obj\Debug\net9.0\fKVPortalAspireWeb.AppHost.AssemblyInfo.cs
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\obj\Debug\net9.0\fKVPortalAspireWeb.AppHost.csproj.CoreCompileInputs.cache
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\obj\Debug\net9.0\Aspire\references\fKVPortalAspireWeb_ApiService.ProjectMetadata.g.cs
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\obj\Debug\net9.0\Aspire\references\fKVPortalAspireWeb_Web.ProjectMetadata.g.cs
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\obj\Debug\net9.0\Aspire\references\_AppHost.ProjectMetadata.g.cs
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\obj\Debug\net9.0\fKVPorta.0F07F54F.Up2Date
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\obj\Debug\net9.0\fKVPortalAspireWeb.AppHost.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\obj\Debug\net9.0\refint\fKVPortalAspireWeb.AppHost.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\obj\Debug\net9.0\fKVPortalAspireWeb.AppHost.pdb
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\obj\Debug\net9.0\fKVPortalAspireWeb.AppHost.genruntimeconfig.cache
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\obj\Debug\net9.0\ref\fKVPortalAspireWeb.AppHost.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\fKVPortalAspireWeb.AppHost.exe
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\fKVPortalAspireWeb.AppHost.deps.json
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\fKVPortalAspireWeb.AppHost.runtimeconfig.json
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\fKVPortalAspireWeb.AppHost.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\fKVPortalAspireWeb.AppHost.pdb
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Aspire.Hosting.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Aspire.Hosting.AppHost.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\HealthChecks.Uris.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Fractions.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Google.Protobuf.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Grpc.AspNetCore.Server.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Grpc.AspNetCore.Server.ClientFactory.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Grpc.Core.Api.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Grpc.Net.Client.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Grpc.Net.ClientFactory.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Grpc.Net.Common.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Humanizer.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Json.More.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\JsonPatch.Net.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\JsonPointer.Net.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\KubernetesClient.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Polly.Core.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\YamlDotNet.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\cs\Aspire.Hosting.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\de\Aspire.Hosting.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\es\Aspire.Hosting.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\fr\Aspire.Hosting.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\it\Aspire.Hosting.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\ja\Aspire.Hosting.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\ko\Aspire.Hosting.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\pl\Aspire.Hosting.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\pt-BR\Aspire.Hosting.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\ru\Aspire.Hosting.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\tr\Aspire.Hosting.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\zh-Hans\Aspire.Hosting.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\zh-Hant\Aspire.Hosting.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\obj\Debug\net9.0\fKVPortalAspireWeb.AppHost.csproj.AssemblyReference.cache
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\obj\Debug\net9.0\fKVPortalAspireWeb.AppHost.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\obj\Debug\net9.0\fKVPortalAspireWeb.AppHost.AssemblyInfoInputs.cache
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\obj\Debug\net9.0\fKVPortalAspireWeb.AppHost.AssemblyInfo.cs
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\obj\Debug\net9.0\fKVPortalAspireWeb.AppHost.csproj.CoreCompileInputs.cache
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\obj\Debug\net9.0\Aspire\references\fKVPortalAspireWeb_ApiService.ProjectMetadata.g.cs
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\obj\Debug\net9.0\Aspire\references\fKVPortalAspireWeb_Web.ProjectMetadata.g.cs
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\obj\Debug\net9.0\Aspire\references\_AppHost.ProjectMetadata.g.cs
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\obj\Debug\net9.0\fKVPortalAspireWeb.AppHost.sourcelink.json
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\obj\Debug\net9.0\fKVPorta.0F07F54F.Up2Date
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\obj\Debug\net9.0\fKVPortalAspireWeb.AppHost.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\obj\Debug\net9.0\refint\fKVPortalAspireWeb.AppHost.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\obj\Debug\net9.0\fKVPortalAspireWeb.AppHost.pdb
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\obj\Debug\net9.0\fKVPortalAspireWeb.AppHost.genruntimeconfig.cache
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\obj\Debug\net9.0\ref\fKVPortalAspireWeb.AppHost.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\obj\Debug\net9.0\fKVPortalAspireWeb.AppHost.sourcelink.json
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\MessagePack.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\MessagePack.Annotations.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Configuration.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Configuration.CommandLine.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Json.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Configuration.UserSecrets.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Diagnostics.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Hosting.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Http.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Logging.Configuration.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Logging.Console.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Logging.Debug.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Logging.EventLog.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Logging.EventSource.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.NET.StringTools.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.VisualStudio.Threading.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.VisualStudio.Validation.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Nerdbank.Streams.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Newtonsoft.Json.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Semver.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\StreamJsonRpc.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\System.Diagnostics.EventLog.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\System.IO.Hashing.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\cs\Microsoft.VisualStudio.Threading.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\de\Microsoft.VisualStudio.Threading.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\es\Microsoft.VisualStudio.Threading.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\fr\Microsoft.VisualStudio.Threading.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\it\Microsoft.VisualStudio.Threading.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\ja\Microsoft.VisualStudio.Threading.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\ko\Microsoft.VisualStudio.Threading.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\pl\Microsoft.VisualStudio.Threading.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\pt-BR\Microsoft.VisualStudio.Threading.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\ru\Microsoft.VisualStudio.Threading.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\tr\Microsoft.VisualStudio.Threading.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\zh-Hans\Microsoft.VisualStudio.Threading.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\zh-Hant\Microsoft.VisualStudio.Threading.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\cs\Microsoft.VisualStudio.Validation.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\de\Microsoft.VisualStudio.Validation.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\es\Microsoft.VisualStudio.Validation.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\fr\Microsoft.VisualStudio.Validation.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\it\Microsoft.VisualStudio.Validation.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\ja\Microsoft.VisualStudio.Validation.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\ko\Microsoft.VisualStudio.Validation.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\pl\Microsoft.VisualStudio.Validation.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\pt-BR\Microsoft.VisualStudio.Validation.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\ru\Microsoft.VisualStudio.Validation.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\tr\Microsoft.VisualStudio.Validation.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\zh-Hans\Microsoft.VisualStudio.Validation.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\zh-Hant\Microsoft.VisualStudio.Validation.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\cs\StreamJsonRpc.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\de\StreamJsonRpc.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\es\StreamJsonRpc.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\fr\StreamJsonRpc.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\it\StreamJsonRpc.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\ja\StreamJsonRpc.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\ko\StreamJsonRpc.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\pl\StreamJsonRpc.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\pt-BR\StreamJsonRpc.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\ru\StreamJsonRpc.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\tr\StreamJsonRpc.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\zh-Hans\StreamJsonRpc.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\zh-Hant\StreamJsonRpc.resources.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Diagnostics.EventLog.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\MessagePack.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\MessagePack.Annotations.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Configuration.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Diagnostics.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Hosting.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Http.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Logging.Console.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Logging.EventLog.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Logging.EventSource.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.NET.StringTools.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.VisualStudio.Threading.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.VisualStudio.Validation.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Nerdbank.Streams.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Semver.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\StreamJsonRpc.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\System.Diagnostics.EventLog.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\System.IO.Hashing.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\cs\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\de\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\es\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\fr\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\it\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\ja\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\ko\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\pl\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\pt-BR\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\ru\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\tr\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\zh-Hans\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\zh-Hant\Microsoft.VisualStudio.Threading.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\cs\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\de\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\es\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\fr\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\it\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\ja\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\ko\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\pl\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\pt-BR\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\ru\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\tr\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\zh-Hans\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\zh-Hant\Microsoft.VisualStudio.Validation.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\cs\StreamJsonRpc.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\de\StreamJsonRpc.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\es\StreamJsonRpc.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\fr\StreamJsonRpc.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\it\StreamJsonRpc.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\ja\StreamJsonRpc.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\ko\StreamJsonRpc.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\pl\StreamJsonRpc.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\pt-BR\StreamJsonRpc.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\ru\StreamJsonRpc.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\tr\StreamJsonRpc.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\zh-Hans\StreamJsonRpc.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\zh-Hant\StreamJsonRpc.resources.dll
+C:\Users\IT Intern\fKVPortalAspireWeb\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Diagnostics.EventLog.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\fKVPortalAspireWeb.AppHost.exe
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\fKVPortalAspireWeb.AppHost.deps.json
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\fKVPortalAspireWeb.AppHost.runtimeconfig.json
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\fKVPortalAspireWeb.AppHost.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\fKVPortalAspireWeb.AppHost.pdb
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Aspire.Hosting.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Aspire.Hosting.AppHost.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\HealthChecks.Uris.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Fractions.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Google.Protobuf.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Grpc.AspNetCore.Server.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Grpc.AspNetCore.Server.ClientFactory.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Grpc.Core.Api.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Grpc.Net.Client.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Grpc.Net.ClientFactory.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Grpc.Net.Common.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Humanizer.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Json.More.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\JsonPatch.Net.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\JsonPointer.Net.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\KubernetesClient.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\MessagePack.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\MessagePack.Annotations.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Configuration.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Configuration.CommandLine.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Json.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Configuration.UserSecrets.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Diagnostics.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Hosting.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Http.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Logging.Configuration.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Logging.Console.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Logging.Debug.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Logging.EventLog.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Logging.EventSource.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.NET.StringTools.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.VisualStudio.Threading.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Microsoft.VisualStudio.Validation.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Nerdbank.Streams.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Newtonsoft.Json.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Polly.Core.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\Semver.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\StreamJsonRpc.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\System.Diagnostics.EventLog.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\System.IO.Hashing.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\YamlDotNet.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\cs\Aspire.Hosting.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\de\Aspire.Hosting.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\es\Aspire.Hosting.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\fr\Aspire.Hosting.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\it\Aspire.Hosting.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\ja\Aspire.Hosting.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\ko\Aspire.Hosting.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\pl\Aspire.Hosting.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\pt-BR\Aspire.Hosting.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\ru\Aspire.Hosting.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\tr\Aspire.Hosting.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\zh-Hans\Aspire.Hosting.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\zh-Hant\Aspire.Hosting.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\cs\Microsoft.VisualStudio.Threading.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\de\Microsoft.VisualStudio.Threading.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\es\Microsoft.VisualStudio.Threading.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\fr\Microsoft.VisualStudio.Threading.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\it\Microsoft.VisualStudio.Threading.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\ja\Microsoft.VisualStudio.Threading.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\ko\Microsoft.VisualStudio.Threading.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\pl\Microsoft.VisualStudio.Threading.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\pt-BR\Microsoft.VisualStudio.Threading.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\ru\Microsoft.VisualStudio.Threading.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\tr\Microsoft.VisualStudio.Threading.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\zh-Hans\Microsoft.VisualStudio.Threading.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\zh-Hant\Microsoft.VisualStudio.Threading.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\cs\Microsoft.VisualStudio.Validation.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\de\Microsoft.VisualStudio.Validation.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\es\Microsoft.VisualStudio.Validation.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\fr\Microsoft.VisualStudio.Validation.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\it\Microsoft.VisualStudio.Validation.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\ja\Microsoft.VisualStudio.Validation.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\ko\Microsoft.VisualStudio.Validation.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\pl\Microsoft.VisualStudio.Validation.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\pt-BR\Microsoft.VisualStudio.Validation.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\ru\Microsoft.VisualStudio.Validation.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\tr\Microsoft.VisualStudio.Validation.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\zh-Hans\Microsoft.VisualStudio.Validation.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\zh-Hant\Microsoft.VisualStudio.Validation.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\cs\StreamJsonRpc.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\de\StreamJsonRpc.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\es\StreamJsonRpc.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\fr\StreamJsonRpc.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\it\StreamJsonRpc.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\ja\StreamJsonRpc.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\ko\StreamJsonRpc.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\pl\StreamJsonRpc.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\pt-BR\StreamJsonRpc.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\ru\StreamJsonRpc.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\tr\StreamJsonRpc.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\zh-Hans\StreamJsonRpc.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\zh-Hant\StreamJsonRpc.resources.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Diagnostics.EventLog.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\obj\Debug\net9.0\fKVPortalAspireWeb.AppHost.csproj.AssemblyReference.cache
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\obj\Debug\net9.0\fKVPortalAspireWeb.AppHost.GeneratedMSBuildEditorConfig.editorconfig
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\obj\Debug\net9.0\fKVPortalAspireWeb.AppHost.AssemblyInfoInputs.cache
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\obj\Debug\net9.0\fKVPortalAspireWeb.AppHost.AssemblyInfo.cs
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\obj\Debug\net9.0\fKVPortalAspireWeb.AppHost.csproj.CoreCompileInputs.cache
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\obj\Debug\net9.0\Aspire\references\fKVPortalAspireWeb_ApiService.ProjectMetadata.g.cs
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\obj\Debug\net9.0\Aspire\references\fKVPortalAspireWeb_Web.ProjectMetadata.g.cs
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\obj\Debug\net9.0\Aspire\references\_AppHost.ProjectMetadata.g.cs
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\obj\Debug\net9.0\fKVPortalAspireWeb.AppHost.sourcelink.json
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\obj\Debug\net9.0\fKVPorta.0F07F54F.Up2Date
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\obj\Debug\net9.0\fKVPortalAspireWeb.AppHost.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\obj\Debug\net9.0\refint\fKVPortalAspireWeb.AppHost.dll
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\obj\Debug\net9.0\fKVPortalAspireWeb.AppHost.pdb
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\obj\Debug\net9.0\fKVPortalAspireWeb.AppHost.genruntimeconfig.cache
+D:\UDC\fKVPortalAspireWeb\fKVPortalAspireWeb.AppHost\obj\Debug\net9.0\ref\fKVPortalAspireWeb.AppHost.dll

@@ -1,0 +1,36 @@
+﻿@page "/admin"
+@layout AdminLayout
+@using MudBlazor
+@inject NavigationManager Navigation
+@inject IApiClient ApiClient
+@using Newtonsoft.Json
+@using VirtualTour.Web.Components.BaseComponents
+@using VirtualTour.Web.Components.Layout
+@inject ApiAuthenticationStateProvider AuthStateProvider
+<h3>Admin Dashboard</h3>
+@if (isLoading)
+{
+    <p>Loading Dashboard...</p>
+}
+else
+{
+    <PermissionView Permission="Admin.View">
+           <MudText Typo="Typo.h4">Welcome to Admin Page!</MudText>
+ </PermissionView>
+ }
+ 
+@code {
+    private bool isLoading = true;
+    protected override async Task OnInitializedAsync()
+    {
+        var authState = await AuthStateProvider.GetAuthenticationStateAsync();
+        var user = authState.User;
+        if (!user.Identity.IsAuthenticated)
+        {
+            Navigation.NavigateTo("/admin/login", true);
+            return;
+        }
+        isLoading = false;
+    }
+
+}

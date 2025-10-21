@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "fKVPortalAspireWeb.ApiService\\VirtualTour.ApiService.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "fKVPortalAspireWeb.Web\\VirtualTour.Web.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

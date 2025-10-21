@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Components\Pages\Admin\Wifi.razor\**" />
+    <Content Remove="Components\Pages\Admin\Wifi.razor\**" />
+    <EmbeddedResource Remove="Components\Pages\Admin\Wifi.razor\**" />
+    <None Remove="Components\Pages\Admin\Wifi.razor\**" />
+	<None Include="web.config" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Authentication\ApiAuthenticationStateProvider.cs" />
+  </ItemGroup>
+	
+  <ItemGroup>
+    <PackageReference Include="Blazor.Bootstrap" Version="3.4.0" />
+    <PackageReference Include="Blazored.Toast" Version="3.2.2" />
+    <PackageReference Include="iTextSharp" Version="5.5.13.4" />
+    <PackageReference Include="MudBlazor" Version="8.10.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="QRCoder" Version="1.6.0" />
+    <PackageReference Include="QRCoder-ImageSharp" Version="0.10.0" />
+    <PackageReference Include="SixLabors.ImageSharp" Version="3.1.11" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.13.0" />
+	<PackageReference Include="Blazored.LocalStorage" Version="4.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VirtualTour.BL\VirtualTour.BL.csproj" />
+    <ProjectReference Include="..\VirtualTour.Model\VirtualTour.Model.csproj" />
+    <ProjectReference Include="..\VirtualTour.ServiceDefaults\VirtualTour.ServiceDefaults.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\images\avatars\" />
+  </ItemGroup>
+
+</Project>

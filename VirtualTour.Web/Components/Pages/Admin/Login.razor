@@ -1,0 +1,152 @@
+﻿@page "/admin/login"
+@using Blazored.Toast.Services
+@using VirtualTour.Web.Authorization
+@using VirtualTour.Web.Components.BaseComponents
+@using VirtualTour.Web.Components.Layout
+@using MudBlazor
+@using System.Text.RegularExpressions;
+@layout EmptyLayout
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+@inject IApiClient userApiClient;
+@inject ApiAuthenticationStateProvider AuthStateProvider;
+@inject IToastService ToastService
+@inject IDialogService DialogService
+<PageTitle>Login</PageTitle>
+<style>
+    .forgot-password {
+        cursor: pointer;
+        color: inherit;
+    }
+    .forgot-password:hover {
+        color: #ED6C02; /* MudBlazor default warning color */
+    }
+</style
+<div style="height: 100vh; display: flex; align-items: center; justify-content: center; background-color: #3b3b3b;">
+    <MudCard Style="width: 800px; height:700px">
+     <MudIconButton Icon="@Icons.Material.Filled.ArrowBack" 
+                 OnClick="()=>NavigateToHome()"
+                   Style="position: absolute; top: 10px; left: 10px;color:white"/>
+        <MudCardContent style="display: flex;flex-direction: column; justify-content: center; align-items: center; height: 100%;">
+          <div style="display: flex; align-items: center;">
+            <div style="flex: 0 0 auto; margin-right: 60px;">
+                    <MudImage Src="logo.jpg" Style="margin-bottom:100px" Width="200" Height="120" />
+                </div>
+            <div style="flex: 1;margin-bottom:50px" >
+            <MudText Style="font-weight:bold;margin-bottom:40px" Typo="Typo.h5" Align="Align.Center" >Login to your account</MudText>
+            @if (ShowSessionExpiredMessage)
+            {
+                <MudAlert Severity="Severity.Warning" Elevation="0" Variant="Variant.Filled" Dense="true">
+                    Your session has expired. Please log in again.
+                </MudAlert>
+            }
+            @if (ShowErrors)
+            {
+                <MudAlert Severity="Severity.Error" Elevation="0" Variant="Variant.Filled" Dense="true">
+                    @Error
+                </MudAlert>
+            }
+
+            <EditForm Model="loginModel" OnValidSubmit="HandleLogin">
+                <DataAnnotationsValidator />
+                <ValidationSummary />
+                 <MudTextField @bind-Value="loginModel.Email" Label="Email/UserName" 
+                              For="() => loginModel.Email" 
+                              Required="true" Margin="Margin.Normal" FullWidth="true"
+                              Variant="Variant.Outlined" 
+                              Adornment="Adornment.End" AdornmentIcon="@Icons.Material.Filled.Email"
+                              Style="min-width:400px;"/>
+                <MudTextField @bind-Value="loginModel.Password" Label="Password" 
+                              For="() => loginModel.Password" InputType="@PasswordInput" 
+                              Variant="Variant.Outlined" 
+                              Required="true" Margin="Margin.Normal" FullWidth="true"
+                              Adornment="Adornment.End" AdornmentIcon="@PasswordInputIcon" OnAdornmentClick="ButtonTestclick" AdornmentAriaLabel="Show Password" 
+                              Style="min-width:400px;"/>
+                <MudButton Disabled="isSubmitting" ButtonType="ButtonType.Submit" Color="Color.Success" Variant="Variant.Filled" FullWidth="true" Style="margin-top:40px;">
+                    Login
+                </MudButton>
+                <div class="mt-3">
+                    <MudText Align="Align.End" Class="forgot-password" @onclick="ForgotAsync" Style="margin-top:50px">Forgot password?</MudText>
+                </div>
+            </EditForm>
+               </div>
+                 </div>
+                    <MudText Typo="Typo.caption" Align="Align.Center" Style="color:#6c757d; margin-bottom:-40px;margin-top:40px">
+                Copyright ©2025 Framas Korea Vina. All rights reserved.
+            </MudText>
+        </MudCardContent>
+    </MudCard>
+</div>
+
+@code {
+    private bool ShowErrors;
+    private bool ShowSessionExpiredMessage;
+    private bool isSubmitting;
+    private string Error = "";
+    [SupplyParameterFromForm]
+    private ReqLoginDTO loginModel { get; set; } = new ReqLoginDTO();
+    bool isShow;
+    string PasswordInputIcon = Icons.Material.Filled.VisibilityOff;
+    InputType PasswordInput = InputType.Password;
+    private async Task HandleLogin()
+    {
+         if (isSubmitting)
+        return;
+
+        isSubmitting = true;
+        ShowErrors = false;
+        string apiUrl = "/api/auth/login_username";
+        var result = await userApiClient.PostAsync<LoginResponse, ReqLoginDTO>(apiUrl, loginModel);
+        if (result != null)
+        {
+            await AuthStateProvider.MarkUserAsAuthenticated(result);
+            NavigationManager.NavigateTo("/admin");
+        }
+        else
+        {
+            ShowErrors = true;
+            Error = "Authenticate Failed";
+        }
+        isSubmitting = false;
+    }
+    protected override void OnInitialized()
+    {
+        var uri = NavigationManager.ToAbsoluteUri(NavigationManager.Uri);
+        var query = Microsoft.AspNetCore.WebUtilities.QueryHelpers.ParseQuery(uri.Query);
+        if (query.TryGetValue("sessionExpired", out var expired))
+        {
+            ShowSessionExpiredMessage = expired == "true";
+        }
+    }
+    private void NavigateToHome()
+    {
+           NavigationManager.NavigateTo("/");
+    }
+    void ButtonTestclick()
+    {
+        @if (isShow)
+        {
+            isShow = false;
+            PasswordInputIcon = Icons.Material.Filled.VisibilityOff;
+            PasswordInput = InputType.Password;
+        }
+        else {
+            isShow = true;
+            PasswordInputIcon = Icons.Material.Filled.Visibility;
+            PasswordInput = InputType.Text;
+        }
+    }
+    private Task ForgotAsync()
+    {
+        var parameters = new DialogParameters<Dialog>
+        {
+            { x => x.ContentText, "Please contact Admin to reset your password" },
+            { x => x.ButtonText, "Ok" },
+            { x => x.Color, Color.Primary }
+        };
+
+        var options = new DialogOptions() { CloseButton = true, MaxWidth = MaxWidth.ExtraSmall };
+
+        return DialogService.ShowAsync<Dialog>("Forgot your password?", parameters, options);
+    }
+}

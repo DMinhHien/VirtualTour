@@ -1,0 +1,11 @@
+﻿@using VirtualTour.Web.Authorization
+@inject IPermissionChecker Checker
+@inject NavigationManager NavigationManager
+@if (Checker.HasPermission(Permission))
+{
+    @ChildContent
+}
+@code {
+    [Parameter] public string Permission { get; set; } = "";
+    [Parameter] public RenderFragment ChildContent { get; set; } = default!;
+}

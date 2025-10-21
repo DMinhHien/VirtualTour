@@ -1,0 +1,13 @@
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.DataAccess\bin\Release\net8.0\fKVPortalAspireWeb.DataAccess.deps.json
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.DataAccess\bin\Release\net8.0\fKVPortalAspireWeb.DataAccess.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.DataAccess\bin\Release\net8.0\fKVPortalAspireWeb.DataAccess.pdb
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.DataAccess\obj\Release\net8.0\fKVPortalAspireWeb.DataAccess.csproj.AssemblyReference.cache
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.DataAccess\obj\Release\net8.0\fKVPortalAspireWeb.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.DataAccess\obj\Release\net8.0\fKVPortalAspireWeb.DataAccess.AssemblyInfoInputs.cache
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.DataAccess\obj\Release\net8.0\fKVPortalAspireWeb.DataAccess.AssemblyInfo.cs
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.DataAccess\obj\Release\net8.0\fKVPortalAspireWeb.DataAccess.csproj.CoreCompileInputs.cache
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.DataAccess\obj\Release\net8.0\fKVPortalAspireWeb.DataAccess.sourcelink.json
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.DataAccess\obj\Release\net8.0\fKVPortalAspireWeb.DataAccess.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.DataAccess\obj\Release\net8.0\refint\fKVPortalAspireWeb.DataAccess.dll
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.DataAccess\obj\Release\net8.0\fKVPortalAspireWeb.DataAccess.pdb
+D:\01_Source_Code\03_Project_Tools\fKVPortalAspireWeb\fKVPortalAspireWeb.DataAccess\obj\Release\net8.0\ref\fKVPortalAspireWeb.DataAccess.dll

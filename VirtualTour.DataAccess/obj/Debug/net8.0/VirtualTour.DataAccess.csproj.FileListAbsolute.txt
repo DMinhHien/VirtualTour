@@ -1,0 +1,13 @@
+D:\UDC\VirtualTour\VirtualTour.DataAccess\bin\Debug\net8.0\VirtualTour.DataAccess.deps.json
+D:\UDC\VirtualTour\VirtualTour.DataAccess\bin\Debug\net8.0\VirtualTour.DataAccess.dll
+D:\UDC\VirtualTour\VirtualTour.DataAccess\bin\Debug\net8.0\VirtualTour.DataAccess.pdb
+D:\UDC\VirtualTour\VirtualTour.DataAccess\obj\Debug\net8.0\VirtualTour.DataAccess.csproj.AssemblyReference.cache
+D:\UDC\VirtualTour\VirtualTour.DataAccess\obj\Debug\net8.0\VirtualTour.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\UDC\VirtualTour\VirtualTour.DataAccess\obj\Debug\net8.0\VirtualTour.DataAccess.AssemblyInfoInputs.cache
+D:\UDC\VirtualTour\VirtualTour.DataAccess\obj\Debug\net8.0\VirtualTour.DataAccess.AssemblyInfo.cs
+D:\UDC\VirtualTour\VirtualTour.DataAccess\obj\Debug\net8.0\VirtualTour.DataAccess.csproj.CoreCompileInputs.cache
+D:\UDC\VirtualTour\VirtualTour.DataAccess\obj\Debug\net8.0\VirtualTour.DataAccess.sourcelink.json
+D:\UDC\VirtualTour\VirtualTour.DataAccess\obj\Debug\net8.0\VirtualTour.DataAccess.dll
+D:\UDC\VirtualTour\VirtualTour.DataAccess\obj\Debug\net8.0\refint\VirtualTour.DataAccess.dll
+D:\UDC\VirtualTour\VirtualTour.DataAccess\obj\Debug\net8.0\VirtualTour.DataAccess.pdb
+D:\UDC\VirtualTour\VirtualTour.DataAccess\obj\Debug\net8.0\ref\VirtualTour.DataAccess.dll
