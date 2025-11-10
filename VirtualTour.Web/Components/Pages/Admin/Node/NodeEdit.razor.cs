@@ -31,8 +31,10 @@ namespace VirtualTour.Web.Components.Pages.Admin.Node
         public LinkedNodes selectedHotSpot;
         private List<NodeModel> nodes = new List<NodeModel>();
         private int nextMarkerId = 0;
-        public List<string> Areas { get; set; } = new List<string>();
-        public List<string> Depts { get; set; } = new List<string>();
+        public List<AreaModel> Areas { get; set; } = new List<AreaModel>();
+        public List<DeptModel> Depts { get; set; } = new List<DeptModel>();
+        public List<SectionModel> Sections { get; set; } = new List<SectionModel>();
+        public List<FloorModel> Floors { get; set; } = new List<FloorModel>();
         public class ViewerPosition
         {
             public double yaw { get; set; }
@@ -72,16 +74,20 @@ namespace VirtualTour.Web.Components.Pages.Admin.Node
             {
                 _toastService.ShowError("Failed to load node data: " + res.ErrorMessage);
             }
-            res = await _apiClient.GetFromJsonAsync<BaseResponseModel>("/api/node/getAllArea");
-            if (res.Success && res.Data != null)
-            {
-                Areas = JsonConvert.DeserializeObject<List<string>>(res.Data.ToString());
-            }
-            res = await _apiClient.GetFromJsonAsync<BaseResponseModel>("/api/node/getAllDept");
-            if (res.Success && res.Data != null)
-            {
-                Depts = JsonConvert.DeserializeObject<List<string>>(res.Data.ToString());
-            }
+            //res = await _apiClient.GetFromJsonAsync<BaseResponseModel>("/api/node/getAllArea");
+            //if (res.Success && res.Data != null)
+            //{
+            //    Areas = JsonConvert.DeserializeObject<List<string>>(res.Data.ToString());
+            //}
+            //res = await _apiClient.GetFromJsonAsync<BaseResponseModel>("/api/node/getAllDept");
+            //if (res.Success && res.Data != null)
+            //{
+            //    Depts = JsonConvert.DeserializeObject<List<string>>(res.Data.ToString());
+            //}
+            await LoadSection();
+            await LoadFloor();
+            await LoadArea();
+            await LoadDept();
             var dotNetRef = DotNetObjectReference.Create(this);
             await JS.InvokeVoidAsync("initVirtualTourEdit",node, dotNetRef);
             IsViewerReady = true;
@@ -93,7 +99,38 @@ namespace VirtualTour.Web.Components.Pages.Admin.Node
                 nodes.Remove(currentNode); // Remove current node from the list to avoid linking to itself
             }
         }
-
+        async Task LoadSection()
+        {
+            var res = await _apiClient.GetFromJsonAsync<BaseResponseModel>("api/Section/getListUse");
+            if (res != null && res.Success)
+            {
+                Sections = JsonConvert.DeserializeObject<List<SectionModel>>(res.Data.ToString());
+            }
+        }
+        async Task LoadFloor()
+        {
+            var res = await _apiClient.GetFromJsonAsync<BaseResponseModel>("api/Floor/getListUse");
+            if (res != null && res.Success)
+            {
+                Floors = JsonConvert.DeserializeObject<List<FloorModel>>(res.Data.ToString());
+            }
+        }
+        async Task LoadArea()
+        {
+            var res = await _apiClient.GetFromJsonAsync<BaseResponseModel>("api/Area/getListUse");
+            if (res != null && res.Success)
+            {
+                Areas = JsonConvert.DeserializeObject<List<AreaModel>>(res.Data.ToString());
+            }
+        }
+        async Task LoadDept()
+        {
+            var res = await _apiClient.GetFromJsonAsync<BaseResponseModel>("api/Dept/getListUse");
+            if (res != null && res.Success)
+            {
+                Depts = JsonConvert.DeserializeObject<List<DeptModel>>(res.Data.ToString());
+            }
+        }
         private async Task UploadThumbnailFiles(IBrowserFile file)
         {
             var thumbnails = Path.Combine(Env.WebRootPath, "images", "thumbnails");

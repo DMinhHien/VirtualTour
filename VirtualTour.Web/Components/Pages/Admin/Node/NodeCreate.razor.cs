@@ -1,14 +1,15 @@
 ﻿using Blazored.Toast.Services;
-using VirtualTour.Model;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.JSInterop;
+using MudBlazor;
 using Newtonsoft.Json;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.Formats.Jpeg;
 using SixLabors.ImageSharp.Processing;
 using System.Threading.Tasks;
+using VirtualTour.Model;
 namespace VirtualTour.Web.Components.Pages.Admin.Node
 {
     partial class NodeCreate
@@ -29,8 +30,10 @@ namespace VirtualTour.Web.Components.Pages.Admin.Node
         private List<NodeModel> nodes = new List<NodeModel>();
         private int nextMarkerId = 0;
         public int LinkedNodeId { get; set; } = 0;
-        public List<string> Areas { get; set; } = new List<string>();
-        public List<string> Depts { get; set; } = new List<string>();
+        public List<AreaModel> Areas { get; set; } = new List<AreaModel>();
+        public List<DeptModel> Depts { get; set; } = new List<DeptModel>();
+        public List<SectionModel> Sections { get; set; } = new List<SectionModel>();
+        public List<FloorModel> Floors { get; set; } = new List<FloorModel>();
         public class ViewerPosition
         {
             public double yaw { get; set; }
@@ -53,40 +56,76 @@ namespace VirtualTour.Web.Components.Pages.Admin.Node
 
             if (query.TryGetValue("workshop", out var workshop))
             {
-                node.WorkShop = workshop.FirstOrDefault();
+                node.SectionId = Int32.Parse(workshop.FirstOrDefault());
             }
             if (query.TryGetValue("floor", out var floor))
             {
-                var floorValue = floor.FirstOrDefault();
-                node.Floor = floorValue == "None" ? null : floorValue;
+                var floorValue = Int32.Parse(floor.FirstOrDefault());
+                node.FloorId = floorValue == 0 ? 0 : floorValue;
             }
             if (query.TryGetValue("area", out var area))
             {
-                var areaValue = area.FirstOrDefault();
-                node.AreaName = areaValue == "None" ? null : areaValue;
+                var areaValue = Int32.Parse(area.FirstOrDefault());
+                node.AreaId = areaValue == 0 ? 0 : areaValue;
             }
             if (query.TryGetValue("dept", out var dept))
             {
-                var deptValue = dept.FirstOrDefault();
-                node.DeptName = deptValue == "None" ? null : deptValue;
+                var deptValue = Int32.Parse(dept.FirstOrDefault());
+                node.DeptId = deptValue == 0 ? 0 : deptValue;
             }
                 await GetId();
             var res = await _apiClient.GetFromJsonAsync<BaseResponseModel>("/api/node/getListUse");
-            if (res.Success)
-            {
-                nodes = JsonConvert.DeserializeObject<List<NodeModel>>(res.Data.ToString());
-            }
-            res = await _apiClient.GetFromJsonAsync<BaseResponseModel>("/api/node/getAllArea");
-            if (res.Success && res.Data != null)
-            {
-                Areas = JsonConvert.DeserializeObject<List<string>>(res.Data.ToString());
-            }
-            res = await _apiClient.GetFromJsonAsync<BaseResponseModel>("/api/node/getAllDept");
-            if (res.Success && res.Data != null)
-            {
-                Depts = JsonConvert.DeserializeObject<List<string>>(res.Data.ToString());
-            }
+            await LoadSection();
+            await LoadFloor();
+            await LoadArea();
+            await LoadDept();
+            //if (res.Success)
+            //{
+            //    nodes = JsonConvert.DeserializeObject<List<NodeModel>>(res.Data.ToString());
+            //}
+            //res = await _apiClient.GetFromJsonAsync<BaseResponseModel>("/api/node/getAllArea");
+            //if (res.Success && res.Data != null)
+            //{
+            //    Areas = JsonConvert.DeserializeObject<List<string>>(res.Data.ToString());
+            //}
+            //res = await _apiClient.GetFromJsonAsync<BaseResponseModel>("/api/node/getAllDept");
+            //if (res.Success && res.Data != null)
+            //{
+            //    Depts = JsonConvert.DeserializeObject<List<string>>(res.Data.ToString());
+            //}
 
+        }
+        async Task LoadSection()
+        {
+            var res = await _apiClient.GetFromJsonAsync<BaseResponseModel>("api/Section/getListUse");
+            if (res != null && res.Success)
+            {
+                Sections = JsonConvert.DeserializeObject<List<SectionModel>>(res.Data.ToString());
+            }
+        }
+        async Task LoadFloor()
+        {
+            var res = await _apiClient.GetFromJsonAsync<BaseResponseModel>("api/Floor/getListUse");
+            if (res != null && res.Success)
+            {
+                Floors = JsonConvert.DeserializeObject<List<FloorModel>>(res.Data.ToString());
+            }
+        }
+        async Task LoadArea()
+        {
+            var res = await _apiClient.GetFromJsonAsync<BaseResponseModel>("api/Area/getListUse");
+            if (res != null && res.Success)
+            {
+                Areas = JsonConvert.DeserializeObject<List<AreaModel>>(res.Data.ToString());
+            }
+        }
+        async Task LoadDept()
+        {
+            var res = await _apiClient.GetFromJsonAsync<BaseResponseModel>("api/Dept/getListUse");
+            if (res != null && res.Success)
+            {
+                Depts = JsonConvert.DeserializeObject<List<DeptModel>>(res.Data.ToString());
+            }
         }
         private async Task UploadFiles(IBrowserFile file)
         {
@@ -175,17 +214,17 @@ namespace VirtualTour.Web.Components.Pages.Admin.Node
                 _toastService.ShowError("Caption is required.");
                 return;
             }
-            if (node.Floor== "None")
+            if (node.FloorId== 0)
             {
                 _toastService.ShowError("Floor is required.");
                 return;
             }
-            if (node.AreaName == "None")
+            if (node.AreaId == 0)
             {
                 _toastService.ShowError("Area is required.");
                 return;
             }
-            if (node.DeptName == "None")
+            if (node.DeptId== 0)
             {
                 _toastService.ShowError("Department is required.");
                 return;

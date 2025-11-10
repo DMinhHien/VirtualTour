@@ -16,13 +16,15 @@ namespace VirtualTour.Web.Components.Pages.Admin.Node
         public int DeleteID { get; set; }
         public int currentStartNodeId { get; set; } = 0;
         public int previousStartNodeId { get; set; } = 0;
-        public string selectedWorkshop { get; set; } = string.Empty;
-        public string selectedFloor { get; set; } = "None";
-        public string selectedArea { get; set; } = "None";
+        public int selectedSection { get; set; } = 0;
+        public int selectedFloor { get; set; } = 0;
+        public int selectedArea { get; set; } = 0;
         public string searchFilter { get; set; } = string.Empty;
-        public string selectedDept { get; set; } = "None";
-        public List<string> Areas { get; set; } = new List<string>();
-        public List<string> Depts{ get; set; } = new List<string>();
+        public int selectedDept { get; set; } = 0;
+        public List<SectionModel> Sections { get; set; } = new List<SectionModel>();
+        public List<FloorModel> Floors { get; set; } = new List<FloorModel>();
+        public List<AreaModel> Areas { get; set; } = new List<AreaModel>();
+        public List<DeptModel> Depts{ get; set; } = new List<DeptModel>();
         public NodeManage(IToastService toastService, IApiClient apiClient)
         {
             _toastService = toastService;
@@ -32,26 +34,41 @@ namespace VirtualTour.Web.Components.Pages.Admin.Node
         {
             await base.OnInitializedAsync();
             await LoadNodes();
-            //var currentStartNode = Nodes.FirstOrDefault(n => n.IsStartNode);
-            //if (currentStartNode != null)
-            //{
-            //    currentStartNodeId = currentStartNode.Id;
-            //    previousStartNodeId = currentStartNodeId;
-            //}
-            //else
-            //{
-            //    currentStartNodeId = 0;
-            //    previousStartNodeId = 0;
-            //}
-            var res = await _apiClient.GetFromJsonAsync<BaseResponseModel>("/api/node/getAllArea");
-            if (res.Success&& res.Data != null)
+            await LoadSection();
+            await LoadFloor();
+            await LoadArea();
+            await LoadDept();
+        }
+        async Task LoadSection()
+        {
+            var res = await _apiClient.GetFromJsonAsync<BaseResponseModel>("api/Section/getListUse");
+            if (res != null && res.Success)
             {
-               Areas = JsonConvert.DeserializeObject<List<string>>(res.Data.ToString());
+                Sections = JsonConvert.DeserializeObject<List<SectionModel>>(res.Data.ToString());
             }
-            res = await _apiClient.GetFromJsonAsync<BaseResponseModel>("/api/node/getAllDept");
-            if (res.Success && res.Data != null)
+        }
+        async Task LoadFloor()
+        {
+            var res = await _apiClient.GetFromJsonAsync<BaseResponseModel>("api/Floor/getListUse");
+            if (res != null && res.Success)
             {
-                Depts = JsonConvert.DeserializeObject<List<string>>(res.Data.ToString());
+                Floors = JsonConvert.DeserializeObject<List<FloorModel>>(res.Data.ToString());
+            }
+        }
+        async Task LoadArea()
+        {
+            var res = await _apiClient.GetFromJsonAsync<BaseResponseModel>("api/Area/getListUse");
+            if (res != null && res.Success)
+            {
+                Areas = JsonConvert.DeserializeObject<List<AreaModel>>(res.Data.ToString());
+            }
+        }
+        async Task LoadDept()
+        {
+            var res = await _apiClient.GetFromJsonAsync<BaseResponseModel>("api/Dept/getListUse");
+            if (res != null && res.Success)
+            {
+                Depts = JsonConvert.DeserializeObject<List<DeptModel>>(res.Data.ToString());
             }
         }
         protected async Task LoadNodes()
@@ -81,20 +98,20 @@ namespace VirtualTour.Web.Components.Pages.Admin.Node
         {
             await Modal.HideAsync();
         }
-        //private async Task HandleSelectChange(int newValue)
-        //{
-        //    var selectedValue = newValue;
-        //    previousStartNodeId = currentStartNodeId;
-        //    currentStartNodeId = Convert.ToInt32(selectedValue);
-        //    var res= await _apiClient.PostAsync<BaseResponseModel, int>($"/api/node/setStartNode/{currentStartNodeId}", previousStartNodeId);
-        //    if (res != null && res.Success)
-        //    {
-        //        _toastService.ShowSuccess("Set Start Node successfully");
-        //    }
-        //    else
-        //    {
-        //        _toastService.ShowError("Failed to set Start Node");
-        //    }
-        //}
+        private async Task HandleSelectChange(int newValue)
+        {
+            var selectedValue = newValue;
+            previousStartNodeId = currentStartNodeId;
+            currentStartNodeId = Convert.ToInt32(selectedValue);
+            var res = await _apiClient.PostAsync<BaseResponseModel, int>($"/api/node/setStartNode/{currentStartNodeId}", previousStartNodeId);
+            if (res != null && res.Success)
+            {
+                _toastService.ShowSuccess("Set Start Node successfully");
+            }
+            else
+            {
+                _toastService.ShowError("Failed to set Start Node");
+            }
+        }
     }
 }

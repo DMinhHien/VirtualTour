@@ -98,6 +98,29 @@
                 </ChildContent>
             </MudNavGroup>
             </PermissionView>
+            <MudNavGroup Icon="@Icons.Material.Filled.Tour" HideExpandIcon="true" Expanded="false">
+                <TitleContent>
+                    <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+                        Zone Manage
+                        <MudIcon Icon="@Icons.Material.Filled.ArrowDropDown" Class="mb-2"></MudIcon>
+                    </div>
+                </TitleContent>
+                <ChildContent>
+                    <MudNavLink ActiveClass="custom-active" Icon="@Icons.Material.Filled.Preview" Href="/admin/sections">
+                        Section
+                    </MudNavLink>
+
+                    <MudNavLink ActiveClass="custom-active" Icon="@Icons.Material.Filled.PanoramaPhotosphere" Href="/admin/floors">
+                        Floor
+                    </MudNavLink>
+                    <MudNavLink ActiveClass="custom-active" Icon="@Icons.Material.Filled.Map" Href="/admin/areas">
+                        Area
+                    </MudNavLink>
+                    <MudNavLink ActiveClass="custom-active" Icon="@Icons.Material.Filled.Map" Href="/admin/depts">
+                        Department
+                    </MudNavLink>
+                </ChildContent>
+            </MudNavGroup>
     </MudNavMenu>
         <div style="margin-top: auto; text-align: center; color: #c2c7d0; font-size: 0.9rem; padding: 10px;">
             Version 1.0 <br /> Updated 4/7/2025

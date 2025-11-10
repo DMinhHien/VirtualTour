@@ -10,6 +10,9 @@ namespace VirtualTour.Model
     {
         public int Id { get; set; }
         public int SectId { get; set; }
-        public string FloorName { get; set; }
+        public int FloorNum { get; set; }
+        public bool IsActive { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public DateTime UpdatedAt { get; set; }
     }
 }

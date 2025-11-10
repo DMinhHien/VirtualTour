@@ -27,42 +27,53 @@
             <MudTextField @bind-Value="node.Caption" Label="Caption" Variant="Variant.Outlined"></MudTextField>
         </div>
         <div>
-            <label>Workshop:</label>
-            <InputSelect style="height:35px;width:220px;margin-top:5px" @bind-Value="node.WorkShop">
-                <option value="WS1">WS1</option>
-                <option value="WS2">WS2</option>
-                <option value="WS3">WS3</option>
-                <option value="WS3A">WS3A</option>
-                <option value="WS4">WS4</option>
+            <label>Section:</label>
+            <InputSelect style="height:35px;width:220px;margin-top:5px" @bind-Value="node.SectionId">
+                <option Value="None">None</option>
+                @if (Sections != null)
+                {
+                    foreach (var area in Sections)
+                    {
+                        <option Value="@area.Id">@area.SectName</option>
+                    }
+                }
             </InputSelect>
         </div>
         <div>
             <label>Floor:</label>
-            <InputSelect style="height:35px;width:220px;margin-top:5px" @bind-Value="node.Floor">
-                <option value="F1">F1</option>
-                <option value="F2">F2</option>
+            <InputSelect style="height:35px;width:220px;margin-top:5px" @bind-Value="node.FloorId">
+                <option Value="None">None</option>
+                @if (Floors != null)
+                {
+                    foreach (var area in Floors.Where(x => x.SectId == node.SectionId))
+                    {
+                        <option Value="@area.Id">@area.FloorNum</option>
+                    }
+                }
             </InputSelect>
         </div>
         <div>
             <label>Area:</label>
-            <InputSelect style="height:35px;width:220px;margin-top:5px" @bind-Value="node.AreaName">
+            <InputSelect style="height:35px;width:220px;margin-top:5px" @bind-Value="node.AreaId">
+                <option Value="None">None</option>
                 @if (Areas != null)
                 {
                     foreach (var area in Areas)
                     {
-                        <option Value="@area">@area</option>
+                        <option Value="@area.Id">@area.AreaName</option>
                     }
                 }
             </InputSelect>
         </div>
         <div>
             <label>Department:</label>
-            <InputSelect style="height:35px;width:220px;margin-top:5px" @bind-Value="node.DeptName">
+            <InputSelect style="height:35px;width:220px;margin-top:5px" @bind-Value="node.DeptId">
+                <option Value="None">None</option>
                 @if (Depts != null)
                 {
                     foreach (var dept in Depts)
                     {
-                        <option Value="@dept">@dept</option>
+                        <option Value="@dept.Id">@dept.DeptName</option>
                     }
                 }
             </InputSelect>
@@ -89,8 +100,8 @@
                 <InputSelect class="form-control" style="height:55px;width:200px" @bind-Value="selectedHotSpot.TargetNode">
                     @if (nodes != null)
                     {
-                        foreach (var node in nodes.Where(x => (x.WorkShop == node.WorkShop
-                        && x.AreaName == node.AreaName && x.Floor == node.Floor) || (selectedHotSpot.TargetNode != 0 && x.Id == selectedHotSpot.TargetNode)))
+                        foreach (var node in nodes.Where(x => (x.SectionId == node.SectionId
+                        && x.AreaId == node.AreaId && x.FloorId == node.FloorId) || (selectedHotSpot.TargetNode != 0 && x.Id == selectedHotSpot.TargetNode)))
                         {
                             <option value="@node.Id">@node.Name</option>
                         }

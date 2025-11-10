@@ -27,7 +27,7 @@ namespace VirtualTour.BL.Repositories
         }
         public async Task<List<DeptModel>> GetAllDeptsAsync()
         {
-            var storedProcedure = "[dbo].[sp_Depts_GetAll]";
+            var storedProcedure = "sp_Depts_GetAll";
             using (var connection = _dbContext.CreateConnection())
             {
                 List<DeptModel> dept_list = (await connection.QueryAsync<DeptModel>(storedProcedure, commandType: System.Data.CommandType.StoredProcedure)).ToList();
@@ -50,6 +50,7 @@ namespace VirtualTour.BL.Repositories
             var storedProcedure = "sp_Depts_Create";
             var parameters = new Dapper.DynamicParameters();
             parameters.Add("@DeptName", dept.DeptName);
+            parameters.Add("@AreaId", dept.AreaId);
             using (var connection = _dbContext.CreateConnection())
             {
                await connection.ExecuteAsync(storedProcedure, parameters, commandType: System.Data.CommandType.StoredProcedure);

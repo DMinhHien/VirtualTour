@@ -10,5 +10,8 @@ namespace VirtualTour.Model
     {
         public int Id { get; set; }
         public string SectName { get; set; }
+        public bool IsActive { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public DateTime UpdatedAt { get; set; }
     }
 }

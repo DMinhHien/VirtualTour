@@ -47,33 +47,25 @@
                                 </div>
                             </TitleContent>
                             <ChildContent>
-                                @foreach (var node in Nodes.Where(n => n.WorkShop == "WS1" &&
-                                                            n.DeptName != "Link" &&
-                                                            n.DeptName != "Corner" &&
-                                                            n.DeptName != "Floor"))
+                                @foreach (var sectionGroup in Nodes
+                                                            .GroupBy(n => n.SectionId)
+                                                            .OrderBy(g => GetSectionName(g.Key)))
                                 {
-                                    <MudNavLink OnClick="@(() => GetElement(node.Id))" ActiveClass="custom-active">
-                                        <span style="font-size:14px;">@GetDisplayNameWS1(node.Name)</span>
-                                    </MudNavLink>
-                                }
-                            </ChildContent>
-                        </MudNavGroup>
-                        <MudNavGroup Title="WS2" HideExpandIcon="true" Expanded="false">
-                            <TitleContent>
-                                <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
-                                    WS2
-                                    <MudIcon Icon="@Icons.Material.Filled.ArrowDropDown" Class="mb-2"></MudIcon>
-                                </div>
-                            </TitleContent>
-                            <ChildContent>
-                                @foreach (var node in Nodes.Where(n => n.WorkShop == "WS2" &&
-                                                            n.DeptName != "Link" &&
-                                                            n.DeptName != "Corner" &&
-                                                            n.DeptName != "Floor"))
-                                {
-                                    <MudNavLink OnClick="@(() => GetElement(node.Id))" ActiveClass="custom-active">
-                                        <span style="font-size:14px;">@GetDisplayNameWS2(node.Name)</span>
-                                    </MudNavLink>
+                                    <MudNavGroup Dense="true" HideExpandIcon="true" Expanded="false">
+                                        <TitleContent>
+                                            <MudText Style="color: #bfbfbf; font-weight:600; font-size:13px;">
+                                                @GetSectionName(sectionGroup.Key)
+                                            </MudText>
+                                        </TitleContent>
+                                        <ChildContent>
+                                            @foreach (var node in sectionGroup.OrderBy(n => n.Name))
+                                            {
+                                                <MudNavLink OnClick="@(() => GetElement(node.Id))" ActiveClass="custom-active">
+                                                    <span style="font-size:14px;">@node.Name</span>
+                                                </MudNavLink>
+                                            }
+                                        </ChildContent>
+                                    </MudNavGroup>
                                 }
                             </ChildContent>
                         </MudNavGroup>
@@ -95,6 +87,8 @@
     int startId = 0;
     private bool _open = true;
     public List<NodeModel> Nodes;
+    private List<SectionModel> Sections = new();
+    private Dictionary<int, string> SectionNames = new();
     NodeModel _nodeModel = new NodeModel();
     protected override async Task OnInitializedAsync()
     {
@@ -112,24 +106,19 @@
             Nodes = JsonConvert.DeserializeObject<List<NodeModel>>(res.Data.ToString());
         }
     }
-    private string GetDisplayNameWS1(string name)
+    private async Task LoadSections()
     {
-        if (!string.IsNullOrEmpty(name) && name.StartsWith("WS1"))
+        // NOTE: Adjust the endpoint if your API differs (e.g., "/api/section/getList")
+        var res = await ApiClient.GetFromJsonAsync<BaseResponseModel>("/api/section/getListUse");
+        if (res.Success && res.Data != null)
         {
-            // Remove the prefix "WS1" and all underscores
-            return name.Substring(3).Replace("_", " ");
+            Sections = JsonConvert.DeserializeObject<List<SectionModel>>(res.Data.ToString());
+            SectionNames = Sections?.ToDictionary(s => s.Id, s => s.SectName) ?? new();
         }
-        return name;
     }
-    private string GetDisplayNameWS2(string name)
-    {
-        if (!string.IsNullOrEmpty(name) && name.StartsWith("WS2"))
-        {
-            // Remove the prefix "WS1" and all underscores
-            return name.Substring(3).Replace("_", " ");
-        }
-        return name;
-    }
+    private string GetSectionName(int sectionId)
+       => SectionNames.TryGetValue(sectionId, out var name) ? name : $"Section {sectionId}";
+
     [JSInvokable]
     public async Task GetNextNode(int nextId)
     {
@@ -150,17 +139,17 @@
     {
         _open = !_open;
     }
-    private async Task OpenWS2()
-    {
-        var response = await ApiClient.GetFromJsonAsync<BaseResponseModel>($"api/node/getElementById/{27}");
-        if (response.Success && response.Data != null)
-        {
-            _nodeModel = JsonConvert.DeserializeObject<NodeModel>(response.Data.ToString());
-        }
-        var dotNetRef = DotNetObjectReference.Create(this);
-        await JS.InvokeVoidAsync("initVirtualTourApi", "viewer", _nodeModel, dotNetRef);
+    // private async Task OpenWS2()
+    // {
+    //     var response = await ApiClient.GetFromJsonAsync<BaseResponseModel>($"api/node/getElementById/{27}");
+    //     if (response.Success && response.Data != null)
+    //     {
+    //         _nodeModel = JsonConvert.DeserializeObject<NodeModel>(response.Data.ToString());
+    //     }
+    //     var dotNetRef = DotNetObjectReference.Create(this);
+    //     await JS.InvokeVoidAsync("initVirtualTourApi", "viewer", _nodeModel, dotNetRef);
 
-    }
+    // }
     private async Task GetElement(int id)
     {
         var response = await ApiClient.GetFromJsonAsync<BaseResponseModel>($"api/node/getElementById/{id}");

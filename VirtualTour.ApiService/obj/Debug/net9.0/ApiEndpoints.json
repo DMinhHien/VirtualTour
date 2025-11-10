@@ -1,5 +1,79 @@
 [
   {
+    "ContainingType": "VirtualTour.ApiService.Controllers.AreaController",
+    "Method": "CreateArea",
+    "RelativePath": "api/area/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "area",
+        "Type": "VirtualTour.Model.AreaModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.AreaController",
+    "Method": "DeleteArea",
+    "RelativePath": "api/area/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.AreaController",
+    "Method": "GetAreaById",
+    "RelativePath": "api/area/getById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.AreaController",
+    "Method": "GetAllAreas",
+    "RelativePath": "api/area/getListUse",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.AreaController",
+    "Method": "UpdateArea",
+    "RelativePath": "api/area/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "area",
+        "Type": "VirtualTour.Model.AreaModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "VirtualTour.ApiService.Controllers.AuthController",
     "Method": "CheckToken",
     "RelativePath": "api/auth/check-token",
@@ -62,6 +136,154 @@
       {
         "Name": "userId",
         "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.DeptController",
+    "Method": "CreateDept",
+    "RelativePath": "api/dept/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dept",
+        "Type": "VirtualTour.Model.DeptModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.DeptController",
+    "Method": "DeleteDept",
+    "RelativePath": "api/dept/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.DeptController",
+    "Method": "GetDeptById",
+    "RelativePath": "api/dept/getById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.DeptController",
+    "Method": "GetAllDepts",
+    "RelativePath": "api/dept/getListUse",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.DeptController",
+    "Method": "UpdateDept",
+    "RelativePath": "api/dept/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dept",
+        "Type": "VirtualTour.Model.DeptModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.FloorController",
+    "Method": "CreateFloor",
+    "RelativePath": "api/floor/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "floor",
+        "Type": "VirtualTour.Model.FloorModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.FloorController",
+    "Method": "DeleteFloor",
+    "RelativePath": "api/floor/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.FloorController",
+    "Method": "GetFloorById",
+    "RelativePath": "api/floor/getById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.FloorController",
+    "Method": "GetAllFloors",
+    "RelativePath": "api/floor/getListUse",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.FloorController",
+    "Method": "UpdateFloor",
+    "RelativePath": "api/floor/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "floor",
+        "Type": "VirtualTour.Model.FloorModel",
         "IsRequired": true
       }
     ],
@@ -535,6 +757,80 @@
       {
         "Name": "role",
         "Type": "VirtualTour.Model.RoleModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.SectionController",
+    "Method": "CreateSection",
+    "RelativePath": "api/section/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "section",
+        "Type": "VirtualTour.Model.SectionModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.SectionController",
+    "Method": "DeleteSection",
+    "RelativePath": "api/section/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.SectionController",
+    "Method": "GetSectionById",
+    "RelativePath": "api/section/getById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.SectionController",
+    "Method": "GetAllSections",
+    "RelativePath": "api/section/getListUse",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.SectionController",
+    "Method": "UpdateSection",
+    "RelativePath": "api/section/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "section",
+        "Type": "VirtualTour.Model.SectionModel",
         "IsRequired": true
       }
     ],

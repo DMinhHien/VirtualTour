@@ -83,6 +83,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZG1pblxQZXJtaXNzaW9uTWFuYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/UDC/VirtualTour/VirtualTour.Web/Components/Pages/Admin/Position/AreaManage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZG1pblxQb3NpdGlvblxBcmVhTWFuYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UDC/VirtualTour/VirtualTour.Web/Components/Pages/Admin/Position/DeptManage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZG1pblxQb3NpdGlvblxEZXB0TWFuYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UDC/VirtualTour/VirtualTour.Web/Components/Pages/Admin/Position/FloorManage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZG1pblxQb3NpdGlvblxGbG9vck1hbmFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UDC/VirtualTour/VirtualTour.Web/Components/Pages/Admin/Position/SectionManage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZG1pblxQb3NpdGlvblxTZWN0aW9uTWFuYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/UDC/VirtualTour/VirtualTour.Web/Components/Pages/Admin/ProfilePage/EditProfileDialog.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZG1pblxQcm9maWxlUGFnZVxFZGl0UHJvZmlsZURpYWxvZy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

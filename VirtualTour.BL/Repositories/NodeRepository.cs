@@ -80,10 +80,10 @@ namespace VirtualTour.BL.Repositories
                     parameters.Add("@Caption", nodeModel.Caption);
                     parameters.Add("@DefaultYaw", nodeModel.DefaultYaw);
                     parameters.Add("@DefaultPitch", nodeModel.DefaultPitch);
-                    parameters.Add("@WorkShop", nodeModel.WorkShop);
-                    parameters.Add("@Floor", nodeModel.Floor);
-                    parameters.Add("@AreaName", nodeModel.AreaName);
-                    parameters.Add("@DeptName", nodeModel.DeptName);
+                    parameters.Add("@WorkShop", nodeModel.SectionId);
+                    parameters.Add("@Floor", nodeModel.FloorId);
+                    parameters.Add("@AreaName", nodeModel.AreaId);
+                    parameters.Add("@DeptName", nodeModel.DeptId);
                     await connection.ExecuteAsync(storedProcedure, parameters, commandType: CommandType.StoredProcedure);
                     foreach (var link in nodeModel.Links)
                     {
@@ -189,10 +189,10 @@ namespace VirtualTour.BL.Repositories
                     parameters.Add("@Caption", nodeModel.Caption);
                     parameters.Add("@DefaultYaw", nodeModel.DefaultYaw);
                     parameters.Add("@DefaultPitch", nodeModel.DefaultPitch);
-                    parameters.Add("@WorkShop", nodeModel.WorkShop);
-                    parameters.Add("@Floor", nodeModel.Floor);
-                    parameters.Add("@AreaName", nodeModel.AreaName);
-                    parameters.Add("@DeptName", nodeModel.DeptName);
+                    parameters.Add("@WorkShop", nodeModel.SectionId);
+                    parameters.Add("@Floor", nodeModel.FloorId);
+                    parameters.Add("@AreaName", nodeModel.AreaId);
+                    parameters.Add("@DeptName", nodeModel.DeptId);
                     await connection.ExecuteAsync(storedProcedure, parameters, commandType: CommandType.StoredProcedure);
                     var existingLinks = (await connection.QueryAsync<LinkedNodes>(
                     "sp_nodes_get_links",

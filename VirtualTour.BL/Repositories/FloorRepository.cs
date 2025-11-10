@@ -28,7 +28,7 @@ namespace VirtualTour.BL.Repositories
         }
         public async Task<List<FloorModel>> GetAllFloorsAsync()
         {
-            var storedProcedure = "[dbo].[sp_Floors_GetAll]";
+            var storedProcedure = "sp_Floors_GetAll";
             using (var connection = _dbContext.CreateConnection())
             {
                 List<FloorModel> floor_list = (await connection.QueryAsync<FloorModel>(storedProcedure, commandType: CommandType.StoredProcedure)).ToList();
@@ -50,7 +50,8 @@ namespace VirtualTour.BL.Repositories
         {
             var storedProcedure = "sp_Floors_Create";
             var parameters = new DynamicParameters();
-            parameters.Add("@FloorName", floor.FloorName);
+            parameters.Add("@FloorNum", floor.FloorNum);
+            parameters.Add("@SectId", floor.SectId);
             using (var connection = _dbContext.CreateConnection())
             {
                await connection.ExecuteAsync(storedProcedure, parameters, commandType: CommandType.StoredProcedure);
@@ -62,7 +63,7 @@ namespace VirtualTour.BL.Repositories
             var storedProcedure = "sp_Floors_Update";
             var parameters = new DynamicParameters();
             parameters.Add("@Id", floor.Id);
-            parameters.Add("@FloorName", floor.FloorName);
+            parameters.Add("@FloorNum", floor.FloorNum);
             using (var connection = _dbContext.CreateConnection())
             {
                 await connection.ExecuteAsync(storedProcedure, parameters, commandType: CommandType.StoredProcedure);

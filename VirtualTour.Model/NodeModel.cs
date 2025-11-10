@@ -16,10 +16,10 @@ namespace VirtualTour.Model
         public double DefaultYaw { get; set; }
         public double DefaultPitch { get; set; }
         public bool IsStartNode { get; set; }
-        public string WorkShop { get; set; }
-        public string Floor { get; set; }
-        public string AreaName { get; set; }
-        public string DeptName { get; set; }
+        public int SectionId { get; set; }
+        public int FloorId { get; set; }
+        public int AreaId { get; set; }
+        public int DeptId { get; set; }
         public ICollection<LinkedNodes> Links { get; set; }
     }
     public class MarkerModel

@@ -28,7 +28,7 @@ namespace VirtualTour.ApiService.Controllers
         [HttpPost("create")]
         public async Task<IActionResult> CreateFloor([FromBody] FloorModel floor)
         {
-            if (floor == null || string.IsNullOrEmpty(floor.FloorName))
+            if (floor == null || floor.FloorNum==0)
             {
                 return BadRequest(new BaseResponseModel { Success = false, ErrorMessage = "Invalid floor data" });
             }
@@ -38,7 +38,7 @@ namespace VirtualTour.ApiService.Controllers
         [HttpPut("update")]
         public async Task<IActionResult> UpdateFloor([FromBody] FloorModel floor)
         {
-            if (floor == null || string.IsNullOrEmpty(floor.FloorName))
+            if (floor == null || floor.FloorNum != 0)
             {
                 return BadRequest(new BaseResponseModel { Success = false, ErrorMessage = "Invalid floor data" });
             }

@@ -12,5 +12,8 @@ namespace VirtualTour.Model
         public string AreaName { get; set; }
         public int FloorId { get; set; }
         public int SectId { get; set; }
+        public bool IsActive { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public DateTime UpdatedAt { get; set; }
     }
 }

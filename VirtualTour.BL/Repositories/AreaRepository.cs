@@ -28,7 +28,7 @@ namespace VirtualTour.BL.Repositories
         }
         public async Task<List<AreaModel>> GetAllAreasAsync()
         {
-            var storedProcedure = "[dbo].[sp_Areas_GetAll]";
+            var storedProcedure = "sp_Areas_GetAll";
             using (var connection = _dbContext.CreateConnection())
             {
                 List<AreaModel> area_list = (await connection.QueryAsync<AreaModel>(storedProcedure, commandType: CommandType.StoredProcedure)).ToList();
@@ -51,6 +51,8 @@ namespace VirtualTour.BL.Repositories
             var storedProcedure = "sp_Areas_Create";
             var parameters = new DynamicParameters();
             parameters.Add("@AreaName", area.AreaName);
+            parameters.Add("@SectId", area.SectId);
+            parameters.Add("@FloorId", area.FloorId);
             using (var connection = _dbContext.CreateConnection())
             {
                 await connection.ExecuteAsync(storedProcedure, parameters, commandType: CommandType.StoredProcedure);
