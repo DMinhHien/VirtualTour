@@ -26,7 +26,7 @@ namespace VirtualTour.BL.Repositories
     {
         private readonly IDbContext _dbContext;
         private readonly IPasswordService _passwordService;
-        public UserRepository(IDbContext dbContext, IPasswordService passwordService)
+        public UserRepository(IDbContext dbContext, IPasswordService passwordService, ITenantService tenantService)
         {
             _dbContext = dbContext;
             _passwordService = passwordService;
@@ -129,6 +129,7 @@ namespace VirtualTour.BL.Repositories
         }
         public async Task CreateUser(ReqUserCreate user)
         {
+            var tenantId=Guid.NewGuid().ToString();
             var storedProcedure = "sp_user_create";
             var parameters = new DynamicParameters();
             parameters.Add("@Id", user.Id);
@@ -139,6 +140,7 @@ namespace VirtualTour.BL.Repositories
             parameters.Add("@Gender", user.Gender);
             parameters.Add("@PhoneNumber", user.PhoneNumber);
             parameters.Add("@RoleId", user.RoleId);
+            parameters.Add("@TenantId", tenantId);
             using (var connection = _dbContext.CreateConnection())
             {
                 await connection.ExecuteAsync(storedProcedure, parameters, commandType: CommandType.StoredProcedure);

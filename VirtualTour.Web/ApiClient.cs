@@ -56,6 +56,13 @@ namespace VirtualTour.Web
                         _navigationManager.NavigateTo("/admin/login", forceLoad: true);
                         return;
                     }
+                    var tenantId = await _localStorage.GetItemAsync<string>("tenantId");
+                    if (!string.IsNullOrWhiteSpace(tenantId))
+                    {
+                        if (_httpClient.DefaultRequestHeaders.Contains("X-Tenant-ID"))
+                            _httpClient.DefaultRequestHeaders.Remove("X-Tenant-ID");
+                        _httpClient.DefaultRequestHeaders.Add("X-Tenant-ID", tenantId);
+                    }
                     // Add culture cookie header
                     var requestCulture = new RequestCulture(CultureInfo.CurrentCulture, CultureInfo.CurrentUICulture);
                     var cultureCookieValue = CookieRequestCultureProvider.MakeCookieValue(requestCulture);

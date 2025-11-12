@@ -31,6 +31,13 @@ namespace VirtualTour.Web.Authentication
             {
                 var savedToken = await _localStorage.GetItemAsync<string>("authToken");
                 _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", savedToken);
+                var tenantId = await _localStorage.GetItemAsync<string>("tenantId");
+                if (!string.IsNullOrWhiteSpace(tenantId))
+                {
+                    if (_httpClient.DefaultRequestHeaders.Contains("X-Tenant-ID"))
+                        _httpClient.DefaultRequestHeaders.Remove("X-Tenant-ID");
+                    _httpClient.DefaultRequestHeaders.Add("X-Tenant-ID", tenantId);
+                }
                 var isTokenValid = await _httpClient.GetFromJsonAsync<bool>("api/auth/check-token");
                 if (!isTokenValid || string.IsNullOrWhiteSpace(savedToken))
                 {
@@ -57,6 +64,7 @@ namespace VirtualTour.Web.Authentication
         {
             await _localStorage.SetItemAsync("authToken", model.Token);
             await _localStorage.SetItemAsync("apiKey", model.ApiKey);
+            await _localStorage.SetItemAsync("tenantId", model.TenantId);
             _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", model.Token);
             _apiKeyNavigationService.SetApiKey(model.ApiKey);
             var identity = GetClaimsIdentity(model.Token);
@@ -73,6 +81,7 @@ namespace VirtualTour.Web.Authentication
         {
             await _localStorage.RemoveItemAsync("authToken");
             await _localStorage.RemoveItemAsync("apiKey");
+            await _localStorage.RemoveItemAsync("tenantId");
             _apiKeyNavigationService.RemoveApiKey();
             var anonymousUser = new ClaimsPrincipal(new ClaimsIdentity());
             var authState = Task.FromResult(new AuthenticationState(anonymousUser));

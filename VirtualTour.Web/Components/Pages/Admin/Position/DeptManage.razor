@@ -6,14 +6,14 @@
 @using VirtualTour.Web.Components.BaseComponents
 @using MudBlazor
 @using VirtualTour.Web.Components.Layout
-<PermissionView Permission="Admin.View">
+
     <MudStack Row="true" Justify="Justify.SpaceBetween" AlignItems="AlignItems.Center" Class="mb-4">
             <MudText Typo="Typo.h3" Class="fw-bold">Department List</MudText>
             <MudButton  Variant="Variant.Filled" Size="Size.Small" Color="Color.Primary" @onclick="ToggleCreateCard">
                 <MudIcon Icon="@Icons.Material.Filled.Add" /> Create New Department
                 </MudButton>
     </MudStack>
-</PermissionView>
+
 @if (Depts == null)
 {
     <p>Loading Departments...</p>
@@ -94,22 +94,22 @@ else
                 <TemplateColumn Filterable="false" Sortable="false">
                     <CellTemplate>
                         <MudStack Row="true" Spacing="2">
-                            <PermissionView Permission="Roles.Edit">
+                          
                                 <MudTooltip Text="Edit">
                                     <MudIconButton Icon="@Icons.Material.Filled.Edit"
                                                    Size="Size.Small"
                                                    Color="Color.Primary"
                                                    OnClick="@(() => EditDept(context.Item))" />
                                 </MudTooltip>
-                            </PermissionView>
-                            <PermissionView Permission="Roles.Delete">
+
+                          
                                 <MudTooltip Text="Delete">
                                     <MudIconButton Icon="@Icons.Material.Filled.Delete"
                                                    Size="Size.Small"
                                                    Color="Color.Error"
                                                    OnClick="@(() => { DeleteId = context.Item.Id; OnShowModalDeleteClick(); })" />
                                 </MudTooltip>
-                            </PermissionView>
+                       
                         </MudStack>
                     </CellTemplate>
                 </TemplateColumn>

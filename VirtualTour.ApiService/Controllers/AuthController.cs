@@ -14,12 +14,17 @@ namespace VirtualTour.ApiService.Controllers
         private readonly IAuthService _authService;
         private readonly ITokenService _tokenService;
         private readonly IApiKeyService _apiKeyService;
+        private readonly IUserService _userService;
+        private readonly IRoleService _roleService;
 
-        public AuthController(IAuthService authService, ITokenService tokenService, IApiKeyService apiKeyService)
+        public AuthController(IAuthService authService, 
+            ITokenService tokenService, IApiKeyService apiKeyService, IUserService userService, IRoleService roleService)
         {
             _authService = authService;
             _tokenService = tokenService;
             _apiKeyService = apiKeyService;
+            _userService = userService;
+            _roleService = roleService;
         }
 
         [HttpPost("login")]
@@ -48,6 +53,7 @@ namespace VirtualTour.ApiService.Controllers
                 AvatarUrl=user.AvatarUrl,
                 CompanyEmail=user.CompanyEmail,
                 ManagerName=user.ManagerName,
+                TenantId=user.TenantId
             };
 
             return Ok(loginResponse); ;
@@ -83,6 +89,7 @@ namespace VirtualTour.ApiService.Controllers
                 ApiKey = apiKey.HashKey,
                 CompanyEmail = user.CompanyEmail,
                 ManagerName = user.ManagerName,
+                TenantId = user.TenantId
             };
 
             return Ok(loginResponse); ;
@@ -115,6 +122,65 @@ namespace VirtualTour.ApiService.Controllers
             var isValid = await _authService.IsTokenValidAsync(token);
             return Ok(isValid);
         }
+        [HttpPost("register")]
+        [AllowAnonymous]
+        public async Task<IActionResult> Register([FromBody] ReqUserCreate request)
+        {
+            if (request == null
+                || string.IsNullOrWhiteSpace(request.UserName)
+                || string.IsNullOrWhiteSpace(request.PasswordHash)
+                || string.IsNullOrWhiteSpace(request.Email)
+                || string.IsNullOrWhiteSpace(request.FullName)
+                || string.IsNullOrWhiteSpace(request.Gender))
+            {
+                return BadRequest(new { message = "Invalid registration data" });
+            }
+
+            // Set default role = "User"
+            var roles = await _roleService.GetAllRolesAsync();
+            var defaultRole = roles.FirstOrDefault(r => r.RoleName.Equals("User", StringComparison.OrdinalIgnoreCase));
+            if (defaultRole == null)
+                return StatusCode(500, new { message = "Default role 'User' not found" });
+
+            request.RoleId = defaultRole.Id.ToString();
+
+            // Create the user
+            await _userService.CreateUserAsync(request);
+
+            // Authenticate newly created user (email+password path does not require API key)
+            var (user, error) = await _authService.AuthenticateUserAsync(request.Email, request.PasswordHash);
+            if (user == null)
+            {
+                return StatusCode(500, new { message = "User created but could not authenticate." });
+            }
+
+            // Generate API Key for the user (so they can use login_username next time)
+            var rawApiKey = await _apiKeyService.GenerateApiKeyAsync(user.Id);
+
+            // Issue JWT
+            var token = _tokenService.CreateToken(user, new List<string> { user.RoleName });
+            var expiration = DateTime.Now.AddDays(7);
+            await _authService.SaveTokenAsync(user.Id.ToString(), token, expiration);
+
+            var loginResponse = new LoginResponse
+            {
+                Token = token,
+                UserName = user.UserName,
+                Email = user.Email,
+                FullName = user.FullName,
+                Gender = user.Gender,
+                PhoneNumber = user.PhoneNumber,
+                Role = user.RoleName,
+                ApiKey = rawApiKey,
+                AvatarUrl = user.AvatarUrl,
+                CompanyEmail = user.CompanyEmail,
+                ManagerName = user.ManagerName,
+                TenantId = user.TenantId
+            };
+
+            return Ok(loginResponse);
+        }
+
         [HttpPost("reset-password")]
         [Authorize(Policy = "Permission:Users.View")]
         public async Task<IActionResult> ResetPassword([FromBody] string userId)

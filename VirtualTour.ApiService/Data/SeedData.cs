@@ -20,11 +20,12 @@ namespace VirtualTour.ApiService.Data
             "Roles.Create",
             "Roles.Edit",
             "Roles.Delete",
-            "QRCode.Manage",
-            "QRCode.Create",
-            "QRCode.Edit",
-            "QRCode.Delete",
+            //"QRCode.Manage",
+            //"QRCode.Create",
+            //"QRCode.Edit",
+            //"QRCode.Delete",
             "VirtualTour.Manage",
+            "Position.Manage",
 
         };
 

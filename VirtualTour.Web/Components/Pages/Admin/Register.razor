@@ -1,0 +1,166 @@
+﻿@page "/admin/register"
+@using Blazored.Toast.Services
+@using VirtualTour.Web.Authorization
+@using VirtualTour.Web.Components.BaseComponents
+@using VirtualTour.Web.Components.Layout
+@using MudBlazor
+@using System.ComponentModel.DataAnnotations
+@using VirtualTour.Model
+@layout EmptyLayout
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+@inject IApiClient userApiClient
+@inject ApiAuthenticationStateProvider AuthStateProvider
+@inject IToastService ToastService
+@inject IDialogService DialogService
+
+<PageTitle>Register</PageTitle>
+
+<style>
+    .forgot-password {
+        cursor: pointer;
+        color: inherit;
+    }
+
+        .forgot-password:hover {
+            color: #ED6C02;
+        }
+</style>
+
+<div style="height: 100vh; display: flex; align-items: center; justify-content: center; background-color: #3b3b3b;">
+    <MudCard Style="width: 800px; height:720px">
+        <MudIconButton Icon="@Icons.Material.Filled.ArrowBack"
+                       OnClick="()=>NavigateToHome()"
+                       Style="position: absolute; top: 10px; left: 10px;color:white" />
+        <MudCardContent style="display: flex;flex-direction: column; justify-content: center; align-items: center; height: 100%;">
+            <div style="display: flex; align-items: center;">
+                <div style="flex: 0 0 auto; margin-right: 60px;">
+                    <MudImage Src="logo.jpg" Style="margin-bottom:100px" Width="200" Height="120" />
+                </div>
+                <div style="flex: 1;margin-bottom:10px">
+                    <MudText Style="font-weight:bold;margin-bottom:20px" Typo="Typo.h5" Align="Align.Center">Create your account</MudText>
+
+                    @if (ShowErrors)
+                    {
+                        <MudAlert Severity="Severity.Error" Elevation="0" Variant="Variant.Filled" Dense="true">
+                            @Error
+                        </MudAlert>
+                    }
+
+                    <EditForm Model="model" OnValidSubmit="HandleRegister">
+                        <DataAnnotationsValidator />
+                        <ValidationSummary />
+
+                        <MudTextField @bind-Value="model.FullName" Label="Full name"
+                                      For="() => model.FullName" Required="true" Margin="Margin.Normal"
+                                      FullWidth="true" Variant="Variant.Outlined" Style="min-width:400px;" />
+
+                        <MudTextField @bind-Value="model.Email" Label="Email"
+                                      For="() => model.Email" Required="true" Margin="Margin.Normal"
+                                      FullWidth="true" Variant="Variant.Outlined" Adornment="Adornment.End"
+                                      AdornmentIcon="@Icons.Material.Filled.Email" Style="min-width:400px;" />
+
+                        <MudTextField @bind-Value="model.UserName" Label="User name"
+                                      For="() => model.UserName" Required="true" Margin="Margin.Normal"
+                                      FullWidth="true" Variant="Variant.Outlined" Style="min-width:400px;" />
+
+                        <MudTextField @bind-Value="model.PhoneNumber" Label="Phone number"
+                                      For="() => model.PhoneNumber" Margin="Margin.Normal"
+                                      FullWidth="true" Variant="Variant.Outlined" Style="min-width:400px;" />
+
+                        <MudSelect T="string" @bind-Value="model.Gender" Label="Gender" Required="true" Variant="Variant.Outlined" Style="min-width:400px;">
+                            <MudSelectItem Value="@("Male")">Male</MudSelectItem>
+                            <MudSelectItem Value="@("Female")">Female</MudSelectItem>
+                        </MudSelect>
+
+                        <MudTextField @bind-Value="model.Password" Label="Password"
+                                      For="() => model.Password" InputType="InputType.Password"
+                                      Variant="Variant.Outlined" Required="true" Margin="Margin.Normal"
+                                      FullWidth="true" Style="min-width:400px;" />
+
+                        <MudTextField @bind-Value="model.ConfirmPassword" Label="Confirm password"
+                                      For="() => model.ConfirmPassword" InputType="InputType.Password"
+                                      Variant="Variant.Outlined" Required="true" Margin="Margin.Normal"
+                                      FullWidth="true" Style="min-width:400px;" />
+
+                        <MudButton Disabled="isSubmitting" ButtonType="ButtonType.Submit" Color="Color.Success" Variant="Variant.Filled" FullWidth="true" Style="margin-top:24px;">
+                            Register
+                        </MudButton>
+                        <div class="mt-3">
+                            <MudText Align="Align.End" Class="forgot-password" @onclick="NavigateToLogin" Style="margin-top:16px">Already have an account? Log in</MudText>
+                        </div>
+                    </EditForm>
+                </div>
+            </div>
+            <MudText Typo="Typo.caption" Align="Align.Center" Style="color:#6c757d">
+                Copyright ©2025. All rights reserved.
+            </MudText>
+        </MudCardContent>
+    </MudCard>
+</div>
+
+@code {
+    private bool ShowErrors;
+    private bool isSubmitting;
+    private string Error = "";
+
+    private RegisterViewModel model { get; set; } = new();
+
+    private async Task HandleRegister()
+    {
+        if (isSubmitting)
+            return;
+
+        ShowErrors = false;
+        Error = "";
+        if (model.Password != model.ConfirmPassword)
+        {
+            ShowErrors = true;
+            Error = "Passwords do not match.";
+            StateHasChanged();
+            return;
+        }
+
+        isSubmitting = true;
+
+        var req = new ReqUserCreate
+        {
+            // Id is handled server-side or by SP; not set here
+            UserName = model.UserName,
+            PasswordHash = model.Password, // server hashes it
+            Email = model.Email,
+            FullName = model.FullName,
+            Gender = model.Gender,
+            PhoneNumber = model.PhoneNumber,
+            // RoleId ignored client-side; server sets to default "User"
+        };
+
+        var result = await userApiClient.PostAsync<LoginResponse, ReqUserCreate>("/api/auth/register", req);
+        if (result != null)
+        {
+            await AuthStateProvider.MarkUserAsAuthenticated(result);
+            NavigationManager.NavigateTo("/admin");
+        }
+        else
+        {
+            ShowErrors = true;
+            Error = "Registration failed.";
+        }
+
+        isSubmitting = false;
+    }
+
+    private void NavigateToHome() => NavigationManager.NavigateTo("/");
+    private void NavigateToLogin() => NavigationManager.NavigateTo("/admin/login");
+
+    public class RegisterViewModel
+    {
+        [Required] public string FullName { get; set; }
+        [Required, EmailAddress] public string Email { get; set; }
+        [Required] public string UserName { get; set; }
+        public string PhoneNumber { get; set; }
+        [Required, MinLength(6)] public string Password { get; set; }
+        [Required, Compare(nameof(Password))] public string ConfirmPassword { get; set; }
+        [Required] public string Gender { get; set; }
+    }
+}

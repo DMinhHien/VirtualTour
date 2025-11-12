@@ -5,6 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using VirtualTour.BL.Services;
 using VirtualTour.DataAccess;
 using VirtualTour.Model;
 
@@ -22,24 +23,31 @@ namespace VirtualTour.BL.Repositories
     public class AreaRepository: IAreaRepository
     {
         private readonly IDbContext _dbContext;
-        public AreaRepository(IDbContext dbContext)
+        private readonly ITenantService _tenantService;
+        public AreaRepository(IDbContext dbContext, ITenantService tenantService)
         {
             _dbContext = dbContext;
+            _tenantService = tenantService;
         }
         public async Task<List<AreaModel>> GetAllAreasAsync()
         {
+            var tenantId = _tenantService.GetCurrentTenantId();
             var storedProcedure = "sp_Areas_GetAll";
+            var parameters = new DynamicParameters();
+            parameters.Add("@TenantId", tenantId);
             using (var connection = _dbContext.CreateConnection())
             {
-                List<AreaModel> area_list = (await connection.QueryAsync<AreaModel>(storedProcedure, commandType: CommandType.StoredProcedure)).ToList();
+                List<AreaModel> area_list = (await connection.QueryAsync<AreaModel>(storedProcedure,parameters, commandType: CommandType.StoredProcedure)).ToList();
                 return area_list;
             }
         }
         public async Task<AreaModel> GetAreaByIdAsync(int id)
         {
+            var tenantId = _tenantService.GetCurrentTenantId();
             var storedProcedure = "sp_Areas_GetById";
             var parameters = new DynamicParameters();
             parameters.Add("@Id", id);
+            parameters.Add("@TenantId", tenantId);
             using (var connection = _dbContext.CreateConnection())
             {
                 var area = await connection.QueryFirstOrDefaultAsync<AreaModel>(storedProcedure, parameters, commandType: CommandType.StoredProcedure);
@@ -48,11 +56,13 @@ namespace VirtualTour.BL.Repositories
         }
         public async Task CreateAreaAsync(AreaModel area)
         {
+            var tenantId = _tenantService.GetCurrentTenantId();
             var storedProcedure = "sp_Areas_Create";
             var parameters = new DynamicParameters();
             parameters.Add("@AreaName", area.AreaName);
             parameters.Add("@SectId", area.SectId);
             parameters.Add("@FloorId", area.FloorId);
+            parameters.Add("@TenantId", tenantId);
             using (var connection = _dbContext.CreateConnection())
             {
                 await connection.ExecuteAsync(storedProcedure, parameters, commandType: CommandType.StoredProcedure);

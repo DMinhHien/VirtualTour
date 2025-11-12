@@ -5,6 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using VirtualTour.BL.Services;
 using VirtualTour.DataAccess;
 using VirtualTour.Model;
 
@@ -21,25 +22,32 @@ namespace VirtualTour.BL.Repositories
     public class FloorRepository : IFloorRepository
     {
         private readonly IDbContext _dbContext;
-        public FloorRepository(IDbContext dbContext)
+        private readonly ITenantService _tenantService;
+        public FloorRepository(IDbContext dbContext,ITenantService tenantService)
         {
             _dbContext = dbContext;
+            _tenantService = tenantService;
 
         }
         public async Task<List<FloorModel>> GetAllFloorsAsync()
         {
+            var tenantId = _tenantService.GetCurrentTenantId();
             var storedProcedure = "sp_Floors_GetAll";
+            var parameters = new DynamicParameters();
+            parameters.Add("@TenantId", tenantId);
             using (var connection = _dbContext.CreateConnection())
             {
-                List<FloorModel> floor_list = (await connection.QueryAsync<FloorModel>(storedProcedure, commandType: CommandType.StoredProcedure)).ToList();
+                List<FloorModel> floor_list = (await connection.QueryAsync<FloorModel>(storedProcedure,parameters, commandType: CommandType.StoredProcedure)).ToList();
                 return floor_list;
             }
         }
         public async Task<FloorModel> GetFloorByIdAsync(int id)
         {
+            var tenantId = _tenantService.GetCurrentTenantId();
             var storedProcedure = "sp_Floors_GetById";
             var parameters = new DynamicParameters();
             parameters.Add("@Id", id);
+            parameters.Add("@TenantId", tenantId);
             using (var connection = _dbContext.CreateConnection())
             {
                 var floor = await connection.QueryFirstOrDefaultAsync<FloorModel>(storedProcedure, parameters, commandType: CommandType.StoredProcedure);
@@ -48,10 +56,12 @@ namespace VirtualTour.BL.Repositories
         }
         public async Task CreateFloorAsync(FloorModel floor)
         {
+            var tenantId = _tenantService.GetCurrentTenantId();
             var storedProcedure = "sp_Floors_Create";
             var parameters = new DynamicParameters();
             parameters.Add("@FloorNum", floor.FloorNum);
             parameters.Add("@SectId", floor.SectId);
+            parameters.Add("@TenantId", tenantId);
             using (var connection = _dbContext.CreateConnection())
             {
                await connection.ExecuteAsync(storedProcedure, parameters, commandType: CommandType.StoredProcedure);

@@ -1,8 +1,9 @@
-﻿using Microsoft.Extensions.Options;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Options;
 using System.Collections.Concurrent;
-using VirtualTour.ApiService.Options;
+using VirtualTour.BL.Options;
 
-namespace VirtualTour.ApiService.Services
+namespace VirtualTour.BL.Services
 {
     public interface ITenantService
     {

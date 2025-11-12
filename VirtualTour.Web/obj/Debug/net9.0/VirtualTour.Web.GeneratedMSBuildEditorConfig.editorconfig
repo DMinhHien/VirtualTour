@@ -107,12 +107,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZG1pblxQcm9maWxlUGFnZVxQcm9maWxlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/UDC/VirtualTour/VirtualTour.Web/Components/Pages/Admin/QR Code/QRCodeManage.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZG1pblxRUiBDb2RlXFFSQ29kZU1hbmFnZS5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/UDC/VirtualTour/VirtualTour.Web/Components/Pages/Admin/QR Code/Wifi Detail.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZG1pblxRUiBDb2RlXFdpZmkgRGV0YWlsLnJhem9y
+[D:/UDC/VirtualTour/VirtualTour.Web/Components/Pages/Admin/Register.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZG1pblxSZWdpc3Rlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/UDC/VirtualTour/VirtualTour.Web/Components/Pages/Admin/RoleManage.razor]

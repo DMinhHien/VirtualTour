@@ -26,6 +26,7 @@ namespace VirtualTour.Model
         public string CompanyEmail { get; set; }
         public string ManagerName { get; set; }
         public string HashKey { get; set; }
+        public string TenantId { get; set; }
         public DateTime ExpiredAt { get; set; }
     }
     public class ReqLoginDTO
@@ -52,6 +53,7 @@ namespace VirtualTour.Model
         public string PhoneNumber { get; set; }
         public string Role { get; set; }
         public string ApiKey { get; set; }
+        public string TenantId { get; set; }
         public string AvatarUrl { get; set; }
         public string CompanyEmail { get; set; }
         public string ManagerName { get; set; }

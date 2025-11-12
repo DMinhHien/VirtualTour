@@ -66,13 +66,13 @@
                     Login
                 </MudButton>
                 <div class="mt-3">
-                    <MudText Align="Align.End" Class="forgot-password" @onclick="ForgotAsync" Style="margin-top:50px">Forgot password?</MudText>
+                    <MudText Align="Align.End" Class="forgot-password" @onclick="NavigateToRegister" Style="margin-top:50px">Don't have an account? Please register here.</MudText>
                 </div>
             </EditForm>
                </div>
                  </div>
                     <MudText Typo="Typo.caption" Align="Align.Center" Style="color:#6c757d; margin-bottom:-40px;margin-top:40px">
-                Copyright ©2025 Framas Korea Vina. All rights reserved.
+                Copyright ©2025. All rights reserved.
             </MudText>
         </MudCardContent>
     </MudCard>
@@ -135,6 +135,11 @@
             PasswordInputIcon = Icons.Material.Filled.Visibility;
             PasswordInput = InputType.Text;
         }
+    }
+    private Task NavigateToRegister()
+    {
+        NavigationManager.NavigateTo("/admin/register");
+        return Task.CompletedTask;
     }
     private Task ForgotAsync()
     {

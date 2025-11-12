@@ -1,7 +1,7 @@
 ﻿
 using Microsoft.Extensions.Options;
-using VirtualTour.ApiService.Options;
-using VirtualTour.ApiService.Services;
+using VirtualTour.BL.Options;
+using VirtualTour.BL.Services;
 
 namespace VirtualTour.ApiService.Middleware
 {
@@ -42,11 +42,11 @@ namespace VirtualTour.ApiService.Middleware
             }
 
             // Validate
-            if (!tenantService.IsValidTenant(tenantId))
-            {
-                // Option: short-circuit with 400/403. For now fallback to default.
-                tenantId = opts.DefaultTenantId;
-            }
+            //if (!tenantService.IsValidTenant(tenantId))
+            //{
+            //    // Option: short-circuit with 400/403. For now fallback to default.
+            //    tenantId = opts.DefaultTenantId;
+            //}
 
             tenantService.SetTenantId(tenantId);
 

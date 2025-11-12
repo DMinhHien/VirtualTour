@@ -5,9 +5,9 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using VirtualTour.BL.Services;
 using VirtualTour.DataAccess;
 using VirtualTour.Model;
-
 namespace VirtualTour.BL.Repositories
 {
     public interface ISectionRepository
@@ -21,24 +21,31 @@ namespace VirtualTour.BL.Repositories
     public class SectionRepository: ISectionRepository
     {
         private readonly IDbContext _dbContext;
-        public SectionRepository(IDbContext dbContext)
+        private readonly ITenantService _tenantService;
+        public SectionRepository(IDbContext dbContext, ITenantService tenantService)
         {
             _dbContext = dbContext;
+            _tenantService = tenantService;
         }
         public async Task<List<SectionModel>> GetAllSectionsAsync()
         {
+            var tenantId = _tenantService.GetCurrentTenantId();
             var storedProcedure = "[dbo].[sp_Sections_GetAll]";
+            var parameters = new DynamicParameters();
+            parameters.Add("@TenantId", tenantId);
             using (var connection = _dbContext.CreateConnection())
             {
-                List<SectionModel> section_list = (await connection.QueryAsync<SectionModel>(storedProcedure, commandType: CommandType.StoredProcedure)).ToList();
+                List<SectionModel> section_list = (await connection.QueryAsync<SectionModel>(storedProcedure, parameters, commandType: CommandType.StoredProcedure)).ToList();
                 return section_list;
             }
         }
         public async Task<SectionModel> GetSectionByIdAsync(int id)
         {
+            var tenantId = _tenantService.GetCurrentTenantId();
             var storedProcedure = "sp_Sections_GetById";
             var parameters = new DynamicParameters();
             parameters.Add("@Id", id);
+            parameters.Add("@TenantId", tenantId);
             using (var connection = _dbContext.CreateConnection())
             {
                 var section = await connection.QueryFirstOrDefaultAsync<SectionModel>(storedProcedure, parameters, commandType: CommandType.StoredProcedure);
@@ -47,9 +54,11 @@ namespace VirtualTour.BL.Repositories
         }
         public async Task CreateSectionAsync(SectionModel section)
         {
+            var tenantId = _tenantService.GetCurrentTenantId();
             var storedProcedure = "sp_Sections_Create";
             var parameters = new DynamicParameters();
             parameters.Add("@SectName", section.SectName);
+            parameters.Add("@TenantId", tenantId);
             using (var connection = _dbContext.CreateConnection())
             {
               await connection.ExecuteAsync(storedProcedure, parameters, commandType: CommandType.StoredProcedure);

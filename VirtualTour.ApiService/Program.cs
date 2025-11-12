@@ -1,15 +1,16 @@
-﻿using VirtualTour.ApiService.Authorization;
-using VirtualTour.ApiService.Data;
-using VirtualTour.ApiService.Middleware;
-using VirtualTour.BL.Repositories;
-using VirtualTour.BL.Services;
-using VirtualTour.DataAccess;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Text;
+using VirtualTour.ApiService.Authorization;
+using VirtualTour.ApiService.Data;
+using VirtualTour.ApiService.Middleware;
+using VirtualTour.BL.Options;
+using VirtualTour.BL.Repositories;
+using VirtualTour.BL.Services;
+using VirtualTour.DataAccess;
 
 var builder = WebApplication.CreateBuilder(args);
 // Logging
@@ -48,6 +49,8 @@ builder.Services.AddScoped<IFloorService, FloorService>();
 builder.Services.AddScoped<ISectionService, SectionService>();
 builder.Services.AddScoped<IDeptRepository, DeptRepository>();
 builder.Services.AddScoped<IDeptService, DeptService>();
+builder.Services.Configure<TenantOptions>(builder.Configuration.GetSection("MultiTenancy"));
+builder.Services.AddScoped<ITenantService, TenantService>();
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddOpenApi();
 builder.Services.AddEndpointsApiExplorer();
@@ -158,6 +161,7 @@ app.MapGet("/", context =>
 });
 
 app.UseMiddleware<ApiKeyAuthenticationMiddleware>();
+app.UseMiddleware<TenantMiddleware>();
 //app.UseHttpsRedirection();
 app.UseCors(ops => ops.AllowAnyHeader().AllowAnyOrigin().AllowAnyMethod());
 

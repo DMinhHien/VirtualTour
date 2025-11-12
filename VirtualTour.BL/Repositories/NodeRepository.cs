@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using static QRCoder.PayloadGenerator;
+using VirtualTour.BL.Services;
 
 namespace VirtualTour.BL.Repositories
 {
@@ -31,17 +32,22 @@ namespace VirtualTour.BL.Repositories
     public class NodeRepository : INodeRepository
     {
         private readonly IDbContext _dbContext;
-        public NodeRepository(IDbContext dbContext)
+        private readonly ITenantService _tenantService;
+        public NodeRepository(IDbContext dbContext, ITenantService tenantService)
         {
             _dbContext = dbContext;
+            _tenantService = tenantService;
         }
         public async Task<IEnumerable<NodeModel>> GetAllNodesAsync()
         {
+            var tenantId = _tenantService.GetCurrentTenantId();
+            var parameters = new DynamicParameters();
+            parameters.Add("@TenantId", tenantId);
             var storedProcedure = "sp_nodes_get_all";
             try
             {
                 using (var connection = _dbContext.CreateConnection())
-                    return await connection.QueryAsync<NodeModel>(storedProcedure, commandType: CommandType.StoredProcedure);
+                    return await connection.QueryAsync<NodeModel>(storedProcedure,parameters, commandType: CommandType.StoredProcedure);
             }
             catch (Exception ex)
             {
@@ -67,6 +73,7 @@ namespace VirtualTour.BL.Repositories
         }
         public async Task CreateNode(NodeModel nodeModel)
         {
+            var tenantId = _tenantService.GetCurrentTenantId();
             var storedProcedure = "sp_nodes_create";
             try
             {
@@ -84,6 +91,7 @@ namespace VirtualTour.BL.Repositories
                     parameters.Add("@Floor", nodeModel.FloorId);
                     parameters.Add("@AreaName", nodeModel.AreaId);
                     parameters.Add("@DeptName", nodeModel.DeptId);
+                    parameters.Add("@TenantId", tenantId);
                     await connection.ExecuteAsync(storedProcedure, parameters, commandType: CommandType.StoredProcedure);
                     foreach (var link in nodeModel.Links)
                     {
@@ -122,7 +130,8 @@ namespace VirtualTour.BL.Repositories
         }
         public async Task<int> GetStartId()
         {
-            var sql = "SELECT id FROM Nodes Where IsStartNode=1;";
+            var tenantId = _tenantService.GetCurrentTenantId();
+            var sql = "SELECT id FROM Nodes Where IsStartNode=1 and TenantId="+tenantId+";";
             try
             {
                 using (var connection = _dbContext.CreateConnection())
@@ -160,6 +169,7 @@ namespace VirtualTour.BL.Repositories
         }
         public async Task<NodeModel> GetById(int id)
         {
+            var tenantId = _tenantService.GetCurrentTenantId();
             var storedProcedure = "sp_nodes_get_by_id";
             try
             {
@@ -167,6 +177,7 @@ namespace VirtualTour.BL.Repositories
                 {
                     var parameters = new DynamicParameters();
                     parameters.Add("@Id", id);
+                    parameters.Add("@TenantId", tenantId);
                     return await connection.QuerySingleOrDefaultAsync<NodeModel>(storedProcedure, parameters, commandType: CommandType.StoredProcedure);
                 }
             }

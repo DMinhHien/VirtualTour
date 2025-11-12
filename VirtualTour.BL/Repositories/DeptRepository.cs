@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using VirtualTour.BL.Services;
 using VirtualTour.DataAccess;
 using VirtualTour.Model;
 
@@ -21,24 +22,31 @@ namespace VirtualTour.BL.Repositories
     public class DeptRepository : IDeptRepository
     {
         private readonly IDbContext _dbContext;
-        public DeptRepository(IDbContext dbContext)
+        private readonly ITenantService tenantService;
+        public DeptRepository(IDbContext dbContext, ITenantService tenantService)
         {
             _dbContext = dbContext;
+            this.tenantService = tenantService;
         }
         public async Task<List<DeptModel>> GetAllDeptsAsync()
         {
+            var tenantId = tenantService.GetCurrentTenantId();
             var storedProcedure = "sp_Depts_GetAll";
+            var parameters = new DynamicParameters();
+            parameters.Add("@TenantId", tenantId);
             using (var connection = _dbContext.CreateConnection())
             {
-                List<DeptModel> dept_list = (await connection.QueryAsync<DeptModel>(storedProcedure, commandType: System.Data.CommandType.StoredProcedure)).ToList();
+                List<DeptModel> dept_list = (await connection.QueryAsync<DeptModel>(storedProcedure,parameters, commandType: System.Data.CommandType.StoredProcedure)).ToList();
                 return dept_list;
             }
         }
         public async Task<DeptModel> GetDeptByIdAsync(int id)
         {
+            var tenantId = tenantService.GetCurrentTenantId();
             var storedProcedure = "sp_Depts_GetById";
             var parameters = new Dapper.DynamicParameters();
             parameters.Add("@Id", id);
+            parameters.Add("@TenantId", tenantId);
             using (var connection = _dbContext.CreateConnection())
             {
                 var dept = await connection.QueryFirstOrDefaultAsync<DeptModel>(storedProcedure, parameters, commandType: System.Data.CommandType.StoredProcedure);
@@ -47,10 +55,12 @@ namespace VirtualTour.BL.Repositories
         }
         public async Task CreateDeptAsync(DeptModel dept)
         {
+            var tenantId = tenantService.GetCurrentTenantId();
             var storedProcedure = "sp_Depts_Create";
             var parameters = new Dapper.DynamicParameters();
             parameters.Add("@DeptName", dept.DeptName);
             parameters.Add("@AreaId", dept.AreaId);
+            parameters.Add("@TenantId", tenantId);
             using (var connection = _dbContext.CreateConnection())
             {
                await connection.ExecuteAsync(storedProcedure, parameters, commandType: System.Data.CommandType.StoredProcedure);
