@@ -44,12 +44,12 @@ namespace VirtualTour.Web.Authentication
                     await MarkUserAsLoggedOut();
                     return new AuthenticationState(new ClaimsPrincipal(new ClaimsIdentity()));
                 }
-                var savedApiKey = await _localStorage.GetItemAsync<string>("apiKey");
-                if (!string.IsNullOrWhiteSpace(savedApiKey) && string.IsNullOrWhiteSpace(_apiKeyNavigationService.CurrentApiKey))
-                {
-                    _apiKeyNavigationService.SetApiKey(savedApiKey);
-                    _navigationManager.NavigateTo(_navigationManager.Uri);
-                }
+                //var savedApiKey = await _localStorage.GetItemAsync<string>("apiKey");
+                //if (!string.IsNullOrWhiteSpace(savedApiKey) && string.IsNullOrWhiteSpace(_apiKeyNavigationService.CurrentApiKey))
+                //{
+                //    _apiKeyNavigationService.SetApiKey(savedApiKey);
+                //    _navigationManager.NavigateTo(_navigationManager.Uri);
+                //}
                 var identity = new ClaimsIdentity();
                 identity = GetClaimsIdentity(savedToken);
                 return new AuthenticationState(new ClaimsPrincipal(identity));
@@ -63,10 +63,10 @@ namespace VirtualTour.Web.Authentication
         public async Task MarkUserAsAuthenticated(LoginResponse model)
         {
             await _localStorage.SetItemAsync("authToken", model.Token);
-            await _localStorage.SetItemAsync("apiKey", model.ApiKey);
+            //await _localStorage.SetItemAsync("apiKey", model.ApiKey);
             await _localStorage.SetItemAsync("tenantId", model.TenantId);
             _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", model.Token);
-            _apiKeyNavigationService.SetApiKey(model.ApiKey);
+            //_apiKeyNavigationService.SetApiKey(model.ApiKey);
             var identity = GetClaimsIdentity(model.Token);
             if (!identity.HasClaim(c => c.Type == ClaimTypes.Name))
             {
@@ -80,9 +80,9 @@ namespace VirtualTour.Web.Authentication
         public async Task MarkUserAsLoggedOut()
         {
             await _localStorage.RemoveItemAsync("authToken");
-            await _localStorage.RemoveItemAsync("apiKey");
+            //await _localStorage.RemoveItemAsync("apiKey");
             await _localStorage.RemoveItemAsync("tenantId");
-            _apiKeyNavigationService.RemoveApiKey();
+            //_apiKeyNavigationService.RemoveApiKey();
             var anonymousUser = new ClaimsPrincipal(new ClaimsIdentity());
             var authState = Task.FromResult(new AuthenticationState(anonymousUser));
             NotifyAuthenticationStateChanged(authState);

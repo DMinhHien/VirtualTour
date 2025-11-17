@@ -38,7 +38,7 @@ else
                 <PropertyColumn Filterable="false" Property="x => x.Id" Title="ID" />
                 <PropertyColumn Property="x => x.UserName" Title="User Name" />
                 <PropertyColumn Property="x => x.Email" Title="Email" />
-                <PropertyColumn Property="x => x.HashKey" Filterable="false" Title="Api Key" >
+         @*        <PropertyColumn Property="x => x.HashKey" Filterable="false" Title="Api Key" >
                     <CellTemplate>
                             @if (context.Item.ExpiredAt < DateTime.Now)
                             {
@@ -53,7 +53,7 @@ else
                                        Color="Color.Info"
                                        onclick="@(()=>{RefreshID=context.Item.Id;RefreshApiKey();})" />
                     </CellTemplate>
-                </PropertyColumn>
+                </PropertyColumn> *@
                 <PropertyColumn Property="x => x.RoleName" Title="Role" />
                 <PermissionView Permission="Users.Edit">
                     <TemplateColumn Filterable="false" Sortable="false">
@@ -93,7 +93,7 @@ else
             </FooterTemplate>
         </Modal>
 
-            <Modal @ref="RefreshModal" title="Notification">
+        @*     <Modal @ref="RefreshModal" title="Notification">
                 <BodyTemplate>
                     You are refreshing your own API key. This will log you out and you will need to log in again with the new key. Do you want to proceed?
                 </BodyTemplate>
@@ -101,7 +101,7 @@ else
                     <Button Color="ButtonColor.Primary" style="width:80px" @onclick=" RefreshOwnApiKey">Yes</Button>
                     <Button Color="ButtonColor.Secondary" @onclick="OnHideRefreshModalClick">Cancel</Button>
                 </FooterTemplate>
-            </Modal>
+            </Modal> *@
     </MudContainer>
 }
 </PermissionView>

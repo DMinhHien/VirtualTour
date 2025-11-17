@@ -88,7 +88,7 @@ namespace VirtualTour.Web
         public async Task<T> GetFromJsonAsync<T>(string path)
         {
             await SetAuthorizeHeader();
-            SetApiKey(ref path);
+            //SetApiKey(ref path);
             var response = await _httpClient.GetAsync(path);
             if (response.StatusCode == System.Net.HttpStatusCode.Forbidden)
             {
@@ -108,7 +108,7 @@ namespace VirtualTour.Web
             HttpResponseMessage response;
             try
             {
-                SetApiKey(ref path);
+                //SetApiKey(ref path);
                 response = await _httpClient.PostAsJsonAsync(path, model, cts.Token);
             }
             catch (TaskCanceledException)
@@ -127,7 +127,7 @@ namespace VirtualTour.Web
         public async Task<TResponse> PutAsync<TResponse, TRequest>(string path, TRequest model)
         {
             await SetAuthorizeHeader();
-            SetApiKey(ref path);
+            //SetApiKey(ref path);
             var response = await _httpClient.PutAsJsonAsync(path, model);
             if (response != null && response.IsSuccessStatusCode)
             {
@@ -140,7 +140,7 @@ namespace VirtualTour.Web
         public async Task<T> DeleteAsync<T>(string path)
         {
             await SetAuthorizeHeader();
-            SetApiKey(ref path);
+            //SetApiKey(ref path);
             return await _httpClient.DeleteFromJsonAsync<T>(path);
         }
         public void SetApiKey(ref string path)

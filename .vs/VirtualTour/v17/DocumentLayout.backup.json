@@ -3,104 +3,84 @@
   "WorkspaceRootPath": "D:\\UDC\\VirtualTour\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{69DBFA6D-44B4-ACB8-AD92-5C1989D887E5}|VirtualTour.Model\\VirtualTour.Model.csproj|d:\\udc\\virtualtour\\virtualtour.model\\areamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69DBFA6D-44B4-ACB8-AD92-5C1989D887E5}|VirtualTour.Model\\VirtualTour.Model.csproj|solutionrelative:virtualtour.model\\areamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69DBFA6D-44B4-ACB8-AD92-5C1989D887E5}|VirtualTour.Model\\VirtualTour.Model.csproj|d:\\udc\\virtualtour\\virtualtour.model\\deptmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69DBFA6D-44B4-ACB8-AD92-5C1989D887E5}|VirtualTour.Model\\VirtualTour.Model.csproj|solutionrelative:virtualtour.model\\deptmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69DBFA6D-44B4-ACB8-AD92-5C1989D887E5}|VirtualTour.Model\\VirtualTour.Model.csproj|d:\\udc\\virtualtour\\virtualtour.model\\sectionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69DBFA6D-44B4-ACB8-AD92-5C1989D887E5}|VirtualTour.Model\\VirtualTour.Model.csproj|solutionrelative:virtualtour.model\\sectionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69DBFA6D-44B4-ACB8-AD92-5C1989D887E5}|VirtualTour.Model\\VirtualTour.Model.csproj|d:\\udc\\virtualtour\\virtualtour.model\\qrcodemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69DBFA6D-44B4-ACB8-AD92-5C1989D887E5}|VirtualTour.Model\\VirtualTour.Model.csproj|solutionrelative:virtualtour.model\\qrcodemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69DBFA6D-44B4-ACB8-AD92-5C1989D887E5}|VirtualTour.Model\\VirtualTour.Model.csproj|d:\\udc\\virtualtour\\virtualtour.model\\rolemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69DBFA6D-44B4-ACB8-AD92-5C1989D887E5}|VirtualTour.Model\\VirtualTour.Model.csproj|solutionrelative:virtualtour.model\\rolemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41F82F8A-39E3-DE21-7A50-32154F21D96E}|VirtualTour.BL\\VirtualTour.BL.csproj|d:\\udc\\virtualtour\\virtualtour.bl\\repositories\\sectionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41F82F8A-39E3-DE21-7A50-32154F21D96E}|VirtualTour.BL\\VirtualTour.BL.csproj|solutionrelative:virtualtour.bl\\repositories\\sectionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41F82F8A-39E3-DE21-7A50-32154F21D96E}|VirtualTour.BL\\VirtualTour.BL.csproj|d:\\udc\\virtualtour\\virtualtour.bl\\repositories\\qrcoderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41F82F8A-39E3-DE21-7A50-32154F21D96E}|VirtualTour.BL\\VirtualTour.BL.csproj|solutionrelative:virtualtour.bl\\repositories\\qrcoderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41F82F8A-39E3-DE21-7A50-32154F21D96E}|VirtualTour.BL\\VirtualTour.BL.csproj|d:\\udc\\virtualtour\\virtualtour.bl\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41F82F8A-39E3-DE21-7A50-32154F21D96E}|VirtualTour.BL\\VirtualTour.BL.csproj|solutionrelative:virtualtour.bl\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41F82F8A-39E3-DE21-7A50-32154F21D96E}|VirtualTour.BL\\VirtualTour.BL.csproj|d:\\udc\\virtualtour\\virtualtour.bl\\repositories\\permissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41F82F8A-39E3-DE21-7A50-32154F21D96E}|VirtualTour.BL\\VirtualTour.BL.csproj|solutionrelative:virtualtour.bl\\repositories\\permissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41F82F8A-39E3-DE21-7A50-32154F21D96E}|VirtualTour.BL\\VirtualTour.BL.csproj|d:\\udc\\virtualtour\\virtualtour.bl\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41F82F8A-39E3-DE21-7A50-32154F21D96E}|VirtualTour.BL\\VirtualTour.BL.csproj|solutionrelative:virtualtour.bl\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69DBFA6D-44B4-ACB8-AD92-5C1989D887E5}|VirtualTour.Model\\VirtualTour.Model.csproj|d:\\udc\\virtualtour\\virtualtour.model\\virtualtour.model.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{69DBFA6D-44B4-ACB8-AD92-5C1989D887E5}|VirtualTour.Model\\VirtualTour.Model.csproj|solutionrelative:virtualtour.model\\virtualtour.model.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|d:\\udc\\virtualtour\\virtualtour.web\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|solutionrelative:virtualtour.web\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|d:\\udc\\virtualtour\\virtualtour.web\\components\\layout\\adminlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|solutionrelative:virtualtour.web\\components\\layout\\adminlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|d:\\udc\\virtualtour\\virtualtour.web\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|solutionrelative:virtualtour.web\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|d:\\udc\\virtualtour\\virtualtour.web\\components\\pages\\admin\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|solutionrelative:virtualtour.web\\components\\pages\\admin\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|d:\\udc\\virtualtour\\virtualtour.web\\components\\layout\\adminlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|solutionrelative:virtualtour.web\\components\\layout\\adminlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|d:\\udc\\virtualtour\\virtualtour.web\\components\\pages\\admin\\permissionmanage.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|solutionrelative:virtualtour.web\\components\\pages\\admin\\permissionmanage.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|d:\\udc\\virtualtour\\virtualtour.web\\components\\layout\\clientlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|solutionrelative:virtualtour.web\\components\\layout\\clientlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|d:\\udc\\virtualtour\\virtualtour.web\\components\\pages\\client\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|solutionrelative:virtualtour.web\\components\\pages\\client\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|d:\\udc\\virtualtour\\virtualtour.web\\components\\layout\\clientlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|solutionrelative:virtualtour.web\\components\\layout\\clientlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|d:\\udc\\virtualtour\\virtualtour.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|solutionrelative:virtualtour.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|d:\\udc\\virtualtour\\virtualtour.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|solutionrelative:virtualtour.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|d:\\udc\\virtualtour\\virtualtour.web\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|solutionrelative:virtualtour.web\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|d:\\udc\\virtualtour\\virtualtour.web\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|solutionrelative:virtualtour.web\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|d:\\udc\\virtualtour\\virtualtour.web\\components\\pages\\unauthorized.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|solutionrelative:virtualtour.web\\components\\pages\\unauthorized.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|d:\\udc\\virtualtour\\virtualtour.web\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|solutionrelative:virtualtour.web\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|d:\\udc\\virtualtour\\virtualtour.web\\components\\redirecttologin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|solutionrelative:virtualtour.web\\components\\redirecttologin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|d:\\udc\\virtualtour\\virtualtour.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|solutionrelative:virtualtour.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|d:\\udc\\virtualtour\\virtualtour.web\\authentication\\apiauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|solutionrelative:virtualtour.web\\authentication\\apiauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|d:\\udc\\virtualtour\\virtualtour.web\\virtualtour.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|solutionrelative:virtualtour.web\\virtualtour.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|d:\\udc\\virtualtour\\virtualtour.web\\authorization\\permissionchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|solutionrelative:virtualtour.web\\authorization\\permissionchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|d:\\udc\\virtualtour\\virtualtour.web\\components\\layout\\adminlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|solutionrelative:virtualtour.web\\components\\layout\\adminlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{18C049C0-8480-FFB5-E9AB-AE0AD5433783}|VirtualTour.ApiService\\VirtualTour.ApiService.csproj|d:\\udc\\virtualtour\\virtualtour.apiservice\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18C049C0-8480-FFB5-E9AB-AE0AD5433783}|VirtualTour.ApiService\\VirtualTour.ApiService.csproj|solutionrelative:virtualtour.apiservice\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|d:\\udc\\virtualtour\\virtualtour.web\\components\\pages\\client\\virtualtourview.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|solutionrelative:virtualtour.web\\components\\pages\\client\\virtualtourview.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{18C049C0-8480-FFB5-E9AB-AE0AD5433783}|VirtualTour.ApiService\\VirtualTour.ApiService.csproj|d:\\udc\\virtualtour\\virtualtour.apiservice\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18C049C0-8480-FFB5-E9AB-AE0AD5433783}|VirtualTour.ApiService\\VirtualTour.ApiService.csproj|solutionrelative:virtualtour.apiservice\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|d:\\udc\\virtualtour\\virtualtour.web\\components\\pages\\admin\\user manage\\createuseradmin.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|solutionrelative:virtualtour.web\\components\\pages\\admin\\user manage\\createuseradmin.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|d:\\udc\\virtualtour\\virtualtour.web\\components\\pages\\admin\\user manage\\indexuseradmin.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|solutionrelative:virtualtour.web\\components\\pages\\admin\\user manage\\indexuseradmin.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|d:\\udc\\virtualtour\\virtualtour.web\\components\\pages\\admin\\user manage\\indexuseradmin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|solutionrelative:virtualtour.web\\components\\pages\\admin\\user manage\\indexuseradmin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{18C049C0-8480-FFB5-E9AB-AE0AD5433783}|VirtualTour.ApiService\\VirtualTour.ApiService.csproj|d:\\udc\\virtualtour\\virtualtour.apiservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18C049C0-8480-FFB5-E9AB-AE0AD5433783}|VirtualTour.ApiService\\VirtualTour.ApiService.csproj|solutionrelative:virtualtour.apiservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41F82F8A-39E3-DE21-7A50-32154F21D96E}|VirtualTour.BL\\VirtualTour.BL.csproj|d:\\udc\\virtualtour\\virtualtour.bl\\services\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41F82F8A-39E3-DE21-7A50-32154F21D96E}|VirtualTour.BL\\VirtualTour.BL.csproj|solutionrelative:virtualtour.bl\\services\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{41F82F8A-39E3-DE21-7A50-32154F21D96E}|VirtualTour.BL\\VirtualTour.BL.csproj|d:\\udc\\virtualtour\\virtualtour.bl\\services\\apikeyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41F82F8A-39E3-DE21-7A50-32154F21D96E}|VirtualTour.BL\\VirtualTour.BL.csproj|solutionrelative:virtualtour.bl\\services\\apikeyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|d:\\udc\\virtualtour\\virtualtour.web\\components\\basecomponents\\permissionview.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -119,100 +99,60 @@
       "RelativeMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|solutionrelative:virtualtour.web\\components\\basecomponents\\appmodal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|d:\\udc\\virtualtour\\virtualtour.web\\apikey\\apikeynavigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|solutionrelative:virtualtour.web\\apikey\\apikeynavigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|d:\\udc\\virtualtour\\virtualtour.web\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|solutionrelative:virtualtour.web\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69DBFA6D-44B4-ACB8-AD92-5C1989D887E5}|VirtualTour.Model\\VirtualTour.Model.csproj|d:\\udc\\virtualtour\\virtualtour.model\\permissionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69DBFA6D-44B4-ACB8-AD92-5C1989D887E5}|VirtualTour.Model\\VirtualTour.Model.csproj|solutionrelative:virtualtour.model\\permissionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|d:\\udc\\virtualtour\\virtualtour.web\\components\\pages\\client\\virtualtourview.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|solutionrelative:virtualtour.web\\components\\pages\\client\\virtualtourview.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69DBFA6D-44B4-ACB8-AD92-5C1989D887E5}|VirtualTour.Model\\VirtualTour.Model.csproj|d:\\udc\\virtualtour\\virtualtour.model\\nodemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69DBFA6D-44B4-ACB8-AD92-5C1989D887E5}|VirtualTour.Model\\VirtualTour.Model.csproj|solutionrelative:virtualtour.model\\nodemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|d:\\udc\\virtualtour\\virtualtour.web\\components\\pages\\admin\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|solutionrelative:virtualtour.web\\components\\pages\\admin\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69DBFA6D-44B4-ACB8-AD92-5C1989D887E5}|VirtualTour.Model\\VirtualTour.Model.csproj|d:\\udc\\virtualtour\\virtualtour.model\\apikeymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69DBFA6D-44B4-ACB8-AD92-5C1989D887E5}|VirtualTour.Model\\VirtualTour.Model.csproj|solutionrelative:virtualtour.model\\apikeymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|d:\\udc\\virtualtour\\virtualtour.web\\components\\pages\\admin\\user manage\\createuseradmin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|solutionrelative:virtualtour.web\\components\\pages\\admin\\user manage\\createuseradmin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|d:\\udc\\virtualtour\\virtualtour.web\\components\\pages\\unauthorized.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|solutionrelative:virtualtour.web\\components\\pages\\unauthorized.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|d:\\udc\\virtualtour\\virtualtour.web\\components\\pages\\admin\\rolemanage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|solutionrelative:virtualtour.web\\components\\pages\\admin\\rolemanage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|d:\\udc\\virtualtour\\virtualtour.web\\components\\pages\\admin\\permissionmanage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|solutionrelative:virtualtour.web\\components\\pages\\admin\\permissionmanage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{41F82F8A-39E3-DE21-7A50-32154F21D96E}|VirtualTour.BL\\VirtualTour.BL.csproj|d:\\udc\\virtualtour\\virtualtour.bl\\repositories\\deptrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41F82F8A-39E3-DE21-7A50-32154F21D96E}|VirtualTour.BL\\VirtualTour.BL.csproj|solutionrelative:virtualtour.bl\\repositories\\deptrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|d:\\udc\\virtualtour\\virtualtour.web\\components\\pages\\admin\\logout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|solutionrelative:virtualtour.web\\components\\pages\\admin\\logout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{41F82F8A-39E3-DE21-7A50-32154F21D96E}|VirtualTour.BL\\VirtualTour.BL.csproj|d:\\udc\\virtualtour\\virtualtour.bl\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41F82F8A-39E3-DE21-7A50-32154F21D96E}|VirtualTour.BL\\VirtualTour.BL.csproj|solutionrelative:virtualtour.bl\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|d:\\udc\\virtualtour\\virtualtour.web\\components\\pages\\admin\\node\\view.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|solutionrelative:virtualtour.web\\components\\pages\\admin\\node\\view.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|d:\\udc\\virtualtour\\virtualtour.web\\components\\pages\\admin\\node\\nodemanage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|solutionrelative:virtualtour.web\\components\\pages\\admin\\node\\nodemanage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|d:\\udc\\virtualtour\\virtualtour.web\\components\\pages\\admin\\node\\nodecreate.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{258F8DF0-586B-CC9E-A668-AD500070E244}|VirtualTour.Web\\VirtualTour.Web.csproj|solutionrelative:virtualtour.web\\components\\pages\\admin\\node\\nodecreate.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41F82F8A-39E3-DE21-7A50-32154F21D96E}|VirtualTour.BL\\VirtualTour.BL.csproj|d:\\udc\\virtualtour\\virtualtour.bl\\repositories\\noderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41F82F8A-39E3-DE21-7A50-32154F21D96E}|VirtualTour.BL\\VirtualTour.BL.csproj|solutionrelative:virtualtour.bl\\repositories\\noderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41F82F8A-39E3-DE21-7A50-32154F21D96E}|VirtualTour.BL\\VirtualTour.BL.csproj|d:\\udc\\virtualtour\\virtualtour.bl\\repositories\\apikeyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41F82F8A-39E3-DE21-7A50-32154F21D96E}|VirtualTour.BL\\VirtualTour.BL.csproj|solutionrelative:virtualtour.bl\\repositories\\apikeyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{41F82F8A-39E3-DE21-7A50-32154F21D96E}|VirtualTour.BL\\VirtualTour.BL.csproj|d:\\udc\\virtualtour\\virtualtour.bl\\repositories\\floorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41F82F8A-39E3-DE21-7A50-32154F21D96E}|VirtualTour.BL\\VirtualTour.BL.csproj|solutionrelative:virtualtour.bl\\repositories\\floorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18C049C0-8480-FFB5-E9AB-AE0AD5433783}|VirtualTour.ApiService\\VirtualTour.ApiService.csproj|d:\\udc\\virtualtour\\virtualtour.apiservice\\virtualtour.apiservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{18C049C0-8480-FFB5-E9AB-AE0AD5433783}|VirtualTour.ApiService\\VirtualTour.ApiService.csproj|solutionrelative:virtualtour.apiservice\\virtualtour.apiservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{41F82F8A-39E3-DE21-7A50-32154F21D96E}|VirtualTour.BL\\VirtualTour.BL.csproj|d:\\udc\\virtualtour\\virtualtour.bl\\repositories\\arearepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41F82F8A-39E3-DE21-7A50-32154F21D96E}|VirtualTour.BL\\VirtualTour.BL.csproj|solutionrelative:virtualtour.bl\\repositories\\arearepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18C049C0-8480-FFB5-E9AB-AE0AD5433783}|VirtualTour.ApiService\\VirtualTour.ApiService.csproj|d:\\udc\\virtualtour\\virtualtour.apiservice\\controllers\\nodecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18C049C0-8480-FFB5-E9AB-AE0AD5433783}|VirtualTour.ApiService\\VirtualTour.ApiService.csproj|solutionrelative:virtualtour.apiservice\\controllers\\nodecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{41F82F8A-39E3-DE21-7A50-32154F21D96E}|VirtualTour.BL\\VirtualTour.BL.csproj|d:\\udc\\virtualtour\\virtualtour.bl\\repositories\\sectionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41F82F8A-39E3-DE21-7A50-32154F21D96E}|VirtualTour.BL\\VirtualTour.BL.csproj|solutionrelative:virtualtour.bl\\repositories\\sectionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18C049C0-8480-FFB5-E9AB-AE0AD5433783}|VirtualTour.ApiService\\VirtualTour.ApiService.csproj|d:\\udc\\virtualtour\\virtualtour.apiservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{18C049C0-8480-FFB5-E9AB-AE0AD5433783}|VirtualTour.ApiService\\VirtualTour.ApiService.csproj|solutionrelative:virtualtour.apiservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{41F82F8A-39E3-DE21-7A50-32154F21D96E}|VirtualTour.BL\\VirtualTour.BL.csproj|d:\\udc\\virtualtour\\virtualtour.bl\\services\\tenantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41F82F8A-39E3-DE21-7A50-32154F21D96E}|VirtualTour.BL\\VirtualTour.BL.csproj|solutionrelative:virtualtour.bl\\services\\tenantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18C049C0-8480-FFB5-E9AB-AE0AD5433783}|VirtualTour.ApiService\\VirtualTour.ApiService.csproj|d:\\udc\\virtualtour\\virtualtour.apiservice\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18C049C0-8480-FFB5-E9AB-AE0AD5433783}|VirtualTour.ApiService\\VirtualTour.ApiService.csproj|solutionrelative:virtualtour.apiservice\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18C049C0-8480-FFB5-E9AB-AE0AD5433783}|VirtualTour.ApiService\\VirtualTour.ApiService.csproj|d:\\udc\\virtualtour\\virtualtour.apiservice\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18C049C0-8480-FFB5-E9AB-AE0AD5433783}|VirtualTour.ApiService\\VirtualTour.ApiService.csproj|solutionrelative:virtualtour.apiservice\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18C049C0-8480-FFB5-E9AB-AE0AD5433783}|VirtualTour.ApiService\\VirtualTour.ApiService.csproj|d:\\udc\\virtualtour\\virtualtour.apiservice\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18C049C0-8480-FFB5-E9AB-AE0AD5433783}|VirtualTour.ApiService\\VirtualTour.ApiService.csproj|solutionrelative:virtualtour.apiservice\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18C049C0-8480-FFB5-E9AB-AE0AD5433783}|VirtualTour.ApiService\\VirtualTour.ApiService.csproj|d:\\udc\\virtualtour\\virtualtour.apiservice\\controllers\\qrcodescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18C049C0-8480-FFB5-E9AB-AE0AD5433783}|VirtualTour.ApiService\\VirtualTour.ApiService.csproj|solutionrelative:virtualtour.apiservice\\controllers\\qrcodescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18C049C0-8480-FFB5-E9AB-AE0AD5433783}|VirtualTour.ApiService\\VirtualTour.ApiService.csproj|d:\\udc\\virtualtour\\virtualtour.apiservice\\controllers\\permissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18C049C0-8480-FFB5-E9AB-AE0AD5433783}|VirtualTour.ApiService\\VirtualTour.ApiService.csproj|solutionrelative:virtualtour.apiservice\\controllers\\permissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18C049C0-8480-FFB5-E9AB-AE0AD5433783}|VirtualTour.ApiService\\VirtualTour.ApiService.csproj|d:\\udc\\virtualtour\\virtualtour.apiservice\\authorization\\permissionrequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18C049C0-8480-FFB5-E9AB-AE0AD5433783}|VirtualTour.ApiService\\VirtualTour.ApiService.csproj|solutionrelative:virtualtour.apiservice\\authorization\\permissionrequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18C049C0-8480-FFB5-E9AB-AE0AD5433783}|VirtualTour.ApiService\\VirtualTour.ApiService.csproj|d:\\udc\\virtualtour\\virtualtour.apiservice\\authorization\\permissionpolicyprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18C049C0-8480-FFB5-E9AB-AE0AD5433783}|VirtualTour.ApiService\\VirtualTour.ApiService.csproj|solutionrelative:virtualtour.apiservice\\authorization\\permissionpolicyprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18C049C0-8480-FFB5-E9AB-AE0AD5433783}|VirtualTour.ApiService\\VirtualTour.ApiService.csproj|d:\\udc\\virtualtour\\virtualtour.apiservice\\authorization\\permissionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18C049C0-8480-FFB5-E9AB-AE0AD5433783}|VirtualTour.ApiService\\VirtualTour.ApiService.csproj|solutionrelative:virtualtour.apiservice\\authorization\\permissionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18C049C0-8480-FFB5-E9AB-AE0AD5433783}|VirtualTour.ApiService\\VirtualTour.ApiService.csproj|d:\\udc\\virtualtour\\virtualtour.apiservice\\authorization\\permissionchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18C049C0-8480-FFB5-E9AB-AE0AD5433783}|VirtualTour.ApiService\\VirtualTour.ApiService.csproj|solutionrelative:virtualtour.apiservice\\authorization\\permissionchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UDC\\VirtualTour\\fKVPortalAspireWeb.ApiService\\Authorization\\PermissionChecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:fKVPortalAspireWeb.ApiService\\Authorization\\PermissionChecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18C049C0-8480-FFB5-E9AB-AE0AD5433783}|VirtualTour.ApiService\\VirtualTour.ApiService.csproj|d:\\udc\\virtualtour\\virtualtour.apiservice\\middleware\\tenantmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18C049C0-8480-FFB5-E9AB-AE0AD5433783}|VirtualTour.ApiService\\VirtualTour.ApiService.csproj|solutionrelative:virtualtour.apiservice\\middleware\\tenantmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -222,7 +162,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -257,180 +197,34 @@
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AreaModel.cs",
-              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Model\\AreaModel.cs",
-              "RelativeDocumentMoniker": "VirtualTour.Model\\AreaModel.cs",
-              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Model\\AreaModel.cs",
-              "RelativeToolTip": "VirtualTour.Model\\AreaModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T15:01:14.261Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DeptModel.cs",
-              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Model\\DeptModel.cs",
-              "RelativeDocumentMoniker": "VirtualTour.Model\\DeptModel.cs",
-              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Model\\DeptModel.cs",
-              "RelativeToolTip": "VirtualTour.Model\\DeptModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T15:01:08.133Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "QRCodeModel.cs",
-              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Model\\QRCodeModel.cs",
-              "RelativeDocumentMoniker": "VirtualTour.Model\\QRCodeModel.cs",
-              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Model\\QRCodeModel.cs",
-              "RelativeToolTip": "VirtualTour.Model\\QRCodeModel.cs",
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "VirtualTour.Web\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "VirtualTour.Web\\Components\\Layout\\NavMenu.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T15:00:54.882Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SectionRepository.cs",
-              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.BL\\Repositories\\SectionRepository.cs",
-              "RelativeDocumentMoniker": "VirtualTour.BL\\Repositories\\SectionRepository.cs",
-              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.BL\\Repositories\\SectionRepository.cs",
-              "RelativeToolTip": "VirtualTour.BL\\Repositories\\SectionRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T14:43:34.982Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "QRCodeRepository.cs",
-              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.BL\\Repositories\\QRCodeRepository.cs",
-              "RelativeDocumentMoniker": "VirtualTour.BL\\Repositories\\QRCodeRepository.cs",
-              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.BL\\Repositories\\QRCodeRepository.cs",
-              "RelativeToolTip": "VirtualTour.BL\\Repositories\\QRCodeRepository.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAIwBoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T14:23:07.566Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.BL\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "VirtualTour.BL\\Repositories\\UserRepository.cs",
-              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.BL\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "VirtualTour.BL\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T14:23:09.494Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SectionModel.cs",
-              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Model\\SectionModel.cs",
-              "RelativeDocumentMoniker": "VirtualTour.Model\\SectionModel.cs",
-              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Model\\SectionModel.cs",
-              "RelativeToolTip": "VirtualTour.Model\\SectionModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T14:09:43.956Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RoleModel.cs",
-              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Model\\RoleModel.cs",
-              "RelativeDocumentMoniker": "VirtualTour.Model\\RoleModel.cs",
-              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Model\\RoleModel.cs",
-              "RelativeToolTip": "VirtualTour.Model\\RoleModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T14:36:32.369Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T14:54:18.99Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "PermissionRepository.cs",
-              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.BL\\Repositories\\PermissionRepository.cs",
-              "RelativeDocumentMoniker": "VirtualTour.BL\\Repositories\\PermissionRepository.cs",
-              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.BL\\Repositories\\PermissionRepository.cs",
-              "RelativeToolTip": "VirtualTour.BL\\Repositories\\PermissionRepository.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T14:23:05.988Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RoleRepository.cs",
-              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.BL\\Repositories\\RoleRepository.cs",
-              "RelativeDocumentMoniker": "VirtualTour.BL\\Repositories\\RoleRepository.cs",
-              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.BL\\Repositories\\RoleRepository.cs",
-              "RelativeToolTip": "VirtualTour.BL\\Repositories\\RoleRepository.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T14:50:13.317Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "App.razor",
-              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\App.razor",
-              "RelativeDocumentMoniker": "VirtualTour.Web\\Components\\App.razor",
-              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\App.razor",
-              "RelativeToolTip": "VirtualTour.Web\\Components\\App.razor",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAABEAAABbAAAAAAAAAA==",
+              "Title": "Unauthorized.razor",
+              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Pages\\Unauthorized.razor",
+              "RelativeDocumentMoniker": "VirtualTour.Web\\Components\\Pages\\Unauthorized.razor",
+              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Pages\\Unauthorized.razor",
+              "RelativeToolTip": "VirtualTour.Web\\Components\\Pages\\Unauthorized.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-08T14:34:32.609Z",
+              "WhenOpened": "2025-11-17T14:51:14.44Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "VirtualTour.Model.csproj",
-              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Model\\VirtualTour.Model.csproj",
-              "RelativeDocumentMoniker": "VirtualTour.Model\\VirtualTour.Model.csproj",
-              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Model\\VirtualTour.Model.csproj",
-              "RelativeToolTip": "VirtualTour.Model\\VirtualTour.Model.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-08T14:36:26.049Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Login.razor",
-              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Pages\\Admin\\Login.razor",
-              "RelativeDocumentMoniker": "VirtualTour.Web\\Components\\Pages\\Admin\\Login.razor",
-              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Pages\\Admin\\Login.razor",
-              "RelativeToolTip": "VirtualTour.Web\\Components\\Pages\\Admin\\Login.razor",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACAAAABfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-08T14:32:38.732Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
               "Title": "RedirectToLogin.razor",
               "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\RedirectToLogin.razor",
               "RelativeDocumentMoniker": "VirtualTour.Web\\Components\\RedirectToLogin.razor",
@@ -438,156 +232,246 @@
               "RelativeToolTip": "VirtualTour.Web\\Components\\RedirectToLogin.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-15T14:28:31.7Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "VirtualTour.Web.csproj",
-              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\VirtualTour.Web.csproj",
-              "RelativeDocumentMoniker": "VirtualTour.Web\\VirtualTour.Web.csproj",
-              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\VirtualTour.Web.csproj",
-              "RelativeToolTip": "VirtualTour.Web\\VirtualTour.Web.csproj",
-              "ViewState": "AgIAAAgAAAAAAAAAAABRwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-15T13:52:33.498Z",
+              "WhenOpened": "2025-11-17T14:51:06.245Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "VirtualTour.Web\\Components\\Layout\\NavMenu.razor",
-              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "VirtualTour.Web\\Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACoAAABgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-08T14:29:35.321Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AdminLayout.razor",
-              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Layout\\AdminLayout.razor",
-              "RelativeDocumentMoniker": "VirtualTour.Web\\Components\\Layout\\AdminLayout.razor",
-              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Layout\\AdminLayout.razor",
-              "RelativeToolTip": "VirtualTour.Web\\Components\\Layout\\AdminLayout.razor",
-              "ViewState": "AgIAACgAAAAAAAAAAAAAAFgAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-15T13:29:09.116Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "PermissionManage.razor.cs",
-              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Pages\\Admin\\PermissionManage.razor.cs",
-              "RelativeDocumentMoniker": "VirtualTour.Web\\Components\\Pages\\Admin\\PermissionManage.razor.cs",
-              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Pages\\Admin\\PermissionManage.razor.cs",
-              "RelativeToolTip": "VirtualTour.Web\\Components\\Pages\\Admin\\PermissionManage.razor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T13:55:55.93Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Home.razor",
-              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Pages\\Client\\Home.razor",
-              "RelativeDocumentMoniker": "VirtualTour.Web\\Components\\Pages\\Client\\Home.razor",
-              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Pages\\Client\\Home.razor",
-              "RelativeToolTip": "VirtualTour.Web\\Components\\Pages\\Client\\Home.razor",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-15T13:45:21.73Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "AdminLayout.razor.css",
-              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Layout\\AdminLayout.razor.css",
-              "RelativeDocumentMoniker": "VirtualTour.Web\\Components\\Layout\\AdminLayout.razor.css",
-              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Layout\\AdminLayout.razor.css",
-              "RelativeToolTip": "VirtualTour.Web\\Components\\Layout\\AdminLayout.razor.css",
-              "ViewState": "AgIAACcAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-10-15T13:29:08.442Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.ApiService\\Program.cs",
-              "RelativeDocumentMoniker": "VirtualTour.ApiService\\Program.cs",
-              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.ApiService\\Program.cs",
-              "RelativeToolTip": "VirtualTour.ApiService\\Program.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAIBpwAgAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T14:21:56.074Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ClientLayout.razor",
-              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Layout\\ClientLayout.razor",
-              "RelativeDocumentMoniker": "VirtualTour.Web\\Components\\Layout\\ClientLayout.razor",
-              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Layout\\ClientLayout.razor",
-              "RelativeToolTip": "VirtualTour.Web\\Components\\Layout\\ClientLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-08T14:29:31.021Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Program.cs",
               "RelativeDocumentMoniker": "VirtualTour.Web\\Program.cs",
               "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Program.cs",
               "RelativeToolTip": "VirtualTour.Web\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAIBJwBsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAhwC8AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T13:33:21.341Z"
+              "WhenOpened": "2025-11-17T14:35:31.379Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "VirtualTourView.razor",
-              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Pages\\Client\\VirtualTourView.razor",
-              "RelativeDocumentMoniker": "VirtualTour.Web\\Components\\Pages\\Client\\VirtualTourView.razor",
-              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Pages\\Client\\VirtualTourView.razor",
-              "RelativeToolTip": "VirtualTour.Web\\Components\\Pages\\Client\\VirtualTourView.razor",
+              "DocumentIndex": 0,
+              "Title": "AdminLayout.razor",
+              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Layout\\AdminLayout.razor",
+              "RelativeDocumentMoniker": "VirtualTour.Web\\Components\\Layout\\AdminLayout.razor",
+              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Layout\\AdminLayout.razor",
+              "RelativeToolTip": "VirtualTour.Web\\Components\\Layout\\AdminLayout.razor",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAhwHsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T14:12:57.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Home.razor",
+              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Pages\\Client\\Home.razor",
+              "RelativeDocumentMoniker": "VirtualTour.Web\\Components\\Pages\\Client\\Home.razor",
+              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Pages\\Client\\Home.razor",
+              "RelativeToolTip": "VirtualTour.Web\\Components\\Pages\\Client\\Home.razor",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T14:24:53.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClientLayout.razor",
+              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Layout\\ClientLayout.razor",
+              "RelativeDocumentMoniker": "VirtualTour.Web\\Components\\Layout\\ClientLayout.razor",
+              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Layout\\ClientLayout.razor",
+              "RelativeToolTip": "VirtualTour.Web\\Components\\Layout\\ClientLayout.razor",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T14:36:54.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "VirtualTour.Web\\Components\\_Imports.razor",
+              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\_Imports.razor",
+              "RelativeToolTip": "VirtualTour.Web\\Components\\_Imports.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-15T13:45:26.29Z"
+              "WhenOpened": "2025-11-17T14:51:14.018Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "PasswordService.cs",
-              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.BL\\Services\\PasswordService.cs",
-              "RelativeDocumentMoniker": "VirtualTour.BL\\Services\\PasswordService.cs",
-              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.BL\\Services\\PasswordService.cs",
-              "RelativeToolTip": "VirtualTour.BL\\Services\\PasswordService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAYwD0AAAAcAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "VirtualTour.Web\\appsettings.json",
+              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\appsettings.json",
+              "RelativeToolTip": "VirtualTour.Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-17T14:51:36.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PermissionChecker.cs",
+              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Authorization\\PermissionChecker.cs",
+              "RelativeDocumentMoniker": "VirtualTour.Web\\Authorization\\PermissionChecker.cs",
+              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Authorization\\PermissionChecker.cs",
+              "RelativeToolTip": "VirtualTour.Web\\Authorization\\PermissionChecker.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAswCMAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T15:08:40.37Z"
+              "WhenOpened": "2025-11-17T14:50:00.545Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 13,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.ApiService\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "VirtualTour.ApiService\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.ApiService\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "VirtualTour.ApiService\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAtwK0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T16:23:01.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApiClient.cs",
+              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\ApiClient.cs",
+              "RelativeDocumentMoniker": "VirtualTour.Web\\ApiClient.cs",
+              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\ApiClient.cs",
+              "RelativeToolTip": "VirtualTour.Web\\ApiClient.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAIA0wIsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T14:40:29.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApiAuthenticationStateProvider.cs",
+              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Authentication\\ApiAuthenticationStateProvider.cs",
+              "RelativeDocumentMoniker": "VirtualTour.Web\\Authentication\\ApiAuthenticationStateProvider.cs",
+              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Authentication\\ApiAuthenticationStateProvider.cs",
+              "RelativeToolTip": "VirtualTour.Web\\Authentication\\ApiAuthenticationStateProvider.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwDMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T17:01:47.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.razor",
+              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\App.razor",
+              "RelativeDocumentMoniker": "VirtualTour.Web\\Components\\App.razor",
+              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\App.razor",
+              "RelativeToolTip": "VirtualTour.Web\\Components\\App.razor",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T14:36:24.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IndexUserAdmin.razor.cs",
+              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Pages\\Admin\\User Manage\\IndexUserAdmin.razor.cs",
+              "RelativeDocumentMoniker": "VirtualTour.Web\\Components\\Pages\\Admin\\User Manage\\IndexUserAdmin.razor.cs",
+              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Pages\\Admin\\User Manage\\IndexUserAdmin.razor.cs",
+              "RelativeToolTip": "VirtualTour.Web\\Components\\Pages\\Admin\\User Manage\\IndexUserAdmin.razor.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAADwv10AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T14:43:02.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreateUserAdmin.razor.cs",
+              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Pages\\Admin\\User Manage\\CreateUserAdmin.razor.cs",
+              "RelativeDocumentMoniker": "VirtualTour.Web\\Components\\Pages\\Admin\\User Manage\\CreateUserAdmin.razor.cs",
+              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Pages\\Admin\\User Manage\\CreateUserAdmin.razor.cs",
+              "RelativeToolTip": "VirtualTour.Web\\Components\\Pages\\Admin\\User Manage\\CreateUserAdmin.razor.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAIwEUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T14:44:33.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.ApiService\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "VirtualTour.ApiService\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.ApiService\\Controllers\\UserController.cs",
+              "RelativeToolTip": "VirtualTour.ApiService\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAIAxwJIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T14:44:50.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IndexUserAdmin.razor",
+              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Pages\\Admin\\User Manage\\IndexUserAdmin.razor",
+              "RelativeDocumentMoniker": "VirtualTour.Web\\Components\\Pages\\Admin\\User Manage\\IndexUserAdmin.razor",
+              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Pages\\Admin\\User Manage\\IndexUserAdmin.razor",
+              "RelativeToolTip": "VirtualTour.Web\\Components\\Pages\\Admin\\User Manage\\IndexUserAdmin.razor",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAAAGcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T14:42:20.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ApiKeyService.cs",
+              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.BL\\Services\\ApiKeyService.cs",
+              "RelativeDocumentMoniker": "VirtualTour.BL\\Services\\ApiKeyService.cs",
+              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.BL\\Services\\ApiKeyService.cs",
+              "RelativeToolTip": "VirtualTour.BL\\Services\\ApiKeyService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T14:39:55.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.ApiService\\Program.cs",
+              "RelativeDocumentMoniker": "VirtualTour.ApiService\\Program.cs",
+              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.ApiService\\Program.cs",
+              "RelativeToolTip": "VirtualTour.ApiService\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T14:38:48.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "PermissionView.razor",
               "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\BaseComponents\\PermissionView.razor",
               "RelativeDocumentMoniker": "VirtualTour.Web\\Components\\BaseComponents\\PermissionView.razor",
               "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\BaseComponents\\PermissionView.razor",
               "RelativeToolTip": "VirtualTour.Web\\Components\\BaseComponents\\PermissionView.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-08T14:28:39.296Z"
+              "WhenOpened": "2025-11-17T14:36:45.509Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 21,
               "Title": "Dialog.razor",
               "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\BaseComponents\\Dialog.razor",
               "RelativeDocumentMoniker": "VirtualTour.Web\\Components\\BaseComponents\\Dialog.razor",
@@ -595,23 +479,25 @@
               "RelativeToolTip": "VirtualTour.Web\\Components\\BaseComponents\\Dialog.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-08T14:28:45.941Z"
+              "WhenOpened": "2025-11-17T14:36:44.743Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 22,
               "Title": "AuthStateChecker.razor",
               "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\BaseComponents\\AuthStateChecker.razor",
               "RelativeDocumentMoniker": "VirtualTour.Web\\Components\\BaseComponents\\AuthStateChecker.razor",
               "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\BaseComponents\\AuthStateChecker.razor",
               "RelativeToolTip": "VirtualTour.Web\\Components\\BaseComponents\\AuthStateChecker.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-08T14:28:29.711Z"
+              "WhenOpened": "2025-11-17T14:36:43.599Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 23,
               "Title": "AppModal.razor",
               "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\BaseComponents\\AppModal.razor",
               "RelativeDocumentMoniker": "VirtualTour.Web\\Components\\BaseComponents\\AppModal.razor",
@@ -619,295 +505,178 @@
               "RelativeToolTip": "VirtualTour.Web\\Components\\BaseComponents\\AppModal.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-08T14:28:25.181Z"
+              "WhenOpened": "2025-11-17T14:36:42.201Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "ApiKeyNavigationService.cs",
-              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\ApiKey\\ApiKeyNavigationService.cs",
-              "RelativeDocumentMoniker": "VirtualTour.Web\\ApiKey\\ApiKeyNavigationService.cs",
-              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\ApiKey\\ApiKeyNavigationService.cs",
-              "RelativeToolTip": "VirtualTour.Web\\ApiKey\\ApiKeyNavigationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T14:25:51.53Z"
+              "DocumentIndex": 24,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "VirtualTour.Web\\Components\\Routes.razor",
+              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Routes.razor",
+              "RelativeToolTip": "VirtualTour.Web\\Components\\Routes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T14:35:10.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "VirtualTourView.razor",
+              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Pages\\Client\\VirtualTourView.razor",
+              "RelativeDocumentMoniker": "VirtualTour.Web\\Components\\Pages\\Client\\VirtualTourView.razor",
+              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Pages\\Client\\VirtualTourView.razor",
+              "RelativeToolTip": "VirtualTour.Web\\Components\\Pages\\Client\\VirtualTourView.razor",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T14:24:44.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Register.razor",
+              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Pages\\Admin\\Register.razor",
+              "RelativeDocumentMoniker": "VirtualTour.Web\\Components\\Pages\\Admin\\Register.razor",
+              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Pages\\Admin\\Register.razor",
+              "RelativeToolTip": "VirtualTour.Web\\Components\\Pages\\Admin\\Register.razor",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAawCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-12T15:24:36.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "RoleManage.razor",
+              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Pages\\Admin\\RoleManage.razor",
+              "RelativeDocumentMoniker": "VirtualTour.Web\\Components\\Pages\\Admin\\RoleManage.razor",
+              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Pages\\Admin\\RoleManage.razor",
+              "RelativeToolTip": "VirtualTour.Web\\Components\\Pages\\Admin\\RoleManage.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-12T15:36:01.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CreateUserAdmin.razor",
+              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Pages\\Admin\\User Manage\\CreateUserAdmin.razor",
+              "RelativeDocumentMoniker": "VirtualTour.Web\\Components\\Pages\\Admin\\User Manage\\CreateUserAdmin.razor",
+              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Pages\\Admin\\User Manage\\CreateUserAdmin.razor",
+              "RelativeToolTip": "VirtualTour.Web\\Components\\Pages\\Admin\\User Manage\\CreateUserAdmin.razor",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-12T15:35:05.459Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 30,
-              "Title": "PermissionModel.cs",
-              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Model\\PermissionModel.cs",
-              "RelativeDocumentMoniker": "VirtualTour.Model\\PermissionModel.cs",
-              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Model\\PermissionModel.cs",
-              "RelativeToolTip": "VirtualTour.Model\\PermissionModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.BL\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "VirtualTour.BL\\Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.BL\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "VirtualTour.BL\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAgwBsAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T14:36:30.759Z"
+              "WhenOpened": "2025-11-11T17:18:16.689Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 31,
-              "Title": "NodeModel.cs",
-              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Model\\NodeModel.cs",
-              "RelativeDocumentMoniker": "VirtualTour.Model\\NodeModel.cs",
-              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Model\\NodeModel.cs",
-              "RelativeToolTip": "VirtualTour.Model\\NodeModel.cs",
+              "Title": "NodeCreate.razor",
+              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Pages\\Admin\\Node\\NodeCreate.razor",
+              "RelativeDocumentMoniker": "VirtualTour.Web\\Components\\Pages\\Admin\\Node\\NodeCreate.razor",
+              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Pages\\Admin\\Node\\NodeCreate.razor",
+              "RelativeToolTip": "VirtualTour.Web\\Components\\Pages\\Admin\\Node\\NodeCreate.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T17:16:38.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DeptRepository.cs",
+              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.BL\\Repositories\\DeptRepository.cs",
+              "RelativeDocumentMoniker": "VirtualTour.BL\\Repositories\\DeptRepository.cs",
+              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.BL\\Repositories\\DeptRepository.cs",
+              "RelativeToolTip": "VirtualTour.BL\\Repositories\\DeptRepository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAwwBgAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T14:36:30.119Z"
+              "WhenOpened": "2025-11-11T17:10:35.9Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 32,
-              "Title": "ApiKeyModel.cs",
-              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Model\\ApiKeyModel.cs",
-              "RelativeDocumentMoniker": "VirtualTour.Model\\ApiKeyModel.cs",
-              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Model\\ApiKeyModel.cs",
-              "RelativeToolTip": "VirtualTour.Model\\ApiKeyModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T14:23:33.037Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Unauthorized.razor",
-              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Pages\\Unauthorized.razor",
-              "RelativeDocumentMoniker": "VirtualTour.Web\\Components\\Pages\\Unauthorized.razor",
-              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Pages\\Unauthorized.razor",
-              "RelativeToolTip": "VirtualTour.Web\\Components\\Pages\\Unauthorized.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-08T14:33:37.262Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "PermissionManage.razor",
-              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Pages\\Admin\\PermissionManage.razor",
-              "RelativeDocumentMoniker": "VirtualTour.Web\\Components\\Pages\\Admin\\PermissionManage.razor",
-              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Pages\\Admin\\PermissionManage.razor",
-              "RelativeToolTip": "VirtualTour.Web\\Components\\Pages\\Admin\\PermissionManage.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-08T14:32:48.922Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "Logout.razor",
-              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Pages\\Admin\\Logout.razor",
-              "RelativeDocumentMoniker": "VirtualTour.Web\\Components\\Pages\\Admin\\Logout.razor",
-              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Pages\\Admin\\Logout.razor",
-              "RelativeToolTip": "VirtualTour.Web\\Components\\Pages\\Admin\\Logout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-08T14:32:46.66Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "View.razor",
-              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Pages\\Admin\\Node\\View.razor",
-              "RelativeDocumentMoniker": "VirtualTour.Web\\Components\\Pages\\Admin\\Node\\View.razor",
-              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Pages\\Admin\\Node\\View.razor",
-              "RelativeToolTip": "VirtualTour.Web\\Components\\Pages\\Admin\\Node\\View.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-08T14:30:41.752Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "NodeManage.razor",
-              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Pages\\Admin\\Node\\NodeManage.razor",
-              "RelativeDocumentMoniker": "VirtualTour.Web\\Components\\Pages\\Admin\\Node\\NodeManage.razor",
-              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.Web\\Components\\Pages\\Admin\\Node\\NodeManage.razor",
-              "RelativeToolTip": "VirtualTour.Web\\Components\\Pages\\Admin\\Node\\NodeManage.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-08T14:30:28.138Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "ApiKeyRepository.cs",
-              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.BL\\Repositories\\ApiKeyRepository.cs",
-              "RelativeDocumentMoniker": "VirtualTour.BL\\Repositories\\ApiKeyRepository.cs",
-              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.BL\\Repositories\\ApiKeyRepository.cs",
-              "RelativeToolTip": "VirtualTour.BL\\Repositories\\ApiKeyRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T14:22:09.638Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
               "Title": "NodeRepository.cs",
               "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.BL\\Repositories\\NodeRepository.cs",
               "RelativeDocumentMoniker": "VirtualTour.BL\\Repositories\\NodeRepository.cs",
               "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.BL\\Repositories\\NodeRepository.cs",
               "RelativeToolTip": "VirtualTour.BL\\Repositories\\NodeRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAYwHMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T14:22:09.274Z"
+              "WhenOpened": "2025-11-11T17:07:51.046Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "VirtualTour.ApiService.csproj",
-              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.ApiService\\VirtualTour.ApiService.csproj",
-              "RelativeDocumentMoniker": "VirtualTour.ApiService\\VirtualTour.ApiService.csproj",
-              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.ApiService\\VirtualTour.ApiService.csproj",
-              "RelativeToolTip": "VirtualTour.ApiService\\VirtualTour.ApiService.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-08T14:22:14.247Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "NodeController.cs",
-              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.ApiService\\Controllers\\NodeController.cs",
-              "RelativeDocumentMoniker": "VirtualTour.ApiService\\Controllers\\NodeController.cs",
-              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.ApiService\\Controllers\\NodeController.cs",
-              "RelativeToolTip": "VirtualTour.ApiService\\Controllers\\NodeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 34,
+              "Title": "AreaRepository.cs",
+              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.BL\\Repositories\\AreaRepository.cs",
+              "RelativeDocumentMoniker": "VirtualTour.BL\\Repositories\\AreaRepository.cs",
+              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.BL\\Repositories\\AreaRepository.cs",
+              "RelativeToolTip": "VirtualTour.BL\\Repositories\\AreaRepository.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAywEAAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T14:20:45.684Z"
+              "WhenOpened": "2025-11-11T17:09:23.628Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.ApiService\\appsettings.json",
-              "RelativeDocumentMoniker": "VirtualTour.ApiService\\appsettings.json",
-              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.ApiService\\appsettings.json",
-              "RelativeToolTip": "VirtualTour.ApiService\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-08T14:21:48.18Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "SeedData.cs",
-              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.ApiService\\Data\\SeedData.cs",
-              "RelativeDocumentMoniker": "VirtualTour.ApiService\\Data\\SeedData.cs",
-              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.ApiService\\Data\\SeedData.cs",
-              "RelativeToolTip": "VirtualTour.ApiService\\Data\\SeedData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "DocumentIndex": 33,
+              "Title": "FloorRepository.cs",
+              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.BL\\Repositories\\FloorRepository.cs",
+              "RelativeDocumentMoniker": "VirtualTour.BL\\Repositories\\FloorRepository.cs",
+              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.BL\\Repositories\\FloorRepository.cs",
+              "RelativeToolTip": "VirtualTour.BL\\Repositories\\FloorRepository.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAIwD8AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T14:21:40.835Z"
+              "WhenOpened": "2025-11-11T17:07:51.424Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.ApiService\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "VirtualTour.ApiService\\Controllers\\UserController.cs",
-              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.ApiService\\Controllers\\UserController.cs",
-              "RelativeToolTip": "VirtualTour.ApiService\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "DocumentIndex": 35,
+              "Title": "SectionRepository.cs",
+              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.BL\\Repositories\\SectionRepository.cs",
+              "RelativeDocumentMoniker": "VirtualTour.BL\\Repositories\\SectionRepository.cs",
+              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.BL\\Repositories\\SectionRepository.cs",
+              "RelativeToolTip": "VirtualTour.BL\\Repositories\\SectionRepository.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAnwCEAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T14:21:33.413Z"
+              "WhenOpened": "2025-11-11T17:02:32.855Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "RoleController.cs",
-              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.ApiService\\Controllers\\RoleController.cs",
-              "RelativeDocumentMoniker": "VirtualTour.ApiService\\Controllers\\RoleController.cs",
-              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.ApiService\\Controllers\\RoleController.cs",
-              "RelativeToolTip": "VirtualTour.ApiService\\Controllers\\RoleController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "DocumentIndex": 37,
+              "Title": "TenantMiddleware.cs",
+              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.ApiService\\Middleware\\TenantMiddleware.cs",
+              "RelativeDocumentMoniker": "VirtualTour.ApiService\\Middleware\\TenantMiddleware.cs",
+              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.ApiService\\Middleware\\TenantMiddleware.cs",
+              "RelativeToolTip": "VirtualTour.ApiService\\Middleware\\TenantMiddleware.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAASwBcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T14:21:26.294Z"
+              "WhenOpened": "2025-11-11T17:00:25.206Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "QRCodesController.cs",
-              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.ApiService\\Controllers\\QRCodesController.cs",
-              "RelativeDocumentMoniker": "VirtualTour.ApiService\\Controllers\\QRCodesController.cs",
-              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.ApiService\\Controllers\\QRCodesController.cs",
-              "RelativeToolTip": "VirtualTour.ApiService\\Controllers\\QRCodesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "DocumentIndex": 36,
+              "Title": "TenantService.cs",
+              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.BL\\Services\\TenantService.cs",
+              "RelativeDocumentMoniker": "VirtualTour.BL\\Services\\TenantService.cs",
+              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.BL\\Services\\TenantService.cs",
+              "RelativeToolTip": "VirtualTour.BL\\Services\\TenantService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAEwCUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T14:21:16.936Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "PermissionController.cs",
-              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.ApiService\\Controllers\\PermissionController.cs",
-              "RelativeDocumentMoniker": "VirtualTour.ApiService\\Controllers\\PermissionController.cs",
-              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.ApiService\\Controllers\\PermissionController.cs",
-              "RelativeToolTip": "VirtualTour.ApiService\\Controllers\\PermissionController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T14:21:04.704Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "PermissionRequirement.cs",
-              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.ApiService\\Authorization\\PermissionRequirement.cs",
-              "RelativeDocumentMoniker": "VirtualTour.ApiService\\Authorization\\PermissionRequirement.cs",
-              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.ApiService\\Authorization\\PermissionRequirement.cs",
-              "RelativeToolTip": "VirtualTour.ApiService\\Authorization\\PermissionRequirement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T14:20:33.242Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "PermissionPolicyProvider.cs",
-              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.ApiService\\Authorization\\PermissionPolicyProvider.cs",
-              "RelativeDocumentMoniker": "VirtualTour.ApiService\\Authorization\\PermissionPolicyProvider.cs",
-              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.ApiService\\Authorization\\PermissionPolicyProvider.cs",
-              "RelativeToolTip": "VirtualTour.ApiService\\Authorization\\PermissionPolicyProvider.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T14:20:30.069Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "PermissionHandler.cs",
-              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.ApiService\\Authorization\\PermissionHandler.cs",
-              "RelativeDocumentMoniker": "VirtualTour.ApiService\\Authorization\\PermissionHandler.cs",
-              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.ApiService\\Authorization\\PermissionHandler.cs",
-              "RelativeToolTip": "VirtualTour.ApiService\\Authorization\\PermissionHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T14:20:23.859Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "PermissionChecker.cs",
-              "DocumentMoniker": "D:\\UDC\\VirtualTour\\VirtualTour.ApiService\\Authorization\\PermissionChecker.cs",
-              "RelativeDocumentMoniker": "VirtualTour.ApiService\\Authorization\\PermissionChecker.cs",
-              "ToolTip": "D:\\UDC\\VirtualTour\\VirtualTour.ApiService\\Authorization\\PermissionChecker.cs",
-              "RelativeToolTip": "VirtualTour.ApiService\\Authorization\\PermissionChecker.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T14:20:06.295Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "PermissionChecker.cs",
-              "DocumentMoniker": "D:\\UDC\\VirtualTour\\fKVPortalAspireWeb.ApiService\\Authorization\\PermissionChecker.cs",
-              "RelativeDocumentMoniker": "fKVPortalAspireWeb.ApiService\\Authorization\\PermissionChecker.cs",
-              "ToolTip": "D:\\UDC\\VirtualTour\\fKVPortalAspireWeb.ApiService\\Authorization\\PermissionChecker.cs",
-              "RelativeToolTip": "fKVPortalAspireWeb.ApiService\\Authorization\\PermissionChecker.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T14:11:03.045Z"
+              "WhenOpened": "2025-11-11T17:00:10.363Z"
             }
           ]
         },

@@ -70,12 +70,12 @@ namespace VirtualTour.ApiService.Controllers
             var token = _tokenService.CreateToken(user, new List<string> { user.RoleName });
             var expiration = DateTime.Now.AddDays(7);
             await _authService.SaveTokenAsync(user.Id.ToString(), token, expiration);
-            ApiKeyModel apiKey = new ApiKeyModel();
-            apiKey=await _apiKeyService.GetApiKeyByUserIdAsync(int.Parse( user.Id.ToString()));
-            if (apiKey == null || apiKey.ExpiredAt < DateTime.Now ||apiKey.IsRevoked)
-            {
-                return Unauthorized(new { message = error ?? "Invalid credentials" });
-            }
+            //ApiKeyModel apiKey = new ApiKeyModel();
+            //apiKey=await _apiKeyService.GetApiKeyByUserIdAsync(int.Parse( user.Id.ToString()));
+            //if (apiKey == null || apiKey.ExpiredAt < DateTime.Now ||apiKey.IsRevoked)
+            //{
+            //    return Unauthorized(new { message = error ?? "Invalid credentials" });
+            //}
             var loginResponse = new LoginResponse
             {
                 Token = token,
@@ -86,7 +86,7 @@ namespace VirtualTour.ApiService.Controllers
                 PhoneNumber = user.PhoneNumber,
                 Role = user.RoleName,
                 AvatarUrl = user.AvatarUrl,
-                ApiKey = apiKey.HashKey,
+                //ApiKey = apiKey.HashKey,
                 CompanyEmail = user.CompanyEmail,
                 ManagerName = user.ManagerName,
                 TenantId = user.TenantId
@@ -155,7 +155,7 @@ namespace VirtualTour.ApiService.Controllers
             }
 
             // Generate API Key for the user (so they can use login_username next time)
-            var rawApiKey = await _apiKeyService.GenerateApiKeyAsync(user.Id);
+            //var rawApiKey = await _apiKeyService.GenerateApiKeyAsync(user.Id);
 
             // Issue JWT
             var token = _tokenService.CreateToken(user, new List<string> { user.RoleName });
@@ -171,7 +171,7 @@ namespace VirtualTour.ApiService.Controllers
                 Gender = user.Gender,
                 PhoneNumber = user.PhoneNumber,
                 Role = user.RoleName,
-                ApiKey = rawApiKey,
+                //ApiKey = rawApiKey,
                 AvatarUrl = user.AvatarUrl,
                 CompanyEmail = user.CompanyEmail,
                 ManagerName = user.ManagerName,

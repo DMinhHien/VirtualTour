@@ -43,7 +43,7 @@ namespace VirtualTour.ApiService.Controllers
                     return BadRequest(new BaseResponseModel { Success = false, ErrorMessage = "Invalid user data." });
                 }
                 await _userService.CreateUserAsync(user);
-                await _apiKeyService.GenerateApiKeyAsync(user.Id);
+                //await _apiKeyService.GenerateApiKeyAsync(user.Id);
                 return Ok(new BaseResponseModel { Success = true });
             }
             catch (Exception ex)

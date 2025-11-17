@@ -160,7 +160,7 @@ app.MapGet("/", context =>
     return Task.CompletedTask;
 });
 
-app.UseMiddleware<ApiKeyAuthenticationMiddleware>();
+//app.UseMiddleware<ApiKeyAuthenticationMiddleware>();
 app.UseMiddleware<TenantMiddleware>();
 //app.UseHttpsRedirection();
 app.UseCors(ops => ops.AllowAnyHeader().AllowAnyOrigin().AllowAnyMethod());

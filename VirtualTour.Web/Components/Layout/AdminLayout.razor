@@ -31,11 +31,16 @@
 {
     <AuthStateChecker/>
         <MudDrawerContainer Class="mud-height-full">
+              <CascadingAuthenticationState>
             <PermissionView Permission="Admin.View">
+                 <AuthorizeView>
         <MudDrawer @bind-Open="@_open" Elevation="0" Variant="@DrawerVariant.Persistent" >
             <NavMenu />
          </MudDrawer>
+          </AuthorizeView>
+       
         </PermissionView>
+        </CascadingAuthenticationState>
         <MudMainContent Style="display: flex; flex-direction: column; height: 100vh;">
             <MudAppBar Elevation="4"
                        Color="Color.Transparent"
@@ -44,9 +49,13 @@
                        Clipped="true">
                 <div style="display: flex; width: 100%; align-items: center;">
                     <div style="flex: 1; display: flex; align-items: center;">
+                          <CascadingAuthenticationState>
+                         <AuthorizeView>
                         <PermissionView Permission="Admin.View">
                         <MudIconButton Icon="@Icons.Material.Filled.Menu" OnClick="@ToggleDrawer" Style="color:black" Edge="Edge.Start" />
                         </PermissionView>
+                        </AuthorizeView>
+                        </CascadingAuthenticationState>
                     </div>
                    @*  <div style="flex: 1; display: flex; justify-content: center; align-items: center;">
                         <MudImage Src="/framas Korea Vina Logo V2.png" Width="120" Height="50" />

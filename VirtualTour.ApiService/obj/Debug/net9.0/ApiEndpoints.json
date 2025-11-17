@@ -127,6 +127,22 @@
   },
   {
     "ContainingType": "VirtualTour.ApiService.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "VirtualTour.Model.ReqUserCreate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.AuthController",
     "Method": "ResetPassword",
     "RelativePath": "api/auth/reset-password",
     "HttpMethod": "POST",
