@@ -126,12 +126,14 @@
         var req = new ReqUserCreate
         {
             // Id is handled server-side or by SP; not set here
+            Id=0,
             UserName = model.UserName,
             PasswordHash = model.Password, // server hashes it
             Email = model.Email,
             FullName = model.FullName,
             Gender = model.Gender,
             PhoneNumber = model.PhoneNumber,
+            RoleId = 0
             // RoleId ignored client-side; server sets to default "User"
         };
 

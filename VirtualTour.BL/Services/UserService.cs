@@ -16,6 +16,7 @@ namespace VirtualTour.BL.Services
         Task<List<RepUserFetch>> GetAllUsersPagination(int pageSize, int pageNumber);
         Task AddRoleAsync(string userId, string roleId);
         Task UpdateAvatar(string userId, string avatarUrl);
+        Task<int> GetMaxId();
 
     }
     public class UserService : IUserService
@@ -63,6 +64,10 @@ namespace VirtualTour.BL.Services
         {
             await _userRepository.UpdateAvatar(userId, avatarUrl);
 
+        }
+        public async Task<int> GetMaxId()
+        {
+            return await _userRepository.GetMaxId();
         }
     }
 }

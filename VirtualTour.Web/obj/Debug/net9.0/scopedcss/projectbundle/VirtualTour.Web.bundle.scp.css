@@ -1,4 +1,4 @@
-/* _content/VirtualTour.Web/Components/Layout/AdminLayout.razor.rz.scp.css */
+/* /Components/Layout/AdminLayout.razor.rz.scp.css */
 .page[b-q54rrgdhp4] {
     position: relative;
     display: flex;
@@ -95,7 +95,7 @@ main[b-q54rrgdhp4] {
         right: 0.75rem;
         top: 0.5rem;
     }
-/* _content/VirtualTour.Web/Components/Layout/ClientLayout.razor.rz.scp.css */
+/* /Components/Layout/ClientLayout.razor.rz.scp.css */
 .page[b-8sl1arc6cf] {
     position: relative;
     display: flex;
@@ -192,7 +192,7 @@ main[b-8sl1arc6cf] {
         right: 0.75rem;
         top: 0.5rem;
     }
-/* _content/VirtualTour.Web/Components/Layout/NavMenu.razor.rz.scp.css */
+/* /Components/Layout/NavMenu.razor.rz.scp.css */
 .navbar-toggler[b-cilnf62jv5] {
     appearance: none;
     cursor: pointer;

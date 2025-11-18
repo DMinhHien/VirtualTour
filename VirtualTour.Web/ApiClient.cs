@@ -40,8 +40,8 @@ namespace VirtualTour.Web
             try
             {
                 var currentUri = new Uri(_navigationManager.Uri);
-                if (!currentUri.AbsolutePath.Contains("/admin", StringComparison.OrdinalIgnoreCase) ||
-                    currentUri.AbsolutePath.Equals("/admin/login", StringComparison.OrdinalIgnoreCase))
+                if (/*!currentUri.AbsolutePath.Contains("/admin", StringComparison.OrdinalIgnoreCase) ||*/
+                    currentUri.AbsolutePath.Equals("/admin/login", StringComparison.OrdinalIgnoreCase)|| currentUri.AbsolutePath.Equals("/admin/register", StringComparison.OrdinalIgnoreCase))
                 {
                     return;
                 }

@@ -21,6 +21,7 @@ namespace VirtualTour.BL.Repositories
         Task AddRoleAsync(string userId, string roleId);
         Task ResetPassword(string userId);
         Task UpdateAvatar(string userId, string avatarUrl);
+        Task<int> GetMaxId();
     }
     public class UserRepository : IUserRepository
     {
@@ -228,6 +229,22 @@ namespace VirtualTour.BL.Repositories
             using (var connection = _dbContext.CreateConnection())
             {
                 await connection.ExecuteAsync(storedProcedure, parameters, commandType: CommandType.StoredProcedure);
+            }
+        }
+        public async Task<int> GetMaxId()
+        {
+            var sql = "SELECT MAX(id) AS max_id FROM UserManage;";
+            try
+            {
+                using (var connection = _dbContext.CreateConnection())
+                {
+                    var maxId = await connection.QuerySingleAsync<int?>(sql, commandType: CommandType.Text);
+                    return maxId ?? 0;
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception($"Error fetching max node ID: {ex.Message}");
             }
         }
     }

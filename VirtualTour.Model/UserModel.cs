@@ -99,6 +99,6 @@ namespace VirtualTour.Model
         [Required(ErrorMessage = "Gender is required")]
         public string Gender { get; set; }
         public string PhoneNumber { get; set; }
-        public string RoleId { get; set; } 
+        public int RoleId { get; set; } 
     }
 }

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\UDC\\VirtualTour\\VirtualTour.Model\\VirtualTour.Model.csproj": {}
+    "D:\\VirtualTour\\VirtualTour.Model\\VirtualTour.Model.csproj": {}
   },
   "projects": {
-    "D:\\UDC\\VirtualTour\\VirtualTour.Model\\VirtualTour.Model.csproj": {
+    "D:\\VirtualTour\\VirtualTour.Model\\VirtualTour.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UDC\\VirtualTour\\VirtualTour.Model\\VirtualTour.Model.csproj",
+        "projectUniqueName": "D:\\VirtualTour\\VirtualTour.Model\\VirtualTour.Model.csproj",
         "projectName": "VirtualTour.Model",
-        "projectPath": "D:\\UDC\\VirtualTour\\VirtualTour.Model\\VirtualTour.Model.csproj",
-        "packagesPath": "C:\\Users\\duong\\.nuget\\packages\\",
-        "outputPath": "D:\\UDC\\VirtualTour\\VirtualTour.Model\\obj\\",
+        "projectPath": "D:\\VirtualTour\\VirtualTour.Model\\VirtualTour.Model.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\VirtualTour\\VirtualTour.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\duong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -63,15 +63,15 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.18, 8.0.18]"
+              "version": "[8.0.22, 8.0.22]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.18, 8.0.18]"
+              "version": "[8.0.22, 8.0.22]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.18, 8.0.18]"
+              "version": "[8.0.22, 8.0.22]"
             }
           ],
           "frameworkReferences": {
@@ -79,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\9.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

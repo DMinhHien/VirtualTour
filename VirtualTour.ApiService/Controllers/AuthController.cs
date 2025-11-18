@@ -138,11 +138,13 @@ namespace VirtualTour.ApiService.Controllers
 
             // Set default role = "User"
             var roles = await _roleService.GetAllRolesAsync();
+            int newId=await _userService.GetMaxId();
+            request.Id = newId + 1;
             var defaultRole = roles.FirstOrDefault(r => r.RoleName.Equals("User", StringComparison.OrdinalIgnoreCase));
             if (defaultRole == null)
                 return StatusCode(500, new { message = "Default role 'User' not found" });
 
-            request.RoleId = defaultRole.Id.ToString();
+            request.RoleId = defaultRole.Id;
 
             // Create the user
             await _userService.CreateUserAsync(request);

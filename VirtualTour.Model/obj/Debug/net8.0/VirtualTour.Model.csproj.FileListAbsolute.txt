@@ -10,3 +10,15 @@ D:\UDC\VirtualTour\VirtualTour.Model\obj\Debug\net8.0\VirtualTour.Model.dll
 D:\UDC\VirtualTour\VirtualTour.Model\obj\Debug\net8.0\refint\VirtualTour.Model.dll
 D:\UDC\VirtualTour\VirtualTour.Model\obj\Debug\net8.0\VirtualTour.Model.pdb
 D:\UDC\VirtualTour\VirtualTour.Model\obj\Debug\net8.0\ref\VirtualTour.Model.dll
+D:\VirtualTour\VirtualTour.Model\bin\Debug\net8.0\VirtualTour.Model.deps.json
+D:\VirtualTour\VirtualTour.Model\bin\Debug\net8.0\VirtualTour.Model.dll
+D:\VirtualTour\VirtualTour.Model\bin\Debug\net8.0\VirtualTour.Model.pdb
+D:\VirtualTour\VirtualTour.Model\obj\Debug\net8.0\VirtualTour.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\VirtualTour\VirtualTour.Model\obj\Debug\net8.0\VirtualTour.Model.AssemblyInfoInputs.cache
+D:\VirtualTour\VirtualTour.Model\obj\Debug\net8.0\VirtualTour.Model.AssemblyInfo.cs
+D:\VirtualTour\VirtualTour.Model\obj\Debug\net8.0\VirtualTour.Model.csproj.CoreCompileInputs.cache
+D:\VirtualTour\VirtualTour.Model\obj\Debug\net8.0\VirtualTour.Model.sourcelink.json
+D:\VirtualTour\VirtualTour.Model\obj\Debug\net8.0\VirtualTour.Model.dll
+D:\VirtualTour\VirtualTour.Model\obj\Debug\net8.0\refint\VirtualTour.Model.dll
+D:\VirtualTour\VirtualTour.Model\obj\Debug\net8.0\VirtualTour.Model.pdb
+D:\VirtualTour\VirtualTour.Model\obj\Debug\net8.0\ref\VirtualTour.Model.dll

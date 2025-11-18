@@ -43,11 +43,12 @@
             <MudImage Style="cursor:pointer;" Src="logo.png" @onclick="NavigateToHome" Width="240" Height="140" />
         </div>
     <MudNavMenu >
-            <MudNavLink Href="/admin" Icon="@Icons.Material.Filled.Dashboard" ActiveClass="custom-active" Match="NavLinkMatch.All">
-                Dashboard
-            </MudNavLink>
-       
+            
             <PermissionView Permission="Admin.View">
+                <MudNavLink Href="/admin" Icon="@Icons.Material.Filled.Dashboard" ActiveClass="custom-active" Match="NavLinkMatch.All">
+                    Dashboard
+                </MudNavLink>
+
                 <PermissionView Permission="Users.Manage">
                 <MudNavGroup Icon="@Icons.Material.Filled.SupervisedUserCircle" HideExpandIcon="true" Expanded="true">
                 <TitleContent>
@@ -92,9 +93,9 @@
                     <MudNavLink ActiveClass="custom-active" Icon="@Icons.Material.Filled.PanoramaPhotosphere" Href="/admin/nodes">
                  Hotspot List
             </MudNavLink>
-                        <MudNavLink ActiveClass="custom-active" Icon="@Icons.Material.Filled.Map" Href="/admin/map">
+                       @*  <MudNavLink ActiveClass="custom-active" Icon="@Icons.Material.Filled.Map" Href="/admin/map">
                             Map
-                        </MudNavLink>
+                        </MudNavLink> *@
                 </ChildContent>
             </MudNavGroup>
             </PermissionView>

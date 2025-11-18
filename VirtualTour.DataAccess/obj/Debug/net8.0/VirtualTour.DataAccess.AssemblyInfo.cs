@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VirtualTour.DataAccess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ae769a63ad65ffe1fe8cbd17074f8b31e6dfc15")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+729f4bb77aceae58d9a5a39fe4277a362b3923e4")]
 [assembly: System.Reflection.AssemblyProductAttribute("VirtualTour.DataAccess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VirtualTour.DataAccess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
