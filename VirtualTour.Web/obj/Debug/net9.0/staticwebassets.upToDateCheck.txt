@@ -85,6 +85,7 @@ wwwroot\images\thumbnails\18_d3a0f1b0-be7c-4206-93c0-92e2c7cc2f16.jpg
 wwwroot\images\thumbnails\19_293c6a11-837a-4370-ab48-34bdfea2173b.jpg
 wwwroot\images\thumbnails\1_37464063-89ed-44d2-8403-67750ac6cd88.jpg
 wwwroot\images\thumbnails\1_9fcc9eba-5598-4fdf-828f-8e41dae6287a.jpg
+wwwroot\images\thumbnails\1_d02e7a6d-4296-4033-8137-2ff22301e063.jpg
 wwwroot\images\thumbnails\20_9f9a5871-fd06-4b7b-8342-c4ab84a61cad.jpg
 wwwroot\images\thumbnails\21_7e357c01-6d46-48b9-9cb3-971c89ce3576.jpg
 wwwroot\images\thumbnails\22_1288cd4c-f11f-429d-956d-56e3b5241259.jpg
@@ -130,6 +131,7 @@ wwwroot\images\viewer\3d613b73-1648-4d42-bf8c-c3f2190e793d.jpg
 wwwroot\images\viewer\4e20da38-dc96-4fbd-9b7a-ccbd911bae68.jpg
 wwwroot\images\viewer\4eb90892-55b5-44ef-9559-a31cd0216b36.jpg
 wwwroot\images\viewer\4f92ebef-9f96-4878-b5ad-1750b7123178.jpg
+wwwroot\images\viewer\5690eff8-6e96-4111-80fc-0051f0d5c4aa.jpg
 wwwroot\images\viewer\56ee798d-5697-4453-a8f9-a472b7bb733a.jpg
 wwwroot\images\viewer\5975ea54-c615-4629-8c6f-739caf7a5ba7.jpg
 wwwroot\images\viewer\5b1aafc6-bceb-4fcd-b5cb-bcf3a4f41593.jpg

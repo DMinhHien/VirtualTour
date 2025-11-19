@@ -1,4 +1,4 @@
-﻿@page "/virtual_tour"
+﻿@page "/virtual_tour/{tenantId}"
 @layout ClientLayout
 @using MudBlazor
 @using Newtonsoft.Json
@@ -59,26 +59,31 @@
                                Style="background-color:white;border-radius:unset;margin-left:170px "
                                Size="Size.Small"
                                OnClick="@ToggleDrawer" />
-          @*       <MudNavMenu>
-                    <MudNavGroup  HideExpandIcon="true" Expanded="false">
-                            <TitleContent>
-                                <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
-                                    WS1
-                                    <MudIcon Icon="@Icons.Material.Filled.ArrowDropDown" Class="mb-2"></MudIcon>
-                                </div>
-                            </TitleContent>
-                            <ChildContent>
-                        @foreach (var node in Nodes.Where(n => n.WorkShop == "WS1" &&
-                                                n.DeptName != "Link" &&
-                                                n.DeptName != "Corner" &&
-                                                n.DeptName != "Floor"))
+                    <MudNavMenu Dense="true">
+                        @foreach (var sectionGroup in Nodes
+                                            .GroupBy(n => n.SectionId)
+                                            .OrderBy(g => GetSectionName(g.Key)))
                         {
-                            <MudNavLink OnClick="@(() => GetElement(node.Id))" ActiveClass="custom-active">
-                                    <span style="font-size:14px;">@GetDisplayNameWS1(node.Name)</span>
-                            </MudNavLink>
+                            <MudNavGroup Dense="true"
+                                         HideExpandIcon="true"
+                                         Expanded="false">
+                                <TitleContent>
+                                    <MudText Style="color:#bfbfbf;font-weight:600;font-size:13px;">
+                                        @GetSectionName(sectionGroup.Key)
+                                    </MudText>
+                                </TitleContent>
+                                <ChildContent>
+                                    @foreach (var node in sectionGroup.OrderBy(n => n.Name))
+                                    {
+                                        <MudNavLink OnClick="@(() => GetElement(node.Id))"
+                                                    ActiveClass="custom-active">
+                                            <span style="font-size:14px;">@node.Name</span>
+                                        </MudNavLink>
+                                    }
+                                </ChildContent>
+                            </MudNavGroup>
                         }
-                            </ChildContent>
-                    </MudNavGroup>*@
+                    </MudNavMenu>
             </MudPaper>
         </MudDrawer>
         }
@@ -96,22 +101,45 @@
     private bool _open = true;
     public List<NodeModel> Nodes;
     NodeModel _nodeModel = new NodeModel();
+    private List<SectionModel> Sections = new();
+    [Parameter] public string tenantId { get; set; } = string.Empty; // bound from route segment
+
+    private Dictionary<int, string> SectionNames = new();
     protected override async Task OnInitializedAsync()
     {
+        if (string.IsNullOrWhiteSpace(tenantId))
+            return;
         await base.OnInitializedAsync();
+        await LoadSections();
         await LoadNodes();
-        _nodeModel = Nodes.FirstOrDefault(x => x.IsStartNode);   
-        var dotNetRef = DotNetObjectReference.Create(this);
-        await JS.InvokeVoidAsync("initVirtualTourApi", "viewer", _nodeModel, dotNetRef);
+        _nodeModel = Nodes.FirstOrDefault(x => x.IsStartNode);
+        if (_nodeModel is not null)
+        {
+            var dotNetRef = DotNetObjectReference.Create(this);
+            await JS.InvokeVoidAsync("initVirtualTourApi", "viewer", _nodeModel, dotNetRef);
+        }
+
     }
     protected async Task LoadNodes()
     {
-        var res = await ApiClient.GetFromJsonAsync<BaseResponseModel>("/api/node/getListUse");
+        var res = await ApiClient.GetFromJsonAsync<BaseResponseModel>($"/api/node/getListPublic/{tenantId}");
         if (res.Success)
         {
             Nodes = JsonConvert.DeserializeObject<List<NodeModel>>(res.Data.ToString());
         }
     }
+    private async Task LoadSections()
+    {
+        // NOTE: Adjust the endpoint if your API differs (e.g., "/api/section/getList")
+        var res = await ApiClient.GetFromJsonAsync<BaseResponseModel>($"/api/section/getListPublic/{tenantId}");
+        if (res.Success && res.Data != null)
+        {
+            Sections = JsonConvert.DeserializeObject<List<SectionModel>>(res.Data.ToString());
+            SectionNames = Sections?.ToDictionary(s => s.Id, s => s.SectName) ?? new();
+        }
+    }
+    private string GetSectionName(int sectionId)
+   => SectionNames.TryGetValue(sectionId, out var name) ? name : $"Section {sectionId}";
     [JSInvokable]
     public async Task GetNextNode(int nextId)
     {

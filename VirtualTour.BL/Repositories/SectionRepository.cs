@@ -17,6 +17,7 @@ namespace VirtualTour.BL.Repositories
         Task CreateSectionAsync(SectionModel section);
         Task UpdateSectionAsync(SectionModel section);
         Task DeleteSectionAsync(int id);
+        Task<List<SectionModel>> GetAllSectionsPublicAsync(string tenantId);
     }
     public class SectionRepository: ISectionRepository
     {
@@ -84,6 +85,17 @@ namespace VirtualTour.BL.Repositories
             using (var connection = _dbContext.CreateConnection())
             {
                 await connection.ExecuteAsync(storedProcedure, parameters, commandType: CommandType.StoredProcedure);
+            }
+        }
+        public async Task<List<SectionModel>> GetAllSectionsPublicAsync(string tenantId)
+        {
+            var storedProcedure = "[dbo].[sp_Sections_GetAll]";
+            var parameters = new DynamicParameters();
+            parameters.Add("@TenantId", tenantId);
+            using (var connection = _dbContext.CreateConnection())
+            {
+                List<SectionModel> section_list = (await connection.QueryAsync<SectionModel>(storedProcedure, parameters, commandType: CommandType.StoredProcedure)).ToList();
+                return section_list;
             }
         }
 

@@ -412,6 +412,22 @@
   },
   {
     "ContainingType": "VirtualTour.ApiService.Controllers.NodeController",
+    "Method": "GetAllNodesPublicAsync",
+    "RelativePath": "api/Node/getListPublic/{tenantId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tenantId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.NodeController",
     "Method": "GetAllNodesAsync",
     "RelativePath": "api/Node/getListUse",
     "HttpMethod": "GET",
@@ -821,6 +837,22 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VirtualTour.ApiService.Controllers.SectionController",
+    "Method": "GetAllSectionsPublic",
+    "RelativePath": "api/section/getListPublic/{tenantId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tenantId",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],

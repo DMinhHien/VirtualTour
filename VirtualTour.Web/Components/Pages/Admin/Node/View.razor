@@ -27,8 +27,22 @@
  <div id="viewer-container">
 <div id="viewer" style="width:80vw; height:70vh;"></div>
     <div id="sidebar-overlay" style=" align-items: center; width: 250px;">
-
-        @if (Nodes != null)
+        @if (IsLoadingNodes)
+        {
+            <MudProgressCircular Color="Color.Primary" Indeterminate="true" Size="Size.Large" />
+        }
+        else if (Nodes is null || Nodes.Count == 0)
+        {
+            <MudPaper Elevation="1" Style="padding:16px; background-color:#1e1e1e; color:#cfcfcf;">
+                <MudText Typo="Typo.subtitle2">No nodes have been added.</MudText>
+                <MudText Typo="Typo.caption">Create a node to begin the virtual tour.</MudText>
+                <MudButton Variant="Variant.Filled" Color="Color.Primary" Size="Size.Small"
+                           OnClick="@(() => Navigation.NavigateTo("/admin/node/create"))">
+                    Add Node
+                </MudButton>
+            </MudPaper>
+        }
+        else
         {
             <MudDrawer @bind-Open="@_open" style="width:200px;height:fit-content" Elevation="0" Variant="@DrawerVariant.Persistent">
                 <MudPaper Width="200px" Class=" sidebar-full-height" Elevation="0"
@@ -38,47 +52,39 @@
                                    Style="background-color:white;border-radius:unset;margin-left:170px "
                                    Size="Size.Small"
                                    OnClick="@ToggleDrawer" />
-                    <MudNavMenu>
-                        <MudNavGroup HideExpandIcon="true" Expanded="false">
-                            <TitleContent>
-                                <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
-                                    WS1
-                                    <MudIcon Icon="@Icons.Material.Filled.ArrowDropDown" Class="mb-2"></MudIcon>
-                                </div>
-                            </TitleContent>
-                            <ChildContent>
-                                @foreach (var sectionGroup in Nodes
-                                                            .GroupBy(n => n.SectionId)
-                                                            .OrderBy(g => GetSectionName(g.Key)))
-                                {
-                                    <MudNavGroup Dense="true" HideExpandIcon="true" Expanded="false">
-                                        <TitleContent>
-                                            <MudText Style="color: #bfbfbf; font-weight:600; font-size:13px;">
-                                                @GetSectionName(sectionGroup.Key)
-                                            </MudText>
-                                        </TitleContent>
-                                        <ChildContent>
-                                            @foreach (var node in sectionGroup.OrderBy(n => n.Name))
-                                            {
-                                                <MudNavLink OnClick="@(() => GetElement(node.Id))" ActiveClass="custom-active">
-                                                    <span style="font-size:14px;">@node.Name</span>
-                                                </MudNavLink>
-                                            }
-                                        </ChildContent>
-                                    </MudNavGroup>
-                                }
-                            </ChildContent>
-                        </MudNavGroup>
+                    <MudNavMenu Dense="true">
+                        @foreach (var sectionGroup in Nodes
+                                            .GroupBy(n => n.SectionId)
+                                            .OrderBy(g => GetSectionName(g.Key)))
+                        {
+                            <MudNavGroup Dense="true"
+                                         HideExpandIcon="true"
+                                         Expanded="false">
+                                <TitleContent>
+                                    <MudText Style="color:#bfbfbf;font-weight:600;font-size:13px;">
+                                        @GetSectionName(sectionGroup.Key)
+                                    </MudText>
+                                </TitleContent>
+                                <ChildContent>
+                                    @foreach (var node in sectionGroup.OrderBy(n => n.Name))
+                                    {
+                                        <MudNavLink OnClick="@(() => GetElement(node.Id))"
+                                                    ActiveClass="custom-active">
+                                            <span style="font-size:14px;">@node.Name</span>
+                                        </MudNavLink>
+                                    }
+                                </ChildContent>
+                            </MudNavGroup>
+                        }
                     </MudNavMenu>
                 </MudPaper>
             </MudDrawer>
-        }
-
             <MudIconButton Icon="@Icons.Material.Filled.ArrowForwardIos"
-                       Variant="Variant.Filled"
-                       Style="background-color:white;border-radius:unset"
-                       Size="Size.Small"
-                       OnClick="@ToggleDrawer" />
+                           Variant="Variant.Filled"
+                           Style="background-color:white;border-radius:unset"
+                           Size="Size.Small"
+                           OnClick="@ToggleDrawer" />
+        }        
        
     </div>
 
@@ -90,13 +96,18 @@
     private List<SectionModel> Sections = new();
     private Dictionary<int, string> SectionNames = new();
     NodeModel _nodeModel = new NodeModel();
+    private bool IsLoadingNodes = true;
     protected override async Task OnInitializedAsync()
     {
         await base.OnInitializedAsync();
+        await LoadSections();
         await LoadNodes();
+        if (Nodes is not null && Nodes.Count > 0)
+        {
         _nodeModel = Nodes.FirstOrDefault(x => x.IsStartNode);
-        var dotNetRef = DotNetObjectReference.Create(this);
-        await JS.InvokeVoidAsync("initVirtualTourApi", "viewer", _nodeModel, dotNetRef);
+            var dotNetRef = DotNetObjectReference.Create(this);
+            await JS.InvokeVoidAsync("initVirtualTourApi", "viewer", _nodeModel, dotNetRef);
+        }
     }
     protected async Task LoadNodes()
     {
@@ -105,6 +116,8 @@
         {
             Nodes = JsonConvert.DeserializeObject<List<NodeModel>>(res.Data.ToString());
         }
+        IsLoadingNodes = false;
+        StateHasChanged();
     }
     private async Task LoadSections()
     {

@@ -28,6 +28,7 @@ namespace VirtualTour.BL.Repositories
         Task<int> GetStartId();
         Task<IEnumerable<string>> GetAllArea();
         Task<IEnumerable<string>> GetAllDept();
+        Task<IEnumerable<NodeModel>> GetAllNodesPublicAsync(string tenantId);
     }
     public class NodeRepository : INodeRepository
     {
@@ -355,6 +356,21 @@ namespace VirtualTour.BL.Repositories
             catch (Exception ex)
             {
                 throw new Exception($"Error fetching all departments: {ex.Message}");
+            }
+        }
+        public async Task<IEnumerable<NodeModel>> GetAllNodesPublicAsync(string tenantId)
+        {
+            var parameters = new DynamicParameters();
+            parameters.Add("@TenantId", tenantId);
+            var storedProcedure = "sp_nodes_get_all";
+            try
+            {
+                using (var connection = _dbContext.CreateConnection())
+                    return await connection.QueryAsync<NodeModel>(storedProcedure, parameters, commandType: CommandType.StoredProcedure);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception($"Error fetching public nodes: {ex.Message}");
             }
         }
     }

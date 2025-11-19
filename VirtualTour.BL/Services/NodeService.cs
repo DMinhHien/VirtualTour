@@ -24,6 +24,7 @@ namespace VirtualTour.BL.Services
         Task<int> GetStartIdAsync();
         Task<IEnumerable<string>> GetAllAreaAsync();
         Task<IEnumerable<string>> GetAllDeptAsync();
+        Task<IEnumerable<NodeModel>> GetAllNodesPublicAsync(string tenantId);
     }
     public class NodeService : INodeService
     {
@@ -98,6 +99,16 @@ namespace VirtualTour.BL.Services
         public async Task<IEnumerable<string>> GetAllDeptAsync()
         {
             return await _nodeRepository.GetAllDept();
+        }
+        public async Task<IEnumerable<NodeModel>> GetAllNodesPublicAsync(string tenantId)
+        {
+            var nodes = await _nodeRepository.GetAllNodesPublicAsync(tenantId);
+            foreach (var node in nodes)
+            {
+                var links = await _nodeRepository.GetAllLinks(node.Id);
+                node.Links = links.ToList();
+            }
+            return nodes;
         }
 
     }

@@ -81,18 +81,20 @@
 
     </div>
     <div style="flex:2;">
-        <div id="viewer" style="width:60vw; height:50vh; margin-top: 10px;; margin-bottom:20px"></div>
+        <div id="viewer" style="width:60vw; height:50vh"></div>
     </div>
 </div>
+<div style="margin:20px">
 <MudButton Color="Color.Primary"
            Variant="Variant.Filled" @onclick="SaveNode">Save node</MudButton>
 <MudButton Color="Color.Warning"
            Variant="Variant.Filled" @onclick="AddHotSpot">Create hotspot</MudButton>
 <MudButton Color="Color.Tertiary"
            Variant="Variant.Filled" @onclick="SetInitialView">Set initial view</MudButton>
+</div>
 @if (selectedHotSpot != null)
 {
-    <div style="width:600px;margin-left:600px;">
+    <div style="width:600px;margin-left:600px;margin-top:-80px">
         <MudStack>
             <MudTextField @bind-Value="selectedHotSpot.MarkerId" Label="Selected Hot Spot" ReadOnly="true" Variant="Variant.Text" />
             <MudStack Row="true">

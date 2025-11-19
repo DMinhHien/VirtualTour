@@ -15,6 +15,7 @@ namespace VirtualTour.BL.Services
         Task CreateSectionAsync(SectionModel section);
         Task UpdateSectionAsync(SectionModel section);
         Task DeleteSectionAsync(int id);
+        Task<List<SectionModel>> GetAllSectionsPublicAsync(string tenantId);
     }
     public class SectionService: ISectionService
     {
@@ -42,6 +43,10 @@ namespace VirtualTour.BL.Services
         public async Task DeleteSectionAsync(int id)
         {
             await _sectionRepository.DeleteSectionAsync(id);
+        }
+        public async Task<List<SectionModel>> GetAllSectionsPublicAsync(string tenantId)
+        {
+            return await _sectionRepository.GetAllSectionsPublicAsync(tenantId);
         }
     }
 }

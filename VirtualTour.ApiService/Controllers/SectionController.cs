@@ -51,6 +51,12 @@ namespace VirtualTour.ApiService.Controllers
             await _sectionService.DeleteSectionAsync(id);
             return Ok(new BaseResponseModel { Success = true });
         }
+        [HttpGet("getListPublic/{tenantId}")]
+        public async Task<IActionResult> GetAllSectionsPublic(string tenantId)
+        {
+            var sections = await _sectionService.GetAllSectionsPublicAsync(tenantId);
+            return Ok(new BaseResponseModel { Success = true, Data = sections });
+        }
 
     }
 }

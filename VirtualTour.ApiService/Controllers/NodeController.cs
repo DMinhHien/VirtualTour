@@ -62,7 +62,7 @@ namespace VirtualTour.ApiService.Controllers
             try
             {
                 var maxId = await _nodeService.GetMaxIdAsync();
-                if (maxId==null)
+                if (maxId == null)
                 {
                     maxId = 0;
                 }
@@ -138,7 +138,7 @@ namespace VirtualTour.ApiService.Controllers
             }
         }
         [HttpPost("setStartNode/{currentNodeId}")]
-        public async Task<IActionResult> SetStartNode(int currentNodeId,[FromBody] int previousNodeId)
+        public async Task<IActionResult> SetStartNode(int currentNodeId, [FromBody] int previousNodeId)
         {
             try
             {
@@ -183,6 +183,19 @@ namespace VirtualTour.ApiService.Controllers
             {
                 var depts = await _nodeService.GetAllDeptAsync();
                 return Ok(new BaseResponseModel { Success = true, Data = depts });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new BaseResponseModel { Success = false, ErrorMessage = ex.Message });
+            }
+        }
+        [HttpGet("getListPublic/{tenantId}")]
+        public async Task<IActionResult> GetAllNodesPublicAsync(string tenantId)
+        {
+            try
+            {
+                var nodes = await _nodeService.GetAllNodesPublicAsync(tenantId);
+                return Ok(new BaseResponseModel { Success = true, Data = nodes });
             }
             catch (Exception ex)
             {
